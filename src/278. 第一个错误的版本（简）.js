@@ -2,7 +2,7 @@
  * @Author: Lqf
  * @Date: 2022-02-11 10:16:27
  * @LastEditors: Lqf
- * @LastEditTime: 2022-02-11 10:45:13
+ * @LastEditTime: 2022-02-14 09:34:09
  * @Description: 我添加了修改
  */
 
@@ -28,7 +28,7 @@ var solution = function (isBadVersion) {
   return function (n) {
     let left = 1, right = n
     while (left < right) {
-      // 必须这种写法 (left+right) >> 1 错误
+      // 必须这种写法 (left+right) >> 1 错误，会导致栈溢出
       let mid = left + ((right - left) >> 1)
       if (isBadVersion(mid)) {
         right = mid
