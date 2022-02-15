@@ -39,3 +39,4 @@
   - [202. 快乐数](https://leetcode-cn.com/problems/happy-number/)
 	- [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 - 22-2-15
+	- [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)
