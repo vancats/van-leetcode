@@ -54,6 +54,7 @@
 	- [933. 最近的请求次数](https://leetcode-cn.com/problems/number-of-recent-calls/))
   - [面试题 17.09. 第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)
 	- [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)
+	- [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)
 
 
 
