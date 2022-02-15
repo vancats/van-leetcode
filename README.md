@@ -1,10 +1,3 @@
-<!--
- * @Author: Lqf
- * @Date: 2022-02-11 09:51:37
- * @LastEditors: Lqf
- * @LastEditTime: 2022-02-15 16:14:07
- * @Description: 我添加了修改
--->
 # 我的 LeetCode 日常
 - 22-1-17  [650. 只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard/)
 - 22-1-18  [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/)
@@ -57,6 +50,7 @@
 	- [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
 	- [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
   - [641. 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
+	- [1670. 设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
 
 
 
