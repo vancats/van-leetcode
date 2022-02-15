@@ -2,7 +2,7 @@
  * @Author: Lqf
  * @Date: 2022-02-11 09:51:37
  * @LastEditors: Lqf
- * @LastEditTime: 2022-02-15 16:01:02
+ * @LastEditTime: 2022-02-15 16:14:07
  * @Description: 我添加了修改
 -->
 # 我的 LeetCode 日常
@@ -56,6 +56,9 @@
 	- [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
 	- [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
 	- [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
+  - [641. 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
+
+
 
 
 
