@@ -2,7 +2,7 @@
  * @Author: Lqf
  * @Date: 2022-02-15 10:11:30
  * @LastEditors: Lqf
- * @LastEditTime: 2022-02-15 10:11:32
+ * @LastEditTime: 2022-02-15 11:05:18
  * @Description: 我添加了修改
  */
 
@@ -30,6 +30,7 @@ var partition = function (head, x) {
     }
     head = head.next
   }
+  // 记得要清除最后的连接，不然有可能成环
   list2.next = null
   list1.next = dump2.next
   return dump1.next
