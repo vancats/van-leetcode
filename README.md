@@ -43,6 +43,7 @@
 	- [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 	- [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/)
 	- [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
+	- [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 
 
 
