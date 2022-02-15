@@ -50,7 +50,8 @@
 	- [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
 	- [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
   - [641. 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
-	- [1670. 设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
+	- [1670. 设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/
+	- [933. 最近的请求次数](https://leetcode-cn.com/problems/number-of-recent-calls/))
 
 
 
