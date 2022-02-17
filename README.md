@@ -50,7 +50,7 @@
 	- [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
 	- [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
   - [641. 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
-	- [1670. 设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/
+	- [1670. 设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
 	- [933. 最近的请求次数](https://leetcode-cn.com/problems/number-of-recent-calls/))
   - [面试题 17.09. 第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)
 	- [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)
@@ -59,7 +59,9 @@
 	- [969. 煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/)
 - 22-2-16
 	- [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
-- 22-2-17 [688. 骑士在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)
+- 22-2-17
+  - [688. 骑士在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)
+  - [面试题 03.04. 化栈为队](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/)
 
 
 
