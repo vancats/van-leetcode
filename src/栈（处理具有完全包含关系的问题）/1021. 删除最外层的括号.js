@@ -2,7 +2,7 @@
  * @Author: Lqf
  * @Date: 2022-02-17 16:54:50
  * @LastEditors: Lqf
- * @LastEditTime: 2022-02-17 17:07:46
+ * @LastEditTime: 2022-02-17 18:34:19
  * @Description: 我添加了修改
  */
 
@@ -30,4 +30,17 @@ var removeOuterParentheses = function (s) {
     s.splice(arr[i], 1)
   }
   return s.join('')
+}
+
+var removeOuterParentheses = function (s) {
+  let str = ''
+  for (let i = 0, pre = 0, cnt = 0; i < s.length; i++) {
+    if (s[i] === '(') cnt++
+    else cnt--
+    if (!cnt) {
+      str += s.slice(pre + 1, i)
+      pre = i + 1
+    }
+  }
+  return str
 }
