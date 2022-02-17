@@ -66,5 +66,5 @@
 	- [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
   - [682. 棒球比赛](https://leetcode-cn.com/problems/baseball-game/)
   - [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)
-
+  - [946. 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
 
