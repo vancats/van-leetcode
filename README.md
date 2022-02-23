@@ -97,3 +97,4 @@
 	- [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
 	- [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)
 	- [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+	- [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
