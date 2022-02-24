@@ -112,3 +112,18 @@
   - [面试题 02.03. 删除中间节点](https://leetcode-cn.com/problems/delete-middle-node-lcci/)
   - [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
   - [面试题 02.02. 返回倒数第 k 个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)
+  - [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
+  - [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
+  - [415. 字符串相加](https://leetcode-cn.com/problems/add-strings/)
+  - [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+  - [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
+  - [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+  - [561. 数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/)
+  - [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+  - [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)
+  - [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)
+  - [53. 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/)
+  - [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
+  - [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+
