@@ -1,8 +1,8 @@
 /*
  * @Author: Lqf
- * @Date: 2022-02-23 16:23:00
+ * @Date: 2022-02-28 14:52:28
  * @LastEditors: Lqf
- * @LastEditTime: 2022-02-28 14:46:58
+ * @LastEditTime: 2022-02-28 14:54:00
  * @Description: 我添加了修改
  */
 
@@ -18,25 +18,25 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var preorderTraversal = function (root, ans = []) {
+
+var postorderTraversal = function (root, ans = []) {
   if (!root) return ans
+  postorderTraversal(root.left, ans)
+  postorderTraversal(root.right, ans)
   ans.push(root.val)
-  preorderTraversal(root.left, ans)
-  preorderTraversal(root.right, ans)
   return ans
 }
 
-
-var preorderTraversal = function (root) {
+var postorderTraversal = function (root) {
   if (!root) return []
-  let queue = [root], ans = []
-  while (queue.length) {
-    let cnt = queue.length
+  let stack = [root], ans = []
+  while (stack.length) {
+    let cnt = stack.length
     for (let i = 0; i < cnt; i++) {
-      let root = queue.shift()
-      ans.push(root.val)
-      root.right && queue.unshift(root.right)
-      root.left && queue.unshift(root.left)
+      let root = stack.pop()
+      ans.unshift(root.val)
+      root.left && stack.push(root.left)
+      root.right && stack.push(root.right)
     }
   }
   return ans
