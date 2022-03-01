@@ -133,3 +133,4 @@
 - 22-2-28 [1601. 最多可达成的换楼请求数目](https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/)
 - 22-3-1
   - [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
+  - [剑指 Offer 40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
