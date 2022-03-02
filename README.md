@@ -141,3 +141,7 @@
   - [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)
   - [295. 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
   - [面试题 17.20. 连续中值](https://leetcode-cn.com/problems/continuous-median-lcci/)
+  - [263. 丑数](https://leetcode-cn.com/problems/ugly-number/)
+  - [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
+  - [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)
+  - [剑指 Offer 49. 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)
