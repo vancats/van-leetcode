@@ -148,3 +148,4 @@
   - [剑指 Offer 49. 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)
   - [1753. 移除石子的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-stones/)
   - [1801. 积压订单中的订单总数](https://leetcode-cn.com/problems/number-of-orders-in-the-backlog/)
+- 22-3-3 [258. 各位相加](https://leetcode-cn.com/problems/add-digits/)
