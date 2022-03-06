@@ -151,4 +151,5 @@
 - 22-3-3 [258. 各位相加](https://leetcode-cn.com/problems/add-digits/)
 - 22-3-4 [2104. 子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/)
 - 22-3-5 [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)
+- 22-3-6 [2100. 适合打劫银行的日子](https://leetcode-cn.com/problems/find-good-days-to-rob-the-bank/)
 
