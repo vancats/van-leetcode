@@ -2,7 +2,7 @@
  * @Author: Lqf
  * @Date: 2022-03-02 12:22:41
  * @LastEditors: Lqf
- * @LastEditTime: 2022-03-02 12:22:46
+ * @LastEditTime: 2022-03-07 16:07:47
  * @Description: 我添加了修改
  */
 
@@ -16,7 +16,7 @@ class Heap {
     // true 是大顶堆，false 是小顶堆
     this.sign = sign
   }
-  push (val) {
+  push(val) {
     this.heap.push(val)
     let ind = this.heap.length - 1
     // 向上整理
@@ -27,7 +27,7 @@ class Heap {
     return this.heap.length
   }
 
-  pop () {
+  pop() {
     if (!this.heap.length) return console.log('full')
     // 堆顶元素出堆，尾部元素放到顶部
     let val = this.heap.shift()
@@ -48,10 +48,10 @@ class Heap {
     return val
   }
 
-  compare (ind1, ind2) {
+  compare(ind1, ind2) {
     return this.sign ? this.heap[ind1][0] > this.heap[ind2][0] : this.heap[ind1][0] < this.heap[ind2][0]
   }
-  swap (ind1, ind2) {
+  swap(ind1, ind2) {
     [this.heap[ind1], this.heap[ind2]] = [this.heap[ind2], this.heap[ind1]]
   }
 }
@@ -61,6 +61,7 @@ var getNumberOfBacklogOrders = function (orders) {
   const buyHeap = new Heap(), sellHeap = new Heap(false)
   for (let i = 0; i < orders.length; i++) {
     let order = orders[i]
+    // 销售和买入分别处理其内容
     if (order[2]) {
       while (true) {
         if (buyHeap.heap.length && buyHeap.heap[0][0] >= order[0]) {
