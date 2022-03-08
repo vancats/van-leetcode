@@ -162,3 +162,4 @@
   - [947. 移除最多的同行或同列石头](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column/)
 - 22-3-8
   - [2055. 蜡烛之间的盘子](https://leetcode-cn.com/problems/plates-between-candles/)
+  - [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
