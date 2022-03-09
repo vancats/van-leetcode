@@ -163,3 +163,9 @@
 - 22-3-8
   - [2055. 蜡烛之间的盘子](https://leetcode-cn.com/problems/plates-between-candles/)
   - [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
+- 22-3-9
+  - [46. 全排列](https://leetcode-cn.com/problems/permutations/)
+  - [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
+  - [剑指 Offer II 079. 所有子集](https://leetcode-cn.com/problems/TVdhkn/)
+  - [剑指 Offer II 080. 含有 k 个元素的组合](https://leetcode-cn.com/problems/uUsW3B/)
+
