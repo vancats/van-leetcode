@@ -3,6 +3,12 @@
     "label": "树",
     "problems": [
       {
+        "id": 226,
+        "title": "226.翻转二叉树",
+        "path": "../../problemset/226.翻转二叉树/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": 589,
         "title": "589.N叉树的前序遍历",
         "path": "../../problemset/589.N叉树的前序遍历/README.md",

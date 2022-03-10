@@ -1,9 +1,10 @@
 import { TreeNode } from '../../utils/treeNode'
 /**
+ * @description 时间复杂度 O(N) 空间复杂度 O(N)
  * @param {Node|null} root
  * @return {number[]}
  */
-var preorder = function (root: TreeNode | null | any, ans: number[] = []): number[] {
+export const preorder = function (root: TreeNode | null | any, ans: number[] = []): number[] {
   if (!root) return ans
   ans.push(root.val)
   for (let i = 0; i < root.children.length; i++) {
