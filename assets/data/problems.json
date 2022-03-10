@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": 589,
+    "title": "589.N叉树的前序遍历",
+    "url": "https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/",
+    "difficulty": "简单",
+    "path": "../../problemset/589.N叉树的前序遍历/README.md"
+  }
+]

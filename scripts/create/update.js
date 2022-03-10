@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const update = ({ title, url, difficulty, id }) => {
+  title = title.replace(/\s/g, '')
   if (createProject(title)) {
     fs.writeFileSync(
       `problemset/${title}/index.ts`,

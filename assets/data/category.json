@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "label": "树",
+    "problems": [
+      {
+        "id": 589,
+        "title": "589.N叉树的前序遍历",
+        "path": "../../problemset/589.N叉树的前序遍历/README.md",
+        "difficulty": "简单"
+      }
+    ]
+  }
+]
