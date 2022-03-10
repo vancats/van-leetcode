@@ -15,5 +15,27 @@
         "difficulty": "简单"
       }
     ]
+  },
+  {
+    "label": "动态规划",
+    "problems": [
+      {
+        "id": 300,
+        "title": "300.最长递增子序列",
+        "path": "../../problemset/300.最长递增子序列/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "二分法",
+    "problems": [
+      {
+        "id": 300,
+        "title": "300.最长递增子序列",
+        "path": "../../problemset/300.最长递增子序列/README.md",
+        "difficulty": "中等"
+      }
+    ]
   }
 ]

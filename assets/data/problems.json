@@ -7,6 +7,13 @@
     "path": "../../problemset/226.翻转二叉树/README.md"
   },
   {
+    "id": 300,
+    "title": "300.最长递增子序列",
+    "url": "https://leetcode-cn.com/problems/longest-increasing-subsequence/",
+    "difficulty": "中等",
+    "path": "../../problemset/300.最长递增子序列/README.md"
+  },
+  {
     "id": 589,
     "title": "589.N叉树的前序遍历",
     "url": "https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/",
