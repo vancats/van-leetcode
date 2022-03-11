@@ -19,5 +19,12 @@
     "url": "https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/",
     "difficulty": "简单",
     "path": "../../problemset/589.N叉树的前序遍历/README.md"
+  },
+  {
+    "id": 2049,
+    "title": "2049.统计最高分的节点数目",
+    "url": "https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/",
+    "difficulty": "中等",
+    "path": "../../problemset/2049.统计最高分的节点数目/README.md"
   }
 ]

@@ -13,6 +13,12 @@
         "title": "589.N叉树的前序遍历",
         "path": "../../problemset/589.N叉树的前序遍历/README.md",
         "difficulty": "简单"
+      },
+      {
+        "id": 2049,
+        "title": "2049.统计最高分的节点数目",
+        "path": "../../problemset/2049.统计最高分的节点数目/README.md",
+        "difficulty": "中等"
       }
     ]
   },
@@ -34,6 +40,17 @@
         "id": 300,
         "title": "300.最长递增子序列",
         "path": "../../problemset/300.最长递增子序列/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "DFS",
+    "problems": [
+      {
+        "id": 2049,
+        "title": "2049.统计最高分的节点数目",
+        "path": "../../problemset/2049.统计最高分的节点数目/README.md",
         "difficulty": "中等"
       }
     ]
