@@ -6,4 +6,6 @@
 
 [589.N叉树的前序遍历](../../problemset/589.N叉树的前序遍历/README.md)
 
+[590.N叉树的后序遍历](../../problemset/590.N叉树的后序遍历/README.md)
+
 [2049.统计最高分的节点数目](../../problemset/2049.统计最高分的节点数目/README.md)
