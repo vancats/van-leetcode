@@ -60,5 +60,16 @@
         "difficulty": "中等"
       }
     ]
+  },
+  {
+    "label": "字符串",
+    "problems": [
+      {
+        "id": 393,
+        "title": "393.UTF-8编码验证",
+        "path": "../../problemset/393.UTF-8编码验证/README.md",
+        "difficulty": "中等"
+      }
+    ]
   }
 ]
