@@ -35,6 +35,13 @@
     "path": "../../problemset/590.N叉树的后序遍历/README.md"
   },
   {
+    "id": 599,
+    "title": "599.两个列表的最小索引总和",
+    "url": "https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/",
+    "difficulty": "简单",
+    "path": "../../problemset/599.两个列表的最小索引总和/README.md"
+  },
+  {
     "id": 2049,
     "title": "2049.统计最高分的节点数目",
     "url": "https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/",

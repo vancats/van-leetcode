@@ -71,5 +71,16 @@
         "difficulty": "中等"
       }
     ]
+  },
+  {
+    "label": "哈希表",
+    "problems": [
+      {
+        "id": 599,
+        "title": "599.两个列表的最小索引总和",
+        "path": "../../problemset/599.两个列表的最小索引总和/README.md",
+        "difficulty": "简单"
+      }
+    ]
   }
 ]
