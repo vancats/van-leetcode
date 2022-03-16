@@ -97,6 +97,23 @@
         "title": "剑指Offer21.调整数组顺序使奇数位于偶数前面",
         "path": "../../problemset/剑指Offer21.调整数组顺序使奇数位于偶数前面/README.md",
         "difficulty": "简单"
+      },
+      {
+        "id": "148",
+        "title": "148.排序链表",
+        "path": "../../problemset/148.排序链表/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "链表",
+    "problems": [
+      {
+        "id": "148",
+        "title": "148.排序链表",
+        "path": "../../problemset/148.排序链表/README.md",
+        "difficulty": "中等"
       }
     ]
   }

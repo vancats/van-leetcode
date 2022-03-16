@@ -12,7 +12,6 @@ export class TreeNode {
 type TreeNodeArrayItem = number | null
 
 /**
- * @Author: Lqf
  * @description: 数组转树
  * @param  arr
  * @return treenode | null

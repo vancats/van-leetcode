@@ -1,4 +1,4 @@
-import { sortQuick } from "../../utils/sortQuick"
+import { sortQuick } from "../../utils/SortQuick"
 
 /**
  * @description: 时间复杂度 O(NlgN) 空间复杂度 O(h) h 是调用栈的深度
