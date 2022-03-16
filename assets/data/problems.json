@@ -1,5 +1,12 @@
 [
   {
+    "id": "148",
+    "title": "148.排序链表",
+    "url": "https://leetcode-cn.com/problems/sort-list/",
+    "difficulty": "中等",
+    "path": "../../problemset/148.排序链表/README.md"
+  },
+  {
     "id": "226",
     "title": "226.翻转二叉树",
     "url": "https://leetcode-cn.com/problems/invert-binary-tree/",
@@ -56,17 +63,17 @@
     "path": "../../problemset/2049.统计最高分的节点数目/README.md"
   },
   {
-    "id": "offer21",
+    "id": "3000",
     "title": "剑指Offer21.调整数组顺序使奇数位于偶数前面",
     "url": "https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/",
     "difficulty": "简单",
     "path": "../../problemset/剑指Offer21.调整数组顺序使奇数位于偶数前面/README.md"
   },
   {
-    "id": "148",
-    "title": "148.排序链表",
-    "url": "https://leetcode-cn.com/problems/sort-list/",
+    "id": "3001",
+    "title": "面试题17.14.最小K个数",
+    "url": "https://leetcode-cn.com/problems/smallest-k-lcci/",
     "difficulty": "中等",
-    "path": "../../problemset/148.排序链表/README.md"
+    "path": "../../problemset/面试题17.14.最小K个数/README.md"
   }
 ]

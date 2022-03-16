@@ -87,21 +87,27 @@
     "label": "排序",
     "problems": [
       {
+        "id": "148",
+        "title": "148.排序链表",
+        "path": "../../problemset/148.排序链表/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "912",
         "title": "912.排序数组",
         "path": "../../problemset/912.排序数组/README.md",
         "difficulty": "中等"
       },
       {
-        "id": "offer21",
+        "id": "3000",
         "title": "剑指Offer21.调整数组顺序使奇数位于偶数前面",
         "path": "../../problemset/剑指Offer21.调整数组顺序使奇数位于偶数前面/README.md",
         "difficulty": "简单"
       },
       {
-        "id": "148",
-        "title": "148.排序链表",
-        "path": "../../problemset/148.排序链表/README.md",
+        "id": "3001",
+        "title": "面试题17.14.最小K个数",
+        "path": "../../problemset/面试题17.14.最小K个数/README.md",
         "difficulty": "中等"
       }
     ]
