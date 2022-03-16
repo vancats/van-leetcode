@@ -42,6 +42,13 @@
     "path": "../../problemset/599.两个列表的最小索引总和/README.md"
   },
   {
+    "id": 912,
+    "title": "912.排序数组",
+    "url": "https://leetcode-cn.com/problems/sort-an-array/",
+    "difficulty": "中等",
+    "path": "../../problemset/912.排序数组/README.md"
+  },
+  {
     "id": 2049,
     "title": "2049.统计最高分的节点数目",
     "url": "https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/",

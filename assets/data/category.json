@@ -82,5 +82,16 @@
         "difficulty": "简单"
       }
     ]
+  },
+  {
+    "label": "排序",
+    "problems": [
+      {
+        "id": 912,
+        "title": "912.排序数组",
+        "path": "../../problemset/912.排序数组/README.md",
+        "difficulty": "中等"
+      }
+    ]
   }
 ]
