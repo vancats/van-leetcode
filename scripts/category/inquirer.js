@@ -30,7 +30,6 @@ module.exports = (data) => {
         } else {
           res.others = []
         }
-        res.id = Number(res.id)
         resolve(res)
       })
       .catch(err => {

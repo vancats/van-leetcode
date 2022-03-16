@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const { log } = require('../utils/log')
 
 const update = ({ title, url, difficulty, id }) => {
   title = title.replace(/\s/g, '')
@@ -31,7 +32,7 @@ const update = ({ title, url, difficulty, id }) => {
 const updateDataJson = ({ title, url, difficulty, id }) => {
   const problems = JSON.parse(fs.readFileSync('./assets/data/problems.json'))
   problems.push({
-    id: Number(id),
+    id,
     title,
     url,
     difficulty,

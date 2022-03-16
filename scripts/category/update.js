@@ -59,7 +59,6 @@ const findProblem = (id) => {
 const updateMarkdown = (data) => {
   let md = `# 题目分类\r\n`
   data.forEach(item => {
-    console.log('item: ', item)
     md += `\r\n## ${item.label}\r\n\r\n`
     md += `| 题目 | 难度 |\r\n`
     md += `| ---- | ---- |\r\n`

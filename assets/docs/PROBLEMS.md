@@ -15,3 +15,5 @@
 [912.排序数组](../../problemset/912.排序数组/README.md)
 
 [2049.统计最高分的节点数目](../../problemset/2049.统计最高分的节点数目/README.md)
+
+[剑指Offer21.调整数组顺序使奇数位于偶数前面](../../problemset/剑指Offer21.调整数组顺序使奇数位于偶数前面/README.md)
