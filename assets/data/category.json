@@ -32,6 +32,12 @@
     "label": "动态规划",
     "problems": [
       {
+        "id": "70",
+        "title": "70.爬楼梯",
+        "path": "../../problemset/70.爬楼梯/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "300",
         "title": "300.最长递增子序列",
         "path": "../../problemset/300.最长递增子序列/README.md",

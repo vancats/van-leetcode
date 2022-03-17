@@ -1,5 +1,12 @@
 [
   {
+    "id": "70",
+    "title": "70.爬楼梯",
+    "url": "https://leetcode-cn.com/problems/climbing-stairs/",
+    "difficulty": "简单",
+    "path": "../../problemset/70.爬楼梯/README.md"
+  },
+  {
     "id": "75",
     "title": "75.颜色分类",
     "url": "https://leetcode-cn.com/problems/sort-colors/",
