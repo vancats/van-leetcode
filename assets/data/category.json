@@ -157,5 +157,16 @@
         "difficulty": "中等"
       }
     ]
+  },
+  {
+    "label": "栈",
+    "problems": [
+      {
+        "id": "11",
+        "title": "11.盛最多水的容器",
+        "path": "../../problemset/11.盛最多水的容器/README.md",
+        "difficulty": "中等"
+      }
+    ]
   }
 ]
