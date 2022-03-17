@@ -80,6 +80,12 @@
         "title": "599.两个列表的最小索引总和",
         "path": "../../problemset/599.两个列表的最小索引总和/README.md",
         "difficulty": "简单"
+      },
+      {
+        "id": "720",
+        "title": "720.词典中最长的单词",
+        "path": "../../problemset/720.词典中最长的单词/README.md",
+        "difficulty": "简单"
       }
     ]
   },
