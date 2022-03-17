@@ -42,6 +42,12 @@
         "title": "300.最长递增子序列",
         "path": "../../problemset/300.最长递增子序列/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "322",
+        "title": "322.零钱兑换",
+        "path": "../../problemset/322.零钱兑换/README.md",
+        "difficulty": "中等"
       }
     ]
   },

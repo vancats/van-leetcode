@@ -42,6 +42,13 @@
     "path": "../../problemset/300.最长递增子序列/README.md"
   },
   {
+    "id": "322",
+    "title": "322.零钱兑换",
+    "url": "https://leetcode-cn.com/problems/coin-change/",
+    "difficulty": "中等",
+    "path": "../../problemset/322.零钱兑换/README.md"
+  },
+  {
     "id": "393",
     "title": "393.UTF-8编码验证",
     "url": "https://leetcode-cn.com/problems/utf-8-validation/",

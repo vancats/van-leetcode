@@ -12,6 +12,8 @@
 
 [300.最长递增子序列](../../problemset/300.最长递增子序列/README.md)
 
+[322.零钱兑换](../../problemset/322.零钱兑换/README.md)
+
 [393.UTF-8编码验证](../../problemset/393.UTF-8编码验证/README.md)
 
 [589.N叉树的前序遍历](../../problemset/589.N叉树的前序遍历/README.md)
