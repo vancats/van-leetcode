@@ -87,6 +87,12 @@
     "label": "排序",
     "problems": [
       {
+        "id": "75",
+        "title": "75.颜色分类",
+        "path": "../../problemset/75.颜色分类/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "148",
         "title": "148.排序链表",
         "path": "../../problemset/148.排序链表/README.md",

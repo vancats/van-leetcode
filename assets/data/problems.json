@@ -1,5 +1,12 @@
 [
   {
+    "id": "75",
+    "title": "75.颜色分类",
+    "url": "https://leetcode-cn.com/problems/sort-colors/",
+    "difficulty": "中等",
+    "path": "../../problemset/75.颜色分类/README.md"
+  },
+  {
     "id": "148",
     "title": "148.排序链表",
     "url": "https://leetcode-cn.com/problems/sort-list/",
