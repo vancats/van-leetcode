@@ -25,6 +25,12 @@
         "title": "2049.统计最高分的节点数目",
         "path": "../../problemset/2049.统计最高分的节点数目/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "3002",
+        "title": "面试题04.04.检查平衡性",
+        "path": "../../problemset/面试题04.04.检查平衡性/README.md",
+        "difficulty": "简单"
       }
     ]
   },

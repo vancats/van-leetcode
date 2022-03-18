@@ -138,5 +138,12 @@
     "url": "https://leetcode-cn.com/problems/smallest-k-lcci/",
     "difficulty": "中等",
     "path": "../../problemset/面试题17.14.最小K个数/README.md"
+  },
+  {
+    "id": "3002",
+    "title": "面试题04.04.检查平衡性",
+    "url": "https://leetcode-cn.com/problems/check-balance-lcci/",
+    "difficulty": "简单",
+    "path": "../../problemset/面试题04.04.检查平衡性/README.md"
   }
 ]

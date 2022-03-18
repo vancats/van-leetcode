@@ -39,3 +39,5 @@
 [剑指Offer21.调整数组顺序使奇数位于偶数前面](../../problemset/剑指Offer21.调整数组顺序使奇数位于偶数前面/README.md)
 
 [面试题17.14.最小K个数](../../problemset/面试题17.14.最小K个数/README.md)
+
+[面试题04.04.检查平衡性](../../problemset/面试题04.04.检查平衡性/README.md)
