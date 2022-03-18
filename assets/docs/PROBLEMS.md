@@ -6,6 +6,8 @@
 
 [75.颜色分类](../../problemset/75.颜色分类/README.md)
 
+[98.验证二叉搜索树](../../problemset/98.验证二叉搜索树/README.md)
+
 [148.排序链表](../../problemset/148.排序链表/README.md)
 
 [226.翻转二叉树](../../problemset/226.翻转二叉树/README.md)
@@ -19,6 +21,8 @@
 [393.UTF-8编码验证](../../problemset/393.UTF-8编码验证/README.md)
 
 [394.字符串解码](../../problemset/394.字符串解码/README.md)
+
+[450.删除二叉搜索树中的节点](../../problemset/450.删除二叉搜索树中的节点/README.md)
 
 [470.用Rand7()实现Rand10()](../../problemset/470.用Rand7()实现Rand10()/README.md)
 

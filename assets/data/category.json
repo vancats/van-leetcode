@@ -3,10 +3,22 @@
     "label": "树",
     "problems": [
       {
+        "id": "98",
+        "title": "98.验证二叉搜索树",
+        "path": "../../problemset/98.验证二叉搜索树/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "226",
         "title": "226.翻转二叉树",
         "path": "../../problemset/226.翻转二叉树/README.md",
         "difficulty": "简单"
+      },
+      {
+        "id": "450",
+        "title": "450.删除二叉搜索树中的节点",
+        "path": "../../problemset/450.删除二叉搜索树中的节点/README.md",
+        "difficulty": "中等"
       },
       {
         "id": "589",
