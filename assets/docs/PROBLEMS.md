@@ -30,6 +30,8 @@
 
 [700.二叉搜索树中的搜索](../../problemset/700.二叉搜索树中的搜索/README.md)
 
+[701.二叉搜索树中的插入操作](../../problemset/701.二叉搜索树中的插入操作/README.md)
+
 [720.词典中最长的单词](../../problemset/720.词典中最长的单词/README.md)
 
 [912.排序数组](../../problemset/912.排序数组/README.md)

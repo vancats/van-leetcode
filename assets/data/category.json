@@ -27,6 +27,12 @@
         "difficulty": "简单"
       },
       {
+        "id": "701",
+        "title": "701.二叉搜索树中的插入操作",
+        "path": "../../problemset/701.二叉搜索树中的插入操作/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "2049",
         "title": "2049.统计最高分的节点数目",
         "path": "../../problemset/2049.统计最高分的节点数目/README.md",

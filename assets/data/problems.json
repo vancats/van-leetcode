@@ -105,6 +105,13 @@
     "path": "../../problemset/700.二叉搜索树中的搜索/README.md"
   },
   {
+    "id": "701",
+    "title": "701.二叉搜索树中的插入操作",
+    "url": "https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/",
+    "difficulty": "中等",
+    "path": "../../problemset/701.二叉搜索树中的插入操作/README.md"
+  },
+  {
     "id": "720",
     "title": "720.词典中最长的单词",
     "url": "https://leetcode-cn.com/problems/longest-word-in-dictionary/",
