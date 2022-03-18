@@ -21,6 +21,12 @@
         "difficulty": "简单"
       },
       {
+        "id": "700",
+        "title": "700.二叉搜索树中的搜索",
+        "path": "../../problemset/700.二叉搜索树中的搜索/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "2049",
         "title": "2049.统计最高分的节点数目",
         "path": "../../problemset/2049.统计最高分的节点数目/README.md",

@@ -28,6 +28,8 @@
 
 [599.两个列表的最小索引总和](../../problemset/599.两个列表的最小索引总和/README.md)
 
+[700.二叉搜索树中的搜索](../../problemset/700.二叉搜索树中的搜索/README.md)
+
 [720.词典中最长的单词](../../problemset/720.词典中最长的单词/README.md)
 
 [912.排序数组](../../problemset/912.排序数组/README.md)

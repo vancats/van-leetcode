@@ -13,13 +13,13 @@ describe('面试题04.04.检查平衡性', () => {
 function testCase(fn: (root: TreeNode | null) => boolean) {
   it('示例一', () => {
     const root: TreeNode | null = createTreeNode([3, 9, 20, null, null, 15, 7])
-    const expected = fn(root)
-    expect(expected).toBe(true)
+    const result = fn(root)
+    expect(result).toBe(true)
   })
 
   it('示例一', () => {
     const root: TreeNode | null = createTreeNode([1, 2, 2, 3, 3, null, null, 4, 4])
-    const expected = fn(root)
-    expect(expected).toBe(false)
+    const result = fn(root)
+    expect(result).toBe(false)
   })
 }
