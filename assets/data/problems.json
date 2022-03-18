@@ -98,6 +98,13 @@
     "path": "../../problemset/912.排序数组/README.md"
   },
   {
+    "id": "2043",
+    "title": "2043.简易银行系统",
+    "url": "https://leetcode-cn.com/problems/simple-bank-system/",
+    "difficulty": "中等",
+    "path": "../../problemset/2043.简易银行系统/README.md"
+  },
+  {
     "id": "2049",
     "title": "2049.统计最高分的节点数目",
     "url": "https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/",

@@ -168,5 +168,16 @@
         "difficulty": "中等"
       }
     ]
+  },
+  {
+    "label": "模拟",
+    "problems": [
+      {
+        "id": "2043",
+        "title": "2043.简易银行系统",
+        "path": "../../problemset/2043.简易银行系统/README.md",
+        "difficulty": "中等"
+      }
+    ]
   }
 ]
