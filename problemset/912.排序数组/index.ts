@@ -1,4 +1,4 @@
-import { sortQuick } from "../../utils/SortQuick"
+import { quickSort } from "../../utils/SortMode"
 
 /**
  * @description: 时间复杂度 O(NlgN) 空间复杂度 O(h) h 是调用栈的深度
@@ -6,6 +6,6 @@ import { sortQuick } from "../../utils/SortQuick"
  * @param {number} nums
  */
 export function sortArray(nums: number[]): number[] {
-  sortQuick(nums)
+  quickSort(nums)
   return nums
 }
