@@ -63,6 +63,13 @@
     "path": "../../problemset/393.UTF-8编码验证/README.md"
   },
   {
+    "id": "394",
+    "title": "394.字符串解码",
+    "url": "https://leetcode-cn.com/problems/decode-string/",
+    "difficulty": "中等",
+    "path": "../../problemset/394.字符串解码/README.md"
+  },
+  {
     "id": "589",
     "title": "589.N叉树的前序遍历",
     "url": "https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/",

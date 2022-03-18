@@ -18,6 +18,8 @@
 
 [393.UTF-8编码验证](../../problemset/393.UTF-8编码验证/README.md)
 
+[394.字符串解码](../../problemset/394.字符串解码/README.md)
+
 [589.N叉树的前序遍历](../../problemset/589.N叉树的前序遍历/README.md)
 
 [590.N叉树的后序遍历](../../problemset/590.N叉树的后序遍历/README.md)

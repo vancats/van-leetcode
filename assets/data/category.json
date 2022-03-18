@@ -166,6 +166,12 @@
         "title": "11.盛最多水的容器",
         "path": "../../problemset/11.盛最多水的容器/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "394",
+        "title": "394.字符串解码",
+        "path": "../../problemset/394.字符串解码/README.md",
+        "difficulty": "中等"
       }
     ]
   },
