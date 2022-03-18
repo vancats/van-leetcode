@@ -70,6 +70,13 @@
     "path": "../../problemset/394.字符串解码/README.md"
   },
   {
+    "id": "470",
+    "title": "470.用Rand7()实现Rand10()",
+    "url": "https://leetcode-cn.com/problems/implement-rand10-using-rand7/",
+    "difficulty": "中等",
+    "path": "../../problemset/470.用Rand7()实现Rand10()/README.md"
+  },
+  {
     "id": "589",
     "title": "589.N叉树的前序遍历",
     "url": "https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/",

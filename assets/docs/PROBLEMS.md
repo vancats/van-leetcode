@@ -20,6 +20,8 @@
 
 [394.字符串解码](../../problemset/394.字符串解码/README.md)
 
+[470.用Rand7()实现Rand10()](../../problemset/470.用Rand7()实现Rand10()/README.md)
+
 [589.N叉树的前序遍历](../../problemset/589.N叉树的前序遍历/README.md)
 
 [590.N叉树的后序遍历](../../problemset/590.N叉树的后序遍历/README.md)
