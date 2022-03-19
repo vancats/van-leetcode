@@ -21,6 +21,12 @@
         "difficulty": "简单"
       },
       {
+        "id": "606",
+        "title": "606.根据二叉树创建字符串",
+        "path": "../../problemset/606.根据二叉树创建字符串/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "700",
         "title": "700.二叉搜索树中的搜索",
         "path": "../../problemset/700.二叉搜索树中的搜索/README.md",

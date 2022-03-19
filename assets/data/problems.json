@@ -98,6 +98,13 @@
     "path": "../../problemset/599.两个列表的最小索引总和/README.md"
   },
   {
+    "id": "606",
+    "title": "606.根据二叉树创建字符串",
+    "url": "https://leetcode-cn.com/problems/construct-string-from-binary-tree/",
+    "difficulty": "简单",
+    "path": "../../problemset/606.根据二叉树创建字符串/README.md"
+  },
+  {
     "id": "700",
     "title": "700.二叉搜索树中的搜索",
     "url": "https://leetcode-cn.com/problems/search-in-a-binary-search-tree/",
