@@ -38,6 +38,8 @@
 
 [912.排序数组](../../problemset/912.排序数组/README.md)
 
+[1716.计算力扣银行的钱](../../problemset/1716.计算力扣银行的钱/README.md)
+
 [2043.简易银行系统](../../problemset/2043.简易银行系统/README.md)
 
 [2049.统计最高分的节点数目](../../problemset/2049.统计最高分的节点数目/README.md)
