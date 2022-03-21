@@ -138,18 +138,12 @@
     ]
   },
   {
-    "label": "排序",
+    "label": "快排",
     "problems": [
       {
         "id": "75",
         "title": "75.颜色分类",
         "path": "../../src/75.颜色分类/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "148",
-        "title": "148.排序链表",
-        "path": "../../src/148.排序链表/README.md",
         "difficulty": "中等"
       },
       {
@@ -266,6 +260,17 @@
         "title": "1716.计算力扣银行的钱",
         "path": "../../src/1716.计算力扣银行的钱/README.md",
         "difficulty": "非常简单"
+      }
+    ]
+  },
+  {
+    "label": "归并",
+    "problems": [
+      {
+        "id": "3003",
+        "title": "剑指Offer51.数组中的逆序对",
+        "path": "../../src/剑指Offer51.数组中的逆序对/README.md",
+        "difficulty": "困难"
       }
     ]
   }
