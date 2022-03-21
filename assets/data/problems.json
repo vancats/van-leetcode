@@ -42,6 +42,13 @@
     "path": "../../src/108.将有序数组转换为二叉搜索树/README.md"
   },
   {
+    "id": "148",
+    "title": "148.排序链表",
+    "url": "https://leetcode-cn.com/problems/sort-list/",
+    "difficulty": "中等",
+    "path": "../../src/148.排序链表/README.md"
+  },
+  {
     "id": "226",
     "title": "226.翻转二叉树",
     "url": "https://leetcode-cn.com/problems/invert-binary-tree/",

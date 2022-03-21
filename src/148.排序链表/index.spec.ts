@@ -1,13 +1,9 @@
 import { createListNode, ListNode } from '../../utils/ListNode'
 import { sortList } from './index'
 describe('148.排序链表', () => {
-  it('add', () => {
-    const result = 2
-    expect(result).toBe(2)
+  describe('归并排序', () => {
+    testCase(sortList)
   })
-  // describe('归并排序1', () => {
-  //   testCase(sortList)
-  // })
 })
 
 function testCase(fn: (head: ListNode | null) => ListNode | null) {
