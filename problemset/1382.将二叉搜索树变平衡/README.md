@@ -14,6 +14,8 @@
 
 ### 示例：
 
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/15/1515_ex1.png)
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/15/1515_ex1_out.png)
 ```
 输入：root = [1,null,2,null,3,null,4,null,null]
 输出：[2,1,3,null,null,null,4]

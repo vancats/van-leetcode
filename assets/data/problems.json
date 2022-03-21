@@ -140,6 +140,13 @@
     "path": "../../problemset/606.根据二叉树创建字符串/README.md"
   },
   {
+    "id": "653",
+    "title": "653.两数之和IV-输入BST",
+    "url": "https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/",
+    "difficulty": "非常简单",
+    "path": "../../problemset/653.两数之和IV-输入BST/README.md"
+  },
+  {
     "id": "700",
     "title": "700.二叉搜索树中的搜索",
     "url": "https://leetcode-cn.com/problems/search-in-a-binary-search-tree/",
