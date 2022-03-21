@@ -18,6 +18,8 @@
 
 [322.零钱兑换](../../problemset/322.零钱兑换/README.md)
 
+[344.反转字符串](../../problemset/344.反转字符串/README.md)
+
 [393.UTF-8编码验证](../../problemset/393.UTF-8编码验证/README.md)
 
 [394.字符串解码](../../problemset/394.字符串解码/README.md)
@@ -26,11 +28,15 @@
 
 [470.用Rand7()实现Rand10()](../../problemset/470.用Rand7()实现Rand10()/README.md)
 
+[537.复数乘法](../../problemset/537.复数乘法/README.md)
+
 [589.N叉树的前序遍历](../../problemset/589.N叉树的前序遍历/README.md)
 
 [590.N叉树的后序遍历](../../problemset/590.N叉树的后序遍历/README.md)
 
 [599.两个列表的最小索引总和](../../problemset/599.两个列表的最小索引总和/README.md)
+
+[606.根据二叉树创建字符串](../../problemset/606.根据二叉树创建字符串/README.md)
 
 [700.二叉搜索树中的搜索](../../problemset/700.二叉搜索树中的搜索/README.md)
 
@@ -39,6 +45,8 @@
 [720.词典中最长的单词](../../problemset/720.词典中最长的单词/README.md)
 
 [912.排序数组](../../problemset/912.排序数组/README.md)
+
+[1716.计算力扣银行的钱](../../problemset/1716.计算力扣银行的钱/README.md)
 
 [2043.简易银行系统](../../problemset/2043.简易银行系统/README.md)
 

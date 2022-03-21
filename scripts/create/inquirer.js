@@ -27,6 +27,10 @@ module.exports = () => {
           default: '简单',
           choices: [
             {
+              name: '非常简单',
+              value: '非常简单'
+            },
+            {
               name: '简单',
               value: '简单'
             },
