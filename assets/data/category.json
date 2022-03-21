@@ -9,16 +9,22 @@
         "difficulty": "中等"
       },
       {
+        "id": "108",
+        "title": "108.将有序数组转换为二叉搜索树",
+        "path": "../../problemset/108.将有序数组转换为二叉搜索树/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "226",
         "title": "226.翻转二叉树",
         "path": "../../problemset/226.翻转二叉树/README.md",
         "difficulty": "简单"
       },
       {
-      "id": "450",
-      "title": "450.删除二叉搜索树中的节点",
-      "path": "../../problemset/450.删除二叉搜索树中的节点/README.md",
-      "difficulty": "中等"
+        "id": "450",
+        "title": "450.删除二叉搜索树中的节点",
+        "path": "../../problemset/450.删除二叉搜索树中的节点/README.md",
+        "difficulty": "中等"
       },
       {
         "id": "606",
@@ -36,6 +42,12 @@
         "id": "701",
         "title": "701.二叉搜索树中的插入操作",
         "path": "../../problemset/701.二叉搜索树中的插入操作/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "1382",
+        "title": "1382.将二叉搜索树变平衡",
+        "path": "../../problemset/1382.将二叉搜索树变平衡/README.md",
         "difficulty": "中等"
       },
       {

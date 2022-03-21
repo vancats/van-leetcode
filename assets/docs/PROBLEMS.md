@@ -8,6 +8,8 @@
 
 [98.验证二叉搜索树](../../problemset/98.验证二叉搜索树/README.md)
 
+[108.将有序数组转换为二叉搜索树](../../problemset/108.将有序数组转换为二叉搜索树/README.md)
+
 [148.排序链表](../../problemset/148.排序链表/README.md)
 
 [226.翻转二叉树](../../problemset/226.翻转二叉树/README.md)
@@ -45,6 +47,8 @@
 [720.词典中最长的单词](../../problemset/720.词典中最长的单词/README.md)
 
 [912.排序数组](../../problemset/912.排序数组/README.md)
+
+[1382.将二叉搜索树变平衡](../../problemset/1382.将二叉搜索树变平衡/README.md)
 
 [1716.计算力扣银行的钱](../../problemset/1716.计算力扣银行的钱/README.md)
 
