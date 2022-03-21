@@ -6,15 +6,15 @@ const update = ({ title, url, difficulty, id }) => {
   title = title.replace(/\s/g, '')
   if (createProject(title)) {
     fs.writeFileSync(
-      `problemset/${title}/index.ts`,
+      `src/${title}/index.ts`,
       ''
     )
     fs.writeFileSync(
-      `problemset/${title}/README.md`,
+      `src/${title}/README.md`,
       `# ${title}\r\n\r\n> 难度：${difficulty}\r\n>\r\n> ${url}\r\n\r\n## 题目`
     )
     fs.writeFileSync(
-      `problemset/${title}/index.spec.ts`,
+      `src/${title}/index.spec.ts`,
       `describe('${title}', () => {});`
     )
 
@@ -36,7 +36,7 @@ const updateDataJson = ({ title, url, difficulty, id }) => {
     title,
     url,
     difficulty,
-    path: `../../problemset/${title}/README.md`
+    path: `../../src/${title}/README.md`
   })
   problems.sort((a, b) => a.id - b.id)
   fs.writeFileSync('./assets/data/problems.json', JSON.stringify(problems, null, 2))
@@ -54,11 +54,11 @@ const updateMarkdown = (problems) => {
 }
 
 const createProject = (title) => {
-  if (checkHasPath(`problemset/${title}`)) {
+  if (checkHasPath(`src/${title}`)) {
     log('已存在该路径', 'red')
     return
   }
-  fs.mkdirSync(`problemset/${title}`)
+  fs.mkdirSync(`src/${title}`)
   return true
 }
 
