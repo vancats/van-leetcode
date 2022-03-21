@@ -7,6 +7,13 @@
     "path": "../../src/11.盛最多水的容器/README.md"
   },
   {
+    "id": "23",
+    "title": "23.合并K个升序链表",
+    "url": "https://leetcode-cn.com/problems/merge-k-sorted-lists/",
+    "difficulty": "困难",
+    "path": "../../src/23.合并K个升序链表/README.md"
+  },
+  {
     "id": "70",
     "title": "70.爬楼梯",
     "url": "https://leetcode-cn.com/problems/climbing-stairs/",
@@ -33,13 +40,6 @@
     "url": "https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/",
     "difficulty": "简单",
     "path": "../../src/108.将有序数组转换为二叉搜索树/README.md"
-  },
-  {
-    "id": "148",
-    "title": "148.排序链表",
-    "url": "https://leetcode-cn.com/problems/sort-list/",
-    "difficulty": "中等",
-    "path": "../../src/148.排序链表/README.md"
   },
   {
     "id": "226",
