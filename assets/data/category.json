@@ -74,6 +74,12 @@
     "label": "动态规划",
     "problems": [
       {
+        "id": "53",
+        "title": "53.最大子数组和",
+        "path": "../../src/53.最大子数组和/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "70",
         "title": "70.爬楼梯",
         "path": "../../src/70.爬楼梯/README.md",
@@ -312,6 +318,17 @@
         "title": "23.合并K个升序链表",
         "path": "../../src/23.合并K个升序链表/README.md",
         "difficulty": "困难"
+      }
+    ]
+  },
+  {
+    "label": "前缀和",
+    "problems": [
+      {
+        "id": "53",
+        "title": "53.最大子数组和",
+        "path": "../../src/53.最大子数组和/README.md",
+        "difficulty": "中等"
       }
     ]
   }

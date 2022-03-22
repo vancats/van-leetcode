@@ -14,6 +14,13 @@
     "path": "../../src/23.合并K个升序链表/README.md"
   },
   {
+    "id": "53",
+    "title": "53.最大子数组和",
+    "url": "https://leetcode-cn.com/problems/maximum-subarray/",
+    "difficulty": "中等",
+    "path": "../../src/53.最大子数组和/README.md"
+  },
+  {
     "id": "70",
     "title": "70.爬楼梯",
     "url": "https://leetcode-cn.com/problems/climbing-stairs/",
