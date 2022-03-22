@@ -189,6 +189,13 @@
     "path": "../../src/912.排序数组/README.md"
   },
   {
+    "id": "1302",
+    "title": "1302.层数最深叶子节点的和",
+    "url": "https://leetcode-cn.com/problems/deepest-leaves-sum/",
+    "difficulty": "中等",
+    "path": "../../src/1302.层数最深叶子节点的和/README.md"
+  },
+  {
     "id": "1305",
     "title": "1305.两棵二叉搜索树中的所有元素",
     "url": "https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/",
