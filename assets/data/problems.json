@@ -182,6 +182,13 @@
     "path": "../../src/912.排序数组/README.md"
   },
   {
+    "id": "1305",
+    "title": "1305.两棵二叉搜索树中的所有元素",
+    "url": "https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/",
+    "difficulty": "中等",
+    "path": "../../src/1305.两棵二叉搜索树中的所有元素/README.md"
+  },
+  {
     "id": "1382",
     "title": "1382.将二叉搜索树变平衡",
     "url": "https://leetcode-cn.com/problems/balance-a-binary-search-tree/",
