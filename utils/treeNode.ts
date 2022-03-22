@@ -35,3 +35,9 @@ export function createTreeNode(arr: TreeNodeArrayItem[]): TreeNode | null {
   }
   return rootTree
 }
+
+export function sameTree(root1: TreeNode | null, root2: TreeNode | null): boolean {
+  if (!root1 && !root2) return true
+  if (!root1 || !root2) return false
+  return sameTree(root1.left, root2.left) && sameTree(root1.right, root2.right)
+}

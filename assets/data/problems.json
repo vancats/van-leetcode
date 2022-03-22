@@ -264,5 +264,12 @@
     "url": "https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/",
     "difficulty": "困难",
     "path": "../../src/剑指Offer51.数组中的逆序对/README.md"
+  },
+  {
+    "id": "3004",
+    "title": "面试题04.08.首个共同祖先",
+    "url": "https://leetcode-cn.com/problems/first-common-ancestor-lcci/",
+    "difficulty": "中等",
+    "path": "../../src/面试题04.08.首个共同祖先/README.md"
   }
 ]
