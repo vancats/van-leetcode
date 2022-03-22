@@ -196,6 +196,13 @@
     "path": "../../src/1716.计算力扣银行的钱/README.md"
   },
   {
+    "id": "2038",
+    "title": "2038.如果相邻两个颜色均相同则删除当前颜色",
+    "url": "https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/",
+    "difficulty": "非常简单",
+    "path": "../../src/2038.如果相邻两个颜色均相同则删除当前颜色/README.md"
+  },
+  {
     "id": "2043",
     "title": "2043.简易银行系统",
     "url": "https://leetcode-cn.com/problems/simple-bank-system/",
