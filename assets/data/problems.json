@@ -70,6 +70,13 @@
     "path": "../../src/238.除自身以外数组的乘积/README.md"
   },
   {
+    "id": "257",
+    "title": "257.二叉树的所有路径",
+    "url": "https://leetcode-cn.com/problems/binary-tree-paths/",
+    "difficulty": "简单",
+    "path": "../../src/257.二叉树的所有路径/README.md"
+  },
+  {
     "id": "300",
     "title": "300.最长递增子序列",
     "url": "https://leetcode-cn.com/problems/longest-increasing-subsequence/",
