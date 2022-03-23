@@ -315,6 +315,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "327",
+        "title": "327.区间和的个数",
+        "path": "../../src/327.区间和的个数/README.md",
+        "difficulty": "困难"
+      },
+      {
         "id": "1305",
         "title": "1305.两棵二叉搜索树中的所有元素",
         "path": "../../src/1305.两棵二叉搜索树中的所有元素/README.md",
@@ -347,6 +353,23 @@
         "title": "53.最大子数组和",
         "path": "../../src/53.最大子数组和/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "327",
+        "title": "327.区间和的个数",
+        "path": "../../src/327.区间和的个数/README.md",
+        "difficulty": "困难"
+      }
+    ]
+  },
+  {
+    "label": "困难",
+    "problems": [
+      {
+        "id": "327",
+        "title": "327.区间和的个数",
+        "path": "../../src/327.区间和的个数/README.md",
+        "difficulty": "困难"
       }
     ]
   }
