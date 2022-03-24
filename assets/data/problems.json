@@ -42,6 +42,13 @@
     "path": "../../src/75.颜色分类/README.md"
   },
   {
+    "id": "95",
+    "title": "95.不同的二叉搜索树II",
+    "url": "https://leetcode-cn.com/problems/unique-binary-search-trees-ii/",
+    "difficulty": "中等",
+    "path": "../../src/95.不同的二叉搜索树II/README.md"
+  },
+  {
     "id": "98",
     "title": "98.验证二叉搜索树",
     "url": "https://leetcode-cn.com/problems/validate-binary-search-tree/",

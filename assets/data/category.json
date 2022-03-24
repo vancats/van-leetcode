@@ -3,6 +3,12 @@
     "label": "树",
     "problems": [
       {
+        "id": "95",
+        "title": "95.不同的二叉搜索树II",
+        "path": "../../src/95.不同的二叉搜索树II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "98",
         "title": "98.验证二叉搜索树",
         "path": "../../src/98.验证二叉搜索树/README.md",
@@ -125,6 +131,12 @@
   {
     "label": "DFS",
     "problems": [
+      {
+        "id": "95",
+        "title": "95.不同的二叉搜索树II",
+        "path": "../../src/95.不同的二叉搜索树II/README.md",
+        "difficulty": "中等"
+      },
       {
         "id": "2049",
         "title": "2049.统计最高分的节点数目",
