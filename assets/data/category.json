@@ -280,6 +280,12 @@
     "label": "非常简单",
     "problems": [
       {
+        "id": "172",
+        "title": "172.阶乘后的零",
+        "path": "../../src/172.阶乘后的零/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "344",
         "title": "344.反转字符串",
         "path": "../../src/344.反转字符串/README.md",

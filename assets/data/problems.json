@@ -70,6 +70,13 @@
     "path": "../../src/148.排序链表/README.md"
   },
   {
+    "id": "172",
+    "title": "172.阶乘后的零",
+    "url": "https://leetcode-cn.com/problems/factorial-trailing-zeroes/",
+    "difficulty": "非常简单",
+    "path": "../../src/172.阶乘后的零/README.md"
+  },
+  {
     "id": "226",
     "title": "226.翻转二叉树",
     "url": "https://leetcode-cn.com/problems/invert-binary-tree/",
