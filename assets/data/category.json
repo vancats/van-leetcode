@@ -211,6 +211,12 @@
     "label": "数学",
     "problems": [
       {
+        "id": "50",
+        "title": "50.Pow(x,n)",
+        "path": "../../src/50.Pow(x,n)/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "238",
         "title": "238.除自身以外数组的乘积",
         "path": "../../src/238.除自身以外数组的乘积/README.md",
@@ -289,6 +295,12 @@
         "id": "653",
         "title": "653.两数之和IV-输入BST",
         "path": "../../src/653.两数之和IV-输入BST/README.md",
+        "difficulty": "非常简单"
+      },
+      {
+        "id": "661",
+        "title": "661.图片平滑器",
+        "path": "../../src/661.图片平滑器/README.md",
         "difficulty": "非常简单"
       },
       {

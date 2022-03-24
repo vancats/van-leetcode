@@ -4,6 +4,8 @@
 
 [23.合并K个升序链表](../../src/23.合并K个升序链表/README.md)
 
+[50.Pow(x,n)](../../src/50.Pow(x,n)/README.md)
+
 [53.最大子数组和](../../src/53.最大子数组和/README.md)
 
 [70.爬楼梯](../../src/70.爬楼梯/README.md)
