@@ -8,6 +8,7 @@ export function maxSubArray(nums: number[]): number {
   let arr: number[] = new Array(nums.length).fill(0), min = Infinity, max = -Infinity
   for (let i = 0; i < nums.length; i++) {
     arr[i + 1] = nums[i] + arr[i]
+    // 维护一个前面的最小值，都和他做计算
     min = Math.min(min, arr[i])
     max = Math.max(max, arr[i + 1] - min)
   }
