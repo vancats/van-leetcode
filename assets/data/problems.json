@@ -175,6 +175,13 @@
     "path": "../../src/653.两数之和IV-输入BST/README.md"
   },
   {
+    "id": "661",
+    "title": "661.图片平滑器",
+    "url": "https://leetcode-cn.com/problems/image-smoother/",
+    "difficulty": "简单",
+    "path": "../../src/661.图片平滑器/README.md"
+  },
+  {
     "id": "700",
     "title": "700.二叉搜索树中的搜索",
     "url": "https://leetcode-cn.com/problems/search-in-a-binary-search-tree/",
