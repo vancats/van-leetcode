@@ -1,4 +1,4 @@
-import { TreeNode } from '../../utils/treeNode'
+import { TreeNode } from '../../utils/TreeNode'
 /**
  * @description 时间复杂度 O(N) 空间复杂度 O(N)
  * @param {Node|null} root
