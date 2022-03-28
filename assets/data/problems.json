@@ -98,6 +98,13 @@
     "path": "../../src/257.二叉树的所有路径/README.md"
   },
   {
+    "id": "274",
+    "title": "274.H指数",
+    "url": "https://leetcode-cn.com/problems/h-index/",
+    "difficulty": "非常简单",
+    "path": "../../src/274.H指数/README.md"
+  },
+  {
     "id": "300",
     "title": "300.最长递增子序列",
     "url": "https://leetcode-cn.com/problems/longest-increasing-subsequence/",

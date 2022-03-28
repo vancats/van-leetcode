@@ -286,6 +286,12 @@
         "difficulty": "非常简单"
       },
       {
+        "id": "274",
+        "title": "274.H指数",
+        "path": "../../src/274.H指数/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "344",
         "title": "344.反转字符串",
         "path": "../../src/344.反转字符串/README.md",
