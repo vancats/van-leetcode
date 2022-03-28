@@ -252,6 +252,13 @@
     "path": "../../src/912.排序数组/README.md"
   },
   {
+    "id": "1122",
+    "title": "1122.数组的相对排序",
+    "url": "https://leetcode-cn.com/problems/relative-sort-array/",
+    "difficulty": "简单",
+    "path": "../../src/1122.数组的相对排序/README.md"
+  },
+  {
     "id": "1302",
     "title": "1302.层数最深叶子节点的和",
     "url": "https://leetcode-cn.com/problems/deepest-leaves-sum/",

@@ -438,5 +438,16 @@
         "difficulty": "困难"
       }
     ]
+  },
+  {
+    "label": "特殊排序",
+    "problems": [
+      {
+        "id": "1122",
+        "title": "1122.数组的相对排序",
+        "path": "../../src/1122.数组的相对排序/README.md",
+        "difficulty": "简单"
+      }
+    ]
   }
 ]
