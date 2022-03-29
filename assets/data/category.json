@@ -455,6 +455,12 @@
     "label": "特殊排序",
     "problems": [
       {
+        "id": "56",
+        "title": "56.合并区间",
+        "path": "../../src/56.合并区间/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "164",
         "title": "164.最大间距",
         "path": "../../src/164.最大间距/README.md",
@@ -477,6 +483,12 @@
         "title": "1122.数组的相对排序",
         "path": "../../src/1122.数组的相对排序/README.md",
         "difficulty": "简单"
+      },
+      {
+        "id": "1288",
+        "title": "1288.删除被覆盖区间",
+        "path": "../../src/1288.删除被覆盖区间/README.md",
+        "difficulty": "中等"
       }
     ]
   },

@@ -294,6 +294,13 @@
     "path": "../../src/1122.数组的相对排序/README.md"
   },
   {
+    "id": "1288",
+    "title": "1288.删除被覆盖区间",
+    "url": "https://leetcode-cn.com/problems/remove-covered-intervals/",
+    "difficulty": "中等",
+    "path": "../../src/1288.删除被覆盖区间/README.md"
+  },
+  {
     "id": "1302",
     "title": "1302.层数最深叶子节点的和",
     "url": "https://leetcode-cn.com/problems/deepest-leaves-sum/",
