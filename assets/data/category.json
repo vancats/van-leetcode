@@ -514,5 +514,16 @@
         "difficulty": "中等"
       }
     ]
+  },
+  {
+    "label": "回溯",
+    "problems": [
+      {
+        "id": "491",
+        "title": "491.递增子序列",
+        "path": "../../src/491.递增子序列/README.md",
+        "difficulty": "中等"
+      }
+    ]
   }
 ]

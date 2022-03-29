@@ -203,6 +203,13 @@
     "path": "../../src/470.用Rand7()实现Rand10()/README.md"
   },
   {
+    "id": "491",
+    "title": "491.递增子序列",
+    "url": "https://leetcode-cn.com/problems/increasing-subsequences/",
+    "difficulty": "中等",
+    "path": "../../src/491.递增子序列/README.md"
+  },
+  {
     "id": "537",
     "title": "537.复数乘法",
     "url": "https://leetcode-cn.com/problems/complex-number-multiplication/",
