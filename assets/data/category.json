@@ -467,5 +467,16 @@
         "difficulty": "简单"
       }
     ]
+  },
+  {
+    "label": "滑动窗口",
+    "problems": [
+      {
+        "id": "2024",
+        "title": "2024.考试的最大困扰度",
+        "path": "../../src/2024.考试的最大困扰度/README.md",
+        "difficulty": "中等"
+      }
+    ]
   }
 ]
