@@ -28,6 +28,13 @@
     "path": "../../src/53.最大子数组和/README.md"
   },
   {
+    "id": "56",
+    "title": "56.合并区间",
+    "url": "https://leetcode-cn.com/problems/merge-intervals/",
+    "difficulty": "中等",
+    "path": "../../src/56.合并区间/README.md"
+  },
+  {
     "id": "70",
     "title": "70.爬楼梯",
     "url": "https://leetcode-cn.com/problems/climbing-stairs/",
