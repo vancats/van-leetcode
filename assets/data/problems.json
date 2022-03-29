@@ -84,6 +84,13 @@
     "path": "../../src/172.阶乘后的零/README.md"
   },
   {
+    "id": "207",
+    "title": "207.课程表",
+    "url": "https://leetcode-cn.com/problems/course-schedule/",
+    "difficulty": "中等",
+    "path": "../../src/207.课程表/README.md"
+  },
+  {
     "id": "226",
     "title": "226.翻转二叉树",
     "url": "https://leetcode-cn.com/problems/invert-binary-tree/",

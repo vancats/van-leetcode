@@ -461,6 +461,12 @@
         "difficulty": "困难"
       },
       {
+        "id": "207",
+        "title": "207.课程表",
+        "path": "../../src/207.课程表/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "1122",
         "title": "1122.数组的相对排序",
         "path": "../../src/1122.数组的相对排序/README.md",
