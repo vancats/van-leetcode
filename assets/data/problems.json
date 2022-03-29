@@ -404,5 +404,12 @@
     "url": "https://leetcode-cn.com/problems/first-common-ancestor-lcci/",
     "difficulty": "中等",
     "path": "../../src/面试题04.08.首个共同祖先/README.md"
+  },
+  {
+    "id": "3005",
+    "title": "面试题04.12.求和路径",
+    "url": "https://leetcode-cn.com/problems/paths-with-sum-lcci/",
+    "difficulty": "中等",
+    "path": "../../src/面试题04.12.求和路径/README.md"
   }
 ]
