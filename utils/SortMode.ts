@@ -73,6 +73,85 @@ export function countSort(nums: number[]): number[] {
 
 
 /**
+ * @description: 基数排序 时间复杂度 O(N) 空间复杂度 O(N)
+ * @return {*}
+ */
+export function radixSort(nums: number[]): number[] {
+  let len = nums.length
+  if (len < 2) return nums
+  let max = Math.max.apply(null, nums)
+  let maxDigit = 1
+  while (max = (Math.floor(max / 10))) maxDigit++
+
+  let count: number[][] = [], mod = 10, dev = 1
+  for (let i = 0; i < maxDigit; i++) {
+    count = []
+    for (let j = 0; j < len; j++) {
+      let temp = Math.floor(nums[j] % mod * dev)
+      if (count[temp]) {
+        count[temp].push(nums[j])
+      } else {
+        count[temp] = [nums[j]]
+      }
+    }
+    let pos = 0
+    for (let j = 0; j < count.length; j++) {
+      let value: any = null
+      if (count[j]) {
+        while ((value = count[j].shift()) != null) nums[pos++] = value
+      }
+    }
+    mod *= 10
+    dev *= 10
+  }
+  return nums
+}
+export function radixSort2(nums: number[]): number[] {
+  let len = nums.length
+  if (len < 2) return nums
+  // 拿到最大值方便后续的对比
+  let maxVal = Math.max.apply(null, nums)
+  // 当前的位数
+  let exp = 1
+  // 存储修改后的值
+  let buf = new Array(len).fill(0)
+
+  // 当前位大于最大值才结束
+  while (maxVal >= exp) {
+    // 存放 0-9 的数字
+    let cnt = new Array(10).fill(0)
+
+    // 第一次循环记录每个数字下标的数量
+    for (let i = 0; i < len; i++) {
+      let digit = Math.floor(nums[i] / exp) % 10
+      cnt[digit]++
+    }
+
+    // 第二次循环计算前缀和，可以理解成下标从 0 到 当前数字的数量
+    for (let i = 1; i < 10; i++) {
+      cnt[i] += cnt[i - 1]
+    }
+
+    // 第三次循环，为该数字前的数量可知，因此从后往前遍历
+    for (let i = len - 1; i >= 0; i--) {
+      let digit = Math.floor(nums[i] / exp) % 10
+      // 把值放入
+      buf[cnt[digit] - 1] = nums[i]
+      // 存放过后，当前还剩余的数量需要减一
+      cnt[digit]--
+    }
+
+    // 位数需要增大
+    exp *= 10
+    // 改变原数组
+    nums = buf
+  }
+  return nums
+}
+
+
+
+/**
  * @description: 插入排序 时间复杂度 O(N^2) 最好情况 O(N) 稳定
  * @return {*}
  * @param {number} nums
