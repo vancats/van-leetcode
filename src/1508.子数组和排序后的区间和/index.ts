@@ -9,12 +9,8 @@ import { Heap } from "./../../utils/Heap"
  * @param {number} right
  */
 export function rangeSum(nums: number[], n: number, left: number, right: number): number {
-  let heap = new Heap(false), ans = 0, mod = 1000000007
+  let heap = new Heap((a, b) => a[2] < b[2]), ans = 0, mod = 1000000007
 
-  // 重载 compare 属性
-  heap.compare = function (ind1, ind2) {
-    return this.heap[ind1][2] < this.heap[ind2][2]
-  }
   for (let i = 0; i < n; i++) {
     heap.push([i, i, nums[i]])
   }

@@ -1,47 +1,63 @@
 export class Heap {
-  heap: any[]
-  sign: boolean
-  constructor(sign = true) {
-    this.heap = []
-    // true 是大顶堆，false 是小顶堆
-    this.sign = sign
+  data: any[]
+  compare: any
+  size: number
+  constructor(compare) {
+    this.data = []
+    this.size = 0
+    this.compare = compare
   }
+
+  get top() {
+    return this.size === 0 ? null : this.data[0]
+  }
+
   push(val) {
-    this.heap.push(val)
-    let ind = this.heap.length - 1
-    // 向上整理
-    while (ind > 0 && this.compare(ind, Math.floor((ind - 1) / 2))) {
-      this.swap(ind, Math.floor((ind - 1) / 2))
-      ind = Math.floor((ind - 1) / 2)
-    }
-    return this.heap.length
+    this.data.push(val)
+    this._shiftUp(this.size++)
+    return this.size
   }
 
   pop() {
-    if (!this.heap.length) return console.log('full')
+    if (!this.size) return null
     // 堆顶元素出堆，尾部元素放到顶部
-    let val = this.heap.shift()
-    this.heap.length && this.heap.unshift(this.heap.pop())
+    this._swap(0, --this.size)
+    this._shiftDown(0)
+    return this.data.pop()
+  }
 
-    // 向下整理
-    let ind = 0, tempInd, leftInd, rightInd
-    while (true) {
-      tempInd = ind
-      leftInd = ind * 2 + 1
-      rightInd = ind * 2 + 2
-      if (this.heap[leftInd] !== undefined && this.compare(leftInd, tempInd)) tempInd = leftInd
-      if (this.heap[rightInd] !== undefined && this.compare(rightInd, tempInd)) tempInd = rightInd
-      if (tempInd === ind) break
-      this.swap(ind, tempInd)
-      ind = tempInd
+  // 向上整理
+  _shiftUp(index) {
+    while (this._parent(index) >= 0 && this.compare(this.data[index], this.data[this._parent(index)])) {
+      this._swap(index, this._parent(index))
+      index = this._parent(index)
     }
-    return val
   }
 
-  compare(ind1, ind2) {
-    return this.sign ? this.heap[ind1] > this.heap[ind2] : this.heap[ind1] < this.heap[ind2]
+  // 向下整理
+  _shiftDown(index) {
+    while (this._child(index) < this.size) {
+      let child = this._child(index)
+
+      // 选出两个子节点中的符合值赋值给 child
+      if (child + 1 < this.size && this.compare(this.data[child + 1], this.data[child])) {
+        child = child + 1
+      }
+      if (this.compare(this.data[index], this.data[child])) break
+      this._swap(index, child)
+      index = child
+    }
   }
-  swap(ind1, ind2) {
-    [this.heap[ind1], this.heap[ind2]] = [this.heap[ind2], this.heap[ind1]]
+
+  _parent(index) {
+    return index - 1 >> 1
+  }
+
+  _child(index) {
+    return (index << 1) + 1
+  }
+
+  _swap(ind1, ind2) {
+    [this.data[ind1], this.data[ind2]] = [this.data[ind2], this.data[ind1]]
   }
 }

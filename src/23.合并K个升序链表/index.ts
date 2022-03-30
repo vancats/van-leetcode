@@ -7,7 +7,7 @@ import { Heap } from "../../utils/Heap"
  * @param {Array} lists
  */
 export function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
-  let heap = new Heap(false)
+  let heap = new Heap((a, b) => a < b)
   for (let i = 0; i < lists.length; i++) {
     let list = lists[i]
     while (list) {
@@ -15,9 +15,9 @@ export function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
       list = list.next
     }
   }
-  if (!heap.heap.length) return null
+  if (!heap.size) return null
   let node = new ListNode(heap.pop()), temp = node
-  while (heap.heap.length) {
+  while (heap.size) {
     temp.next = new ListNode(heap.pop())
     temp = temp.next
   }
