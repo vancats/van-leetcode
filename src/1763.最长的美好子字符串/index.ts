@@ -1,17 +1,10 @@
-/*
- * @Author: Lqf
- * @Date: 2022-02-11 10:16:53
- * @LastEditors: Lqf
- * @LastEditTime: 2022-02-11 11:11:07
- * @Description: 我添加了修改
- */
-
 /**
+ * @description: 时间复杂度 O(N^2) 空间复杂度 O(N)
+ * @return {*}
  * @param {string} s
- * @return {string}
  */
-var longestNiceSubstring = function (s) {
-  let res = [], arr
+export function longestNiceSubstring(s: string): string {
+  let res: string[] = [], arr
   for (let i = 0; i < s.length; i++) {
     arr = new Array(26).fill(0)
     // 标记当前的位置
@@ -37,14 +30,14 @@ var longestNiceSubstring = function (s) {
 }
 
 // 获取code码。大小写同码
-function getCodeNum (c) {
+function getCodeNum(c) {
   let code = c.charCodeAt() - 65
   if (code > 25) code -= 32
   return code
 }
 
 //判断数组中是否存在实际数据
-function isEmpty (arr) {
+function isEmpty(arr) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i]) return false
   }
