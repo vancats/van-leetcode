@@ -1,16 +1,9 @@
-/*
- * @Author: Lqf
- * @Date: 2022-02-11 10:16:11
- * @LastEditors: Lqf
- * @LastEditTime: 2022-02-11 11:16:37
- * @Description: 我添加了修改
- */
-
 /**
- * @param {number[][]} properties
- * @return {number}
+ * @description: 时间复杂度 O(N) 空间复杂度 O(1)
+ * @return {*}
+ * @param {number} properties
  */
-var numberOfWeakCharacters = function (properties) {
+export function numberOfWeakCharacters(properties: number[][]): number {
   // 将人物属性根据攻击从大到小，防御从小到大排序
   properties.sort((a, b) => {
     return a[0] === b[0] ? a[1] - b[1] : b[0] - a[0]
