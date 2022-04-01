@@ -182,6 +182,12 @@
         "title": "720.词典中最长的单词",
         "path": "../../src/720.词典中最长的单词/README.md",
         "difficulty": "简单"
+      },
+      {
+        "id": "954",
+        "title": "954.二倍数对数组",
+        "path": "../../src/954.二倍数对数组/README.md",
+        "difficulty": "中等"
       }
     ]
   },
