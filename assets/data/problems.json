@@ -21,6 +21,13 @@
     "path": "../../src/33.搜索旋转排序数组/README.md"
   },
   {
+    "id": "49",
+    "title": "49.字母异位词分组",
+    "url": "https://leetcode-cn.com/problems/group-anagrams/",
+    "difficulty": "中等",
+    "path": "../../src/49.字母异位词分组/README.md"
+  },
+  {
     "id": "50",
     "title": "50.Pow(x,n)",
     "url": "https://leetcode-cn.com/problems/powx-n/",
