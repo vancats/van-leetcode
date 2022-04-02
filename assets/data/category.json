@@ -127,6 +127,12 @@
     "label": "二分法",
     "problems": [
       {
+        "id": "33",
+        "title": "33.搜索旋转排序数组",
+        "path": "../../src/33.搜索旋转排序数组/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "300",
         "title": "300.最长递增子序列",
         "path": "../../src/300.最长递增子序列/README.md",
