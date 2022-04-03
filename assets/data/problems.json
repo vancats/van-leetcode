@@ -301,6 +301,13 @@
     "path": "../../src/720.词典中最长的单词/README.md"
   },
   {
+    "id": "744",
+    "title": "744.寻找比目标字母大的最小字母",
+    "url": "https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/",
+    "difficulty": "非常简单",
+    "path": "../../src/744.寻找比目标字母大的最小字母/README.md"
+  },
+  {
     "id": "912",
     "title": "912.排序数组",
     "url": "https://leetcode-cn.com/problems/sort-an-array/",
