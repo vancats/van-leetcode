@@ -315,6 +315,13 @@
     "path": "../../src/744.寻找比目标字母大的最小字母/README.md"
   },
   {
+    "id": "762",
+    "title": "762.二进制表示中质数个计算置位",
+    "url": "https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/",
+    "difficulty": "非常简单",
+    "path": "../../src/762.二进制表示中质数个计算置位/README.md"
+  },
+  {
     "id": "912",
     "title": "912.排序数组",
     "url": "https://leetcode-cn.com/problems/sort-an-array/",
