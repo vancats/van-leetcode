@@ -139,6 +139,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "35",
+        "title": "35.搜索插入位置",
+        "path": "../../src/35.搜索插入位置/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "69",
         "title": "69.x的平方根",
         "path": "../../src/69.x的平方根/README.md",

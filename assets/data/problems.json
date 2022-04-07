@@ -21,6 +21,13 @@
     "path": "../../src/33.搜索旋转排序数组/README.md"
   },
   {
+    "id": "35",
+    "title": "35.搜索插入位置",
+    "url": "https://leetcode-cn.com/problems/search-insert-position/",
+    "difficulty": "简单",
+    "path": "../../src/35.搜索插入位置/README.md"
+  },
+  {
     "id": "49",
     "title": "49.字母异位词分组",
     "url": "https://leetcode-cn.com/problems/group-anagrams/",
