@@ -322,6 +322,13 @@
     "path": "../../src/762.二进制表示中质数个计算置位/README.md"
   },
   {
+    "id": "796",
+    "title": "796.旋转字符串",
+    "url": "https://leetcode-cn.com/problems/rotate-string/",
+    "difficulty": "非常简单",
+    "path": "../../src/796.旋转字符串/README.md"
+  },
+  {
     "id": "912",
     "title": "912.排序数组",
     "url": "https://leetcode-cn.com/problems/sort-an-array/",
