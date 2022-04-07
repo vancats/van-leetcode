@@ -161,6 +161,12 @@
         "title": "300.最长递增子序列",
         "path": "../../src/300.最长递增子序列/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "1658",
+        "title": "1658.将x减到0的最小操作数",
+        "path": "../../src/1658.将x减到0的最小操作数/README.md",
+        "difficulty": "中等"
       }
     ]
   },
@@ -515,6 +521,12 @@
         "title": "327.区间和的个数",
         "path": "../../src/327.区间和的个数/README.md",
         "difficulty": "困难"
+      },
+      {
+        "id": "1658",
+        "title": "1658.将x减到0的最小操作数",
+        "path": "../../src/1658.将x减到0的最小操作数/README.md",
+        "difficulty": "中等"
       }
     ]
   },
