@@ -157,6 +157,12 @@
         "difficulty": "简单"
       },
       {
+        "id": "81",
+        "title": "81.搜索旋转排序数组II",
+        "path": "../../src/81.搜索旋转排序数组II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "300",
         "title": "300.最长递增子序列",
         "path": "../../src/300.最长递增子序列/README.md",
