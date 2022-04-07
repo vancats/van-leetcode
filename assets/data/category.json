@@ -139,6 +139,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "69",
+        "title": "69.x的平方根",
+        "path": "../../src/69.x的平方根/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "300",
         "title": "300.最长递增子序列",
         "path": "../../src/300.最长递增子序列/README.md",
