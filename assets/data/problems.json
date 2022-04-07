@@ -378,6 +378,13 @@
     "path": "../../src/954.二倍数对数组/README.md"
   },
   {
+    "id": "1011",
+    "title": "1011.在D天内送达包裹的能力",
+    "url": "https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/",
+    "difficulty": "中等",
+    "path": "../../src/1011.在D天内送达包裹的能力/README.md"
+  },
+  {
     "id": "1122",
     "title": "1122.数组的相对排序",
     "url": "https://leetcode-cn.com/problems/relative-sort-array/",
