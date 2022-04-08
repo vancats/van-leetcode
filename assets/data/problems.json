@@ -238,6 +238,13 @@
     "path": "../../src/394.字符串解码/README.md"
   },
   {
+    "id": "429",
+    "title": "429.N叉树的层序遍历",
+    "url": "https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/",
+    "difficulty": "中等",
+    "path": "../../src/429.N叉树的层序遍历/README.md"
+  },
+  {
     "id": "450",
     "title": "450.删除二叉搜索树中的节点",
     "url": "https://leetcode-cn.com/problems/delete-node-in-a-bst/",
