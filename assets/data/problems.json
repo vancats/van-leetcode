@@ -378,6 +378,13 @@
     "path": "../../src/796.旋转字符串/README.md"
   },
   {
+    "id": "804",
+    "title": "804.唯一摩尔斯密码词",
+    "url": "https://leetcode-cn.com/problems/unique-morse-code-words/",
+    "difficulty": "非常简单",
+    "path": "../../src/804.唯一摩尔斯密码词/README.md"
+  },
+  {
     "id": "912",
     "title": "912.排序数组",
     "url": "https://leetcode-cn.com/problems/sort-an-array/",
