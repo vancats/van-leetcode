@@ -364,6 +364,13 @@
     "path": "../../src/762.二进制表示中质数个计算置位/README.md"
   },
   {
+    "id": "780",
+    "title": "780.到达终点",
+    "url": "https://leetcode-cn.com/problems/reaching-points/",
+    "difficulty": "困难",
+    "path": "../../src/780.到达终点/README.md"
+  },
+  {
     "id": "796",
     "title": "796.旋转字符串",
     "url": "https://leetcode-cn.com/problems/rotate-string/",
