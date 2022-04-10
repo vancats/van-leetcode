@@ -18,35 +18,35 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var widthOfBinaryTree = function (root) {
-  if (!root) return 0
-  let queue = [[root, 0n]], ans = 0
+var widthOfBinaryTree = function(root) {
+  if (!root)
+    return 0
+  const queue = [[root, 0n]]; let ans = 0
   while (queue.length) {
-    let left = right = queue[0][1]
-    let ind = queue.length
+    const left = right = queue[0][1]
+    const ind = queue.length
     for (let i = 0; i < ind; i++) {
-      let cur = queue.shift()
+      const cur = queue.shift()
       right = cur[1]
       cur[0].left && queue.push([cur[0].left, right * 2n])
       cur[0].right && queue.push([cur[0].right, right * 2n + 1n])
     }
     // BigInt 不支持使用 Math.max
-    if (right - left + 1n > ans) {
+    if (right - left + 1n > ans)
       ans = right - left + 1n
-    }
   }
   return ans
 }
 
-
-var widthOfBinaryTree = function (root) {
-  if (!root) return 0
-  let queue = [[root, 0]], ans = 0
+var widthOfBinaryTree = function(root) {
+  if (!root)
+    return 0
+  const queue = [[root, 0]]; let ans = 0
   while (queue.length) {
-    let left = right = queue[0][1]
-    let ind = queue.length
+    const left = right = queue[0][1]
+    const ind = queue.length
     for (let i = 0; i < ind; i++) {
-      let cur = queue.shift()
+      const cur = queue.shift()
       right = cur[1]
       cur[0].left && queue.push([cur[0].left, (right - left) * 2])
       cur[0].right && queue.push([cur[0].right, (right - left) * 2 + 1])

@@ -11,12 +11,12 @@
  * @param {number} time
  * @return {number[]}
  */
-var goodDaysToRobBank = function (security, time) {
-  let arr = [], ans = []
+var goodDaysToRobBank = function(security, time) {
+  let arr = []; const ans = []
   if (!time) {
-    for (let i = 0; i < security.length; i++) {
+    for (let i = 0; i < security.length; i++)
       ans.push(i)
-    }
+
     return ans
   }
   for (let i = 0; i < security.length - time; i++) {
@@ -44,28 +44,30 @@ var goodDaysToRobBank = function (security, time) {
 }
 
 // 类似于接雨水
-var goodDaysToRobBank = function (security, time) {
-  let left = 0, leftArr = new Array(security.length).fill(0)
+var goodDaysToRobBank = function(security, time) {
+  let left = 0; const leftArr = new Array(security.length).fill(0)
   for (let i = 0; i < security.length; i++) {
-    if (i === 0 || security[i - 1] < security[i]) {
+    if (i === 0 || security[i - 1] < security[i])
       left = 0
-    } else {
+    else {
       left++
     }
     leftArr[i] = left
   }
-  let right = 0, rightArr = new Array(security.length).fill(0)
+  let right = 0; const rightArr = new Array(security.length).fill(0)
   for (let i = security.length - 1; i >= 0; i--) {
-    if (i === security.length - 1 || security[i] > security[i + 1]) {
+    if (i === security.length - 1 || security[i] > security[i + 1])
       right = 0
-    } else {
+    else {
       right++
     }
     rightArr[i] = right
   }
-  let ans = []
+  const ans = []
   for (let i = 0; i < security.length; i++) {
-    if (leftArr[i] >= time && rightArr[i] >= time) ans.push(i)
+    if (leftArr[i] >= time && rightArr[i] >= time)
+      ans.push(i)
   }
+
   return ans
 }

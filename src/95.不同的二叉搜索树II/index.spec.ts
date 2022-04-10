@@ -1,5 +1,5 @@
-import { createTreeNode } from "../../utils/TreeNode"
-import { generateTrees } from "./index"
+import { createTreeNode } from '../../utils/TreeNode'
+import { generateTrees } from './index'
 
 describe('95.不同的二叉搜索树II', () => {
   it('示例一', () => {

@@ -18,7 +18,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var minCameraCover = function (root) {
+const minCameraCover = function(root) {
   return dfs(root)[1]
 }
 
@@ -30,12 +30,13 @@ var minCameraCover = function (root) {
 //  b = Math.min(a, la + rb, lb + ra)
 //  c = Math.min(a, lb + rb)
 // 最终所得的 b 就是结果
-function dfs (root) {
-  if (!root) return [Math.floor(Number.MAX_SAFE_INTEGER / 2), 0, 0]
-  let [la, lb, lc] = dfs(root.left)
-  let [ra, rb, rc] = dfs(root.right)
-  let a = lc + rc + 1
-  let b = Math.min(a, la + rb, lb + ra)
-  let c = Math.min(a, lb + rb)
+function dfs(root) {
+  if (!root)
+    return [Math.floor(Number.MAX_SAFE_INTEGER / 2), 0, 0]
+  const [la, lb, lc] = dfs(root.left)
+  const [ra, rb, rc] = dfs(root.right)
+  const a = lc + rc + 1
+  const b = Math.min(a, la + rb, lb + ra)
+  const c = Math.min(a, lb + rb)
   return [a, b, c]
 }

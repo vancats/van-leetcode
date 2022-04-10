@@ -1,4 +1,4 @@
-import { createTreeNode } from "../../utils/TreeNode"
+import { createTreeNode } from '../../utils/TreeNode'
 import { insertIntoBST } from './index'
 
 describe('701.二叉搜索树中的插入操作', () => {

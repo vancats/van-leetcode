@@ -1,4 +1,5 @@
-import { createListNode, ListNode } from '../../utils/ListNode'
+import type { ListNode } from '../../utils/ListNode'
+import { createListNode } from '../../utils/ListNode'
 import { sortList } from './index'
 describe('148.排序链表', () => {
   describe('归并排序', () => {

@@ -1,4 +1,4 @@
-import { maxConsecutiveAnswers } from "."
+import { maxConsecutiveAnswers } from '.'
 
 describe('2024.考试的最大困扰度', () => {
   it('示例一', () => {

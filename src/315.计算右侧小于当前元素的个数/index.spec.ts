@@ -1,4 +1,4 @@
-import { countSmaller } from "./index"
+import { countSmaller } from './index'
 
 describe('315.计算右侧小于当前元素的个数', () => {
   it('示例一', () => {

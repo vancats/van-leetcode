@@ -10,20 +10,20 @@
  * @param {number[][]} isConnected
  * @return {number}
  */
-var findCircleNum = function (isConnected) {
-  let fa = new Array(isConnected.length), ans = 0
-  for (let i = 0; i < isConnected.length; i++) {
+const findCircleNum = function(isConnected) {
+  const fa = new Array(isConnected.length); let ans = 0
+  for (let i = 0; i < isConnected.length; i++)
     fa[i] = i
-  }
+
   for (let i = 0; i < isConnected.length; i++) {
     for (let j = 0; j < isConnected.length; j++) {
-      if (isConnected[i][j]) {
+      if (isConnected[i][j])
         fa[get(i)] = get(j)
-      }
     }
   }
   for (let i = 0; i < isConnected.length; i++) {
-    if (i === get(i)) ans++
+    if (i === get(i))
+      ans++
   }
   return ans
   function get(x) {

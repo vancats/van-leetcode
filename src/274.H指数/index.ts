@@ -5,7 +5,10 @@
  */
 export function hIndex(citations: number[]): number {
   citations.sort((a, b) => b - a)
-  let n = 1, i = 0
-  while (citations[i] >= n) n++, i++
+  let n = 1; let i = 0
+  while (citations[i] >= n) {
+    n++
+    i++
+  }
   return n - 1
 }

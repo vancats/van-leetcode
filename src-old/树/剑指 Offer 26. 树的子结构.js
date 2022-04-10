@@ -18,17 +18,21 @@
  * @param {TreeNode} B
  * @return {boolean}
  */
-var isSubStructure = function (A, B) {
-  if (!B || !A) return false
-  if (isSame(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B)) return true
+var isSubStructure = function(A, B) {
+  if (!B || !A)
+    return false
+  if (isSame(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B))
+    return true
   return false
 }
 
-function isSame (A, B) {
-  if (!A && B) return false
-  if (A.val !== B.val) return false
-  if ((!B.left || isSame(A.left, B.left)) && (!B.right || isSame(A.right, B.right))) {
+function isSame(A, B) {
+  if (!A && B)
+    return false
+  if (A.val !== B.val)
+    return false
+  if ((!B.left || isSame(A.left, B.left)) && (!B.right || isSame(A.right, B.right)))
     return true
-  }
+
   return false
 }

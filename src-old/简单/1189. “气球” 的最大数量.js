@@ -10,8 +10,8 @@
  * @param {string} text
  * @return {number}
  */
-var maxNumberOfBalloons = function (text) {
-  let arr = new Array(5).fill(0)
+const maxNumberOfBalloons = function(text) {
+  const arr = new Array(5).fill(0)
   for (let i = 0; i < text.length; i++) {
     switch (text[i]) {
       case 'b':

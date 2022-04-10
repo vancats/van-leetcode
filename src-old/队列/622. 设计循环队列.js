@@ -9,17 +9,18 @@
 /**
  * @param {number} k
  */
-var MyCircularQueue = function (k) {
+const MyCircularQueue = function(k) {
   this.ans = []
   this.k = k
 }
 
-/** 
+/**
  * @param {number} value
  * @return {boolean}
  */
-MyCircularQueue.prototype.enQueue = function (value) {
-  if (this.isFull()) return false
+MyCircularQueue.prototype.enQueue = function(value) {
+  if (this.isFull())
+    return false
   this.ans.push(value)
   return true
 }
@@ -27,8 +28,9 @@ MyCircularQueue.prototype.enQueue = function (value) {
 /**
  * @return {boolean}
  */
-MyCircularQueue.prototype.deQueue = function () {
-  if (this.isEmpty()) return false
+MyCircularQueue.prototype.deQueue = function() {
+  if (this.isEmpty())
+    return false
   this.ans.shift()
   return true
 }
@@ -36,29 +38,31 @@ MyCircularQueue.prototype.deQueue = function () {
 /**
  * @return {number}
  */
-MyCircularQueue.prototype.Front = function () {
-  if (this.isEmpty()) return -1
+MyCircularQueue.prototype.Front = function() {
+  if (this.isEmpty())
+    return -1
   return this.ans[0]
 }
 
 /**
  * @return {number}
  */
-MyCircularQueue.prototype.Rear = function () {
-  if (this.isEmpty()) return -1
+MyCircularQueue.prototype.Rear = function() {
+  if (this.isEmpty())
+    return -1
   return this.ans[this.ans.length - 1]
 }
 
 /**
  * @return {boolean}
  */
-MyCircularQueue.prototype.isEmpty = function () {
+MyCircularQueue.prototype.isEmpty = function() {
   return this.ans.length === 0
 }
 
 /**
  * @return {boolean}
  */
-MyCircularQueue.prototype.isFull = function () {
+MyCircularQueue.prototype.isFull = function() {
   return this.ans.length === this.k
 }

@@ -12,5 +12,4 @@ describe('2049.统计最高分的节点数目', () => {
     const result = countHighestScoreNodes(arr)
     expect(result).toBe(2)
   })
-
 })

@@ -6,12 +6,12 @@
  */
 export function shipWithinDays(weights: number[], days: number): number {
   // 左右边界
-  let left = Math.max(...weights), right = weights.reduce((a, b) => a + b)
+  let left = Math.max(...weights); let right = weights.reduce((a, b) => a + b)
 
   while (left < right) {
-    let mid = (left + right) >> 1
+    const mid = (left + right) >> 1
     // need 是需要的天数，cur 是现在的重量
-    let need = 1, cur = 0
+    let need = 1; let cur = 0
     for (const weight of weights) {
       // 如果现在的重量超过了 mid
       if ((cur + weight) > mid) {
@@ -20,7 +20,8 @@ export function shipWithinDays(weights: number[], days: number): number {
       }
       cur += weight
     }
-    if (need <= days) right = mid
+    if (need <= days)
+      right = mid
     else left = mid + 1
   }
   return left

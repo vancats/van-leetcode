@@ -18,8 +18,9 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var detectCycle = function (head) {
-  if (!head) return null
+const detectCycle = function(head) {
+  if (!head)
+    return null
   let prev = cur = ret = head
   while (cur && cur.next) {
     prev = prev.next

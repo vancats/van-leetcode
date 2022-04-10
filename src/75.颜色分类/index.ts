@@ -8,15 +8,17 @@ export function sortColors(nums: number[]): void {
 }
 
 function threePartition(nums: number[], left: number, right: number) {
-  let x = left - 1, y = right + 1, i = left
+  let x = left - 1; let y = right + 1; let i = left
   while (i < y) {
     if (nums[i] === 1) {
       i++
-    } else if (nums[i] === 0) {
+    }
+    else if (nums[i] === 0) {
       x++;
       [nums[i], nums[x]] = [nums[x], nums[i]]
       i++
-    } else if (nums[i] === 2) {
+    }
+    else if (nums[i] === 2) {
       y--
       [nums[i], nums[y]] = [nums[y], nums[i]]
     }

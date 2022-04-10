@@ -1,4 +1,4 @@
-import { relativeSortArray } from "./index"
+import { relativeSortArray } from './index'
 
 describe('1122.数组的相对排序', () => {
   it('示例一', () => {

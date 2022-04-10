@@ -10,19 +10,25 @@
  * @param {string} sentence
  * @return {number}
  */
-var countValidWords = function (sentence) {
-  let cnt = 0, punct = ['!', '.', ',']
+const countValidWords = function(sentence) {
+  let cnt = 0; const punct = ['!', '.', ',']
   const arr = sentence.split(' ').filter(item => item)
-  arr.forEach(word => {
+  arr.forEach((word) => {
     let hyphen = 0
-    if (punct.includes(word[word.length - 1])) word = word.slice(0, -1)
-    if (word[0] === '-' || word[word.length - 1] === '-') return
+    if (punct.includes(word[word.length - 1]))
+      word = word.slice(0, -1)
+    if (word[0] === '-' || word[word.length - 1] === '-')
+      return
     for (let i = 0; i < word.length; i++) {
-      let char = word[i]
-      if (punct.includes(char)) return
-      if (char.charCodeAt() >= 48 && char.charCodeAt() <= 57) return
-      if (char === '-') hyphen++
-      if (hyphen > 1) return
+      const char = word[i]
+      if (punct.includes(char))
+        return
+      if (char.charCodeAt() >= 48 && char.charCodeAt() <= 57)
+        return
+      if (char === '-')
+        hyphen++
+      if (hyphen > 1)
+        return
     }
     cnt++
   })

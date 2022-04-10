@@ -10,9 +10,9 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var subsets = function (nums) {
-  let ans = [], cur = []
-  function dp (cnt) {
+const subsets = function(nums) {
+  const ans = []; const cur = []
+  function dp(cnt) {
     if (cnt === nums.length) {
       ans.push(cur.slice())
       return

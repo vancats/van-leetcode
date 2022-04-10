@@ -20,21 +20,21 @@
  * @param {ListNode} list2
  * @return {ListNode}
  */
-var mergeInBetween = function (list1, a, b, list2) {
-  let head = new ListNode(0)
+const mergeInBetween = function(list1, a, b, list2) {
+  const head = new ListNode(0)
   head.next = list1
-  for (let i = 0; i < a - 1; i++) {
+  for (let i = 0; i < a - 1; i++)
     list1 = list1.next
-  }
-  let temp1 = list1
-  for (let i = a; i < b + 2; i++) {
+
+  const temp1 = list1
+  for (let i = a; i < b + 2; i++)
     list1 = list1.next
-  }
-  let temp2 = list1
+
+  const temp2 = list1
   temp1.next = list2
-  while (list2.next) {
+  while (list2.next)
     list2 = list2.next
-  }
+
   list2.next = temp2
   return head.next
 }

@@ -10,8 +10,8 @@
  * @param {string} s
  * @return {string}
  */
-var reverseOnlyLetters = function (s) {
-  let left = 0, right = s.length - 1
+const reverseOnlyLetters = function(s) {
+  let left = 0; let right = s.length - 1
   s = [...s]
   while (left < right) {
     while (!/[a-zA-Z]/.test(s[left])) {
@@ -20,7 +20,8 @@ var reverseOnlyLetters = function (s) {
     while (!/[a-zA-Z]/.test(s[right])) {
       right--
     }
-    if (left >= right) break
+    if (left >= right)
+      break
     [s[left], s[right]] = [s[right], s[left]]
     left++
     right--

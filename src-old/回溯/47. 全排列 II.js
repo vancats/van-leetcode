@@ -10,10 +10,10 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var permuteUnique = function (nums) {
-  let ans = [], cur = [], visited = new Array(nums.length).fill(0)
+const permuteUnique = function(nums) {
+  const ans = []; const cur = []; const visited = new Array(nums.length).fill(0)
   nums.sort((a, b) => a - b)
-  function dp (cnt) {
+  function dp(cnt) {
     if (cnt === nums.length) {
       ans.push(cur.slice())
       return

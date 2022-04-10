@@ -6,14 +6,15 @@
  * @param {number} n
  */
 export function missingRolls(rolls: number[], mean: number, n: number): number[] {
-  let m = rolls.length, arr: number[] = []
+  const m = rolls.length; const arr: number[] = []
   let sum = mean * (n + m)
-  for (let i = 0; i < m; i++) {
+  for (let i = 0; i < m; i++)
     sum -= rolls[i]
-  }
+
   for (let i = 0; i < n; i++) {
-    let temp = Math.floor(sum / (n - i))
-    if (temp > 6 || temp < 1) return []
+    const temp = Math.floor(sum / (n - i))
+    if (temp > 6 || temp < 1)
+      return []
     arr.push(temp)
     sum -= temp
   }

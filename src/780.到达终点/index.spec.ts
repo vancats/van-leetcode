@@ -1,4 +1,4 @@
-import { reachingPoints } from "."
+import { reachingPoints } from '.'
 
 describe('780.到达终点', () => {
   it('示例一', () => {

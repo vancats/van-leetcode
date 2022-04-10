@@ -18,9 +18,10 @@
  * @param {number} k
  * @return {ListNode}
  */
-var rotateRight = function (head, k) {
-  if (!head) return null
-  let tmp = head, n = 1
+const rotateRight = function(head, k) {
+  if (!head)
+    return null
+  let tmp = head; let n = 1
   while (tmp) {
     if (!tmp.next) {
       tmp.next = head
@@ -30,10 +31,10 @@ var rotateRight = function (head, k) {
     n++
   }
   let num = n - k % n
-  while (--num) {
+  while (--num)
     head = head.next
-  }
-  let res = head.next
+
+  const res = head.next
   head.next = null
   return res
 }

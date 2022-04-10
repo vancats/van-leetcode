@@ -1,4 +1,4 @@
-import { findOrder } from "."
+import { findOrder } from '.'
 
 describe('210.课程表II', () => {
   it('示例一', () => {

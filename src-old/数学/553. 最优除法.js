@@ -10,6 +10,6 @@
  * @param {number[]} nums
  * @return {string}
  */
-var optimalDivision = function (nums) {
-  return nums.length < 3 ? nums.join('/') : nums.shift() + '/(' + nums.join('/') + ')'
+const optimalDivision = function(nums) {
+  return nums.length < 3 ? nums.join('/') : `${nums.shift()}/(${nums.join('/')})`
 }

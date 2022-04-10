@@ -1,4 +1,4 @@
-import { TreeNode } from "../../utils/TreeNode"
+import { TreeNode } from '../../utils/TreeNode'
 
 /**
  * @description: 时间复杂度 O(N) 空间复杂度 O(lgN)
@@ -6,10 +6,11 @@ import { TreeNode } from "../../utils/TreeNode"
  * @param {number} nums
  */
 export function sortedArrayToBST(nums: number[], left = 0, right = nums.length - 1): TreeNode | null {
-  if (left > right) return null
+  if (left > right)
+    return null
   // 永远把中间的树当作根节点
-  let mid = (left + right) >> 1
-  let root = new TreeNode(nums[mid])
+  const mid = (left + right) >> 1
+  const root = new TreeNode(nums[mid])
   root.left = sortedArrayToBST(nums, left, mid - 1)
   root.right = sortedArrayToBST(nums, mid + 1, right)
   return root

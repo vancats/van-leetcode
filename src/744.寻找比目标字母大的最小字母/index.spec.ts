@@ -1,4 +1,4 @@
-import { nextGreatestLetter } from "."
+import { nextGreatestLetter } from '.'
 
 describe('744.寻找比目标字母大的最小字母', () => {
   it('示例一', () => {

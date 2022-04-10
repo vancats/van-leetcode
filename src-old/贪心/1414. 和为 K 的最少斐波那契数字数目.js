@@ -10,11 +10,13 @@
  * @param {number} k
  * @return {number}
  */
-var findMinFibonacciNumbers = function (k) {
+var findMinFibonacciNumbers = function(k) {
   // 递归结束条件
-  if (k === 0) return 0
-  if (k === 1 || k === 2) return 1
-  let res = [1], tmp = 1
+  if (k === 0)
+    return 0
+  if (k === 1 || k === 2)
+    return 1
+  const res = [1]; let tmp = 1
   while (tmp <= k) {
     res.push(tmp)
     tmp = res[res.length - 2] + res[res.length - 1]

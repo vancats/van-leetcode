@@ -1,4 +1,4 @@
-import { findSubsequences } from "."
+import { findSubsequences } from '.'
 
 describe('491.递增子序列', () => {
   it('示例一', () => {

@@ -17,9 +17,10 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var swapPairs = function (head) {
-  if (!head || !head.next) return head
-  let dump = new ListNode(null, head), ret = dump, prev, cur
+const swapPairs = function(head) {
+  if (!head || !head.next)
+    return head
+  const dump = new ListNode(null, head); let ret = dump; let prev; let cur
   while (ret.next && ret.next.next) {
     prev = ret.next
     cur = prev.next

@@ -6,18 +6,18 @@
  * @Description: 我添加了修改
  */
 
-var RecentCounter = function () {
+const RecentCounter = function() {
   this.arr = []
 }
 
-/** 
+/**
  * @param {number} t
  * @return {number}
  */
-RecentCounter.prototype.ping = function (t) {
-  while (t > this.arr[0] + 3000) {
+RecentCounter.prototype.ping = function(t) {
+  while (t > this.arr[0] + 3000)
     this.arr.shift()
-  }
+
   this.arr.push(t)
   return this.arr.length
 }

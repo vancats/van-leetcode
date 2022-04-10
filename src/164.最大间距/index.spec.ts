@@ -1,4 +1,4 @@
-import { maximumGap } from "."
+import { maximumGap } from '.'
 
 describe('164.最大间距', () => {
   it('示例一', () => {

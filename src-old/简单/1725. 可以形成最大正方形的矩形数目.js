@@ -10,10 +10,10 @@
  * @param {number[][]} rectangles
  * @return {number}
  */
-var countGoodRectangles = function (rectangles) {
-  for (let i = 0; i < rectangles.length; i++) {
+const countGoodRectangles = function(rectangles) {
+  for (let i = 0; i < rectangles.length; i++)
     rectangles[i] = Math.min(rectangles[i][0], rectangles[i][1])
-  }
+
   rectangles.sort((a, b) => b - a)
   return rectangles.lastIndexOf(rectangles[0]) + 1
 }

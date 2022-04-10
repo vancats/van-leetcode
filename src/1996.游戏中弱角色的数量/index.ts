@@ -8,14 +8,13 @@ export function numberOfWeakCharacters(properties: number[][]): number {
   properties.sort((a, b) => {
     return a[0] === b[0] ? a[1] - b[1] : b[0] - a[0]
   })
-  let maxDef = Number.MIN_SAFE_INTEGER, ans = 0
+  let maxDef = Number.MIN_SAFE_INTEGER; let ans = 0
   for (const p of properties) {
     // 因为攻击一直递减，当攻击力小于最大值时只需存防御的最大值即可，而又因为攻击力相等时，防御从小到大排序，因此同攻击人物均可正确对比
-    if (p[1] < maxDef) {
+    if (p[1] < maxDef)
       ans++
-    } else {
+    else
       maxDef = p[1]
-    }
   }
   return ans
 }

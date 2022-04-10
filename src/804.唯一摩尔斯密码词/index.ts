@@ -4,15 +4,15 @@
  * @param {string} words
  */
 
-const morseCode = [".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."]
+const morseCode = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-', '.-.', '...', '-', '..-', '...-', '.--', '-..-', '-.--', '--..']
 
 export function uniqueMorseRepresentations(words: string[]): number {
-  let set = new Set(), cnt: number = 0
+  const set = new Set()
   for (let i = 0; i < words.length; i++) {
     let s = ''
-    for (let j = 0; j < words[i].length; j++) {
+    for (let j = 0; j < words[i].length; j++)
       s += morseCode[(words[i][j].charCodeAt(0) - 97)]
-    }
+
     set.add(s)
   }
   return set.size

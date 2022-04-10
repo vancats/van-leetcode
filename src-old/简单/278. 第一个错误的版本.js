@@ -20,21 +20,20 @@
  * @param {function} isBadVersion()
  * @return {function}
  */
-var solution = function (isBadVersion) {
+const solution = function(isBadVersion) {
   /**
    * @param {integer} n Total versions
    * @return {integer} The first bad version
    */
-  return function (n) {
-    let left = 1, right = n
+  return function(n) {
+    let left = 1; let right = n
     while (left < right) {
       // 必须这种写法 (left+right) >> 1 错误，会导致栈溢出
-      let mid = left + ((right - left) >> 1)
-      if (isBadVersion(mid)) {
+      const mid = left + ((right - left) >> 1)
+      if (isBadVersion(mid))
         right = mid
-      } else {
+      else
         left = mid + 1
-      }
     }
     return left
   }

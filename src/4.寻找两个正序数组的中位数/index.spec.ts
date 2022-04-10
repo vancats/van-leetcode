@@ -1,4 +1,4 @@
-import { findMedianSortedArrays } from "."
+import { findMedianSortedArrays } from '.'
 
 describe('4.寻找两个正序数组的中位数', () => {
   it('示例一', () => {

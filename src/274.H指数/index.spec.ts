@@ -1,4 +1,4 @@
-import { hIndex } from "."
+import { hIndex } from '.'
 
 describe('274.H指数', () => {
   it('示例一', () => {

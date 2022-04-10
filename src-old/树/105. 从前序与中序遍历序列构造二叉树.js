@@ -19,11 +19,13 @@
  * @param {number[]} inorder
  * @return {TreeNode}
  */
-var buildTree = function (preorder, inorder) {
-  if (!preorder.length) return null
+var buildTree = function(preorder, inorder) {
+  if (!preorder.length)
+    return null
   let i = 0
   for (; i < inorder.length; i++) {
-    if (preorder[0] === inorder[i]) break
+    if (preorder[0] === inorder[i])
+      break
   }
 
   let leftPre, rightPre, leftIn, rightIn

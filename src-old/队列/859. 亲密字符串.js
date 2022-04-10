@@ -11,20 +11,21 @@
  * @param {string} goal
  * @return {boolean}
  */
-var buddyStrings = function (s, goal) {
-  if (s.length !== goal.length) return false
-  let map = new Map()
+const buddyStrings = function(s, goal) {
+  if (s.length !== goal.length)
+    return false
+  const map = new Map()
   if (s === goal) {
     for (let i = 0; i < s.length; i++) {
-      if (map.has(s[i])) return true
+      if (map.has(s[i]))
+        return true
       map.set(s[i], 1)
     }
   }
-  let ans = []
+  const ans = []
   for (let i = 0; i < s.length; i++) {
-    if (s[i] !== goal[i]) {
+    if (s[i] !== goal[i])
       ans.push(i)
-    }
   }
   return ans.length === 2 && s[ans[0]] === goal[ans[1]] && s[ans[1]] === goal[ans[0]]
 }

@@ -10,9 +10,9 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var permute = function (nums) {
-  let ans = [], arr = [], visited = {}
-  function dp (cnt) {
+const permute = function(nums) {
+  const ans = []; const arr = []; const visited = {}
+  function dp(cnt) {
     if (cnt === nums.length) {
       ans.push(arr.slice())
       return

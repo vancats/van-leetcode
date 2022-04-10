@@ -5,14 +5,16 @@
  * @param {string} words
  */
 export function longestWord(words: string[]): string {
-  let map: Map<string, string> = new Map(), str: string = ''
+  const map: Map<string, string> = new Map(); let str = ''
   words.sort((a, b) => a.length - b.length)
   for (let i = 0; i < words.length; i++) {
-    let prefix = words[i].slice(0, -1)
+    const prefix = words[i].slice(0, -1)
     if (map.has(prefix) || words[i].length === 1) {
       map.set(words[i], words[i])
-      if (words[i].length > str.length) str = words[i]
-      else if (words[i].length === str.length) str = words[i] < str ? words[i] : str
+      if (words[i].length > str.length)
+        str = words[i]
+      else if (words[i].length === str.length)
+        str = words[i] < str ? words[i] : str
     }
   }
   return str

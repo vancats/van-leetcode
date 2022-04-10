@@ -1,4 +1,4 @@
-import { createTreeNode } from "../../utils/TreeNode"
+import { createTreeNode } from '../../utils/TreeNode'
 import { isValidBST } from './index'
 describe('98.验证二叉搜索树', () => {
   it('示例一', () => {

@@ -17,8 +17,8 @@
  * @param {ListNode} head [1,2,3,3,4,4,5]
  * @return {ListNode}
  */
-var deleteDuplicates = function (head) {
-  let dump = new ListNode(null, head), ret = dump
+const deleteDuplicates = function(head) {
+  const dump = new ListNode(null, head); let ret = dump
   while (ret) {
     let flag = 0
     // 当循环到3节点时执行，ret => 2 ret.next => [3,4,4,5]
@@ -29,7 +29,8 @@ var deleteDuplicates = function (head) {
     if (flag) {
       // ret => 2 ret.next => [4,4,5]
       ret.next = ret.next.next
-    } else {
+    }
+    else {
       // 未循环情况
       ret = ret.next
     }

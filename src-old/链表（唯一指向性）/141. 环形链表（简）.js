@@ -6,7 +6,6 @@
  * @Description: 我添加了修改
  */
 
-
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -19,9 +18,10 @@
  * @param {ListNode} head
  * @return {boolean}
  */
-var hasCycle = function (head) {
-  if (!head) return false
-  let prev = head, cur = head.next
+const hasCycle = function(head) {
+  if (!head)
+    return false
+  let prev = head; let cur = head.next
   while (prev !== cur && cur && cur.next) {
     prev = prev.next
     cur = cur.next.next

@@ -10,15 +10,14 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maximumDifference = function (nums) {
-  let ans = -1, min = nums[0]
+const maximumDifference = function(nums) {
+  let ans = -1; let min = nums[0]
   for (let i = 1; i < nums.length; i++) {
-    let val = nums[i] - min
-    if (val > 0) {
+    const val = nums[i] - min
+    if (val > 0)
       ans = Math.max(ans, val)
-    } else {
+    else
       min = nums[i]
-    }
   }
   return ans
 }

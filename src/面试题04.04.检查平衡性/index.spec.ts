@@ -1,4 +1,5 @@
-import { createTreeNode, TreeNode } from "../../utils/TreeNode"
+import type { TreeNode } from '../../utils/TreeNode'
+import { createTreeNode } from '../../utils/TreeNode'
 import { isBalanced1, isBalanced2 } from './index'
 describe('面试题04.04.检查平衡性', () => {
   describe('自顶向下', () => {

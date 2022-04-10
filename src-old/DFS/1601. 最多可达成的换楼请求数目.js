@@ -11,9 +11,9 @@
  * @param {number[][]} requests
  * @return {number}
  */
-var maximumRequests = function (n, requests) {
+const maximumRequests = function(n, requests) {
   const delta = new Array(n).fill(0)
-  let ans = 0, cnt = 0, zero = n
+  let ans = 0; let cnt = 0; let zero = n
   const dfs = (requests, pos) => {
     if (pos === requests.length) {
       if (zero === n) {
@@ -26,9 +26,8 @@ var maximumRequests = function (n, requests) {
     // 未选中当前请求
     dfs(requests, pos + 1)
 
-
     // 选中当前请求
-    let z = zero
+    const z = zero
     cnt++
     const [x, y] = requests[pos]
     // 处理数据并判断换楼请求是否为 0

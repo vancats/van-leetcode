@@ -6,7 +6,7 @@ module.exports = (data, { id, categories, others }) => {
   // 写入数据
   fs.writeFileSync(
     './assets/data/category.json',
-    JSON.stringify(newData, null, 2)
+    JSON.stringify(newData, null, 2),
   )
   // 更新 markdown
   updateMarkdown(newData)
@@ -18,14 +18,14 @@ const addToData = (data, { id, categories, others }) => {
 
   // 当选择了分类时，添加到该分类下
   if (categories.length > 0) {
-    categories.forEach(label => {
+    categories.forEach((label) => {
       const category = data.find(c => c.label === label)
       if (!category.problems.find(item => item.id === problem.id)) {
         category.problems.push({
           id: problem.id,
           title: problem.title,
           path: problem.path,
-          difficulty: problem.difficulty
+          difficulty: problem.difficulty,
         })
         category.problems.sort((a, b) => a.id - b.id)
       }
@@ -33,7 +33,7 @@ const addToData = (data, { id, categories, others }) => {
   }
   // 当有新增选项时，一一添加
   if (others.length > 0) {
-    others.forEach(label => {
+    others.forEach((label) => {
       data.push({
         label,
         problems: [
@@ -41,9 +41,9 @@ const addToData = (data, { id, categories, others }) => {
             id: problem.id,
             title: problem.title,
             path: problem.path,
-            difficulty: problem.difficulty
-          }
-        ]
+            difficulty: problem.difficulty,
+          },
+        ],
       })
     })
   }
@@ -57,12 +57,12 @@ const findProblem = (id) => {
 
 // 写入 markdown
 const updateMarkdown = (data) => {
-  let md = `# 题目分类\r\n`
-  data.forEach(item => {
+  let md = '# 题目分类\r\n'
+  data.forEach((item) => {
     md += `\r\n## ${item.label}\r\n\r\n`
-    md += `| 题目 | 难度 |\r\n`
-    md += `| ---- | ---- |\r\n`
-    item.problems.forEach(problem => {
+    md += '| 题目 | 难度 |\r\n'
+    md += '| ---- | ---- |\r\n'
+    item.problems.forEach((problem) => {
       md += `| [${problem.title}](${problem.path}) | ${problem.difficulty} |\r\n`
     })
   })

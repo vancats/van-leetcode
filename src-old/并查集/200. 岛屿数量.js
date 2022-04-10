@@ -10,24 +10,28 @@
  * @param {character[][]} grid
  * @return {number}
  */
-var numIslands = function (grid) {
-  let n = grid.length, m = grid[0].length
-  let fa = new Array(n * m), ans = 0
-  for (let i = 0; i < n * m; i++) {
+const numIslands = function(grid) {
+  const n = grid.length; const m = grid[0].length
+  const fa = new Array(n * m); let ans = 0
+  for (let i = 0; i < n * m; i++)
     fa[i] = i
-  }
+
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < m; j++) {
       if (grid[i][j] === '1') {
-        if (j > 0 && grid[i][j - 1] === '1') fa[get(i * m + j)] = get(i * m + j - 1)
-        if (i > 0 && grid[i - 1][j] === '1') fa[get(i * m + j)] = get((i - 1) * m + j)
-      } else {
+        if (j > 0 && grid[i][j - 1] === '1')
+          fa[get(i * m + j)] = get(i * m + j - 1)
+        if (i > 0 && grid[i - 1][j] === '1')
+          fa[get(i * m + j)] = get((i - 1) * m + j)
+      }
+      else {
         fa[i * m + j] = -1
       }
     }
   }
   for (let i = 0; i < fa.length; i++) {
-    if (fa[i] === i) ans++
+    if (fa[i] === i)
+      ans++
   }
   return ans
   function get(x) {

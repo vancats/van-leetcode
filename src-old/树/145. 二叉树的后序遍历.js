@@ -19,21 +19,23 @@
  * @return {number[]}
  */
 
-var postorderTraversal = function (root, ans = []) {
-  if (!root) return ans
+var postorderTraversal = function(root, ans = []) {
+  if (!root)
+    return ans
   postorderTraversal(root.left, ans)
   postorderTraversal(root.right, ans)
   ans.push(root.val)
   return ans
 }
 
-var postorderTraversal = function (root) {
-  if (!root) return []
-  let stack = [root], ans = []
+var postorderTraversal = function(root) {
+  if (!root)
+    return []
+  const stack = [root]; const ans = []
   while (stack.length) {
-    let cnt = stack.length
+    const cnt = stack.length
     for (let i = 0; i < cnt; i++) {
-      let root = stack.pop()
+      const root = stack.pop()
       ans.unshift(root.val)
       root.left && stack.push(root.left)
       root.right && stack.push(root.right)

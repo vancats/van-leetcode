@@ -1,5 +1,5 @@
-import { findTarget } from "./index"
-import { createTreeNode } from "../../utils/TreeNode"
+import { createTreeNode } from '../../utils/TreeNode'
+import { findTarget } from './index'
 
 describe('653.两数之和IV-输入BST', () => {
   it('示例一', () => {

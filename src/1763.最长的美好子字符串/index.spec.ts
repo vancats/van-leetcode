@@ -1,4 +1,4 @@
-import { longestNiceSubstring } from "."
+import { longestNiceSubstring } from '.'
 
 describe('1763.最长的美好子字符串', () => {
   it('示例一', () => {

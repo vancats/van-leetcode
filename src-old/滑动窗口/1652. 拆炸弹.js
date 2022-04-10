@@ -11,22 +11,23 @@
  * @param {number} k
  * @return {number[]}
  */
-var decrypt = function (code, k) {
-  if (k === 0) return new Array(code.length).fill(0)
-  let ans = [], tmp = [], len = code.length, ind, sum
+const decrypt = function(code, k) {
+  if (k === 0)
+    return new Array(code.length).fill(0)
+  const ans = []; let tmp = []; const len = code.length; let ind; let sum
   // 判断 k 值，两头开工
-  if (k > 0) {
+  if (k > 0)
     tmp = code.slice(0, k)
-  } else {
+  else
     tmp = code.slice(k - 1, -1)
-  }
+
   sum = tmp.reduce((prev, cur) => prev + cur)
   for (let i = 0; i < code.length; i++) {
-    if (k > 0) {
+    if (k > 0)
       ind = (i + k) % len
-    } else {
+    else
       ind = (i - 1 + len) % len
-    }
+
     sum -= tmp.shift()
     sum += code[ind]
     tmp.push(code[ind])

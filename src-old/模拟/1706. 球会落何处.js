@@ -10,8 +10,8 @@
  * @param {number[][]} grid
  * @return {number[]}
  */
-var findBall = function (grid) {
-  let ans = [], row = grid.length, col = grid[0].length
+const findBall = function(grid) {
+  const ans = []; const row = grid.length; const col = grid[0].length
 
   for (let i = 0; i < col; i++) {
     let pos = i
@@ -20,7 +20,8 @@ var findBall = function (grid) {
       if (pos < 0 || pos >= col || dir !== grid[j][pos + dir]) {
         pos = -1
         break
-      } else {
+      }
+      else {
         pos += dir
       }
     }

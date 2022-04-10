@@ -6,8 +6,8 @@
  * @Description: 我添加了修改
  */
 
-var maximumScore = function (a, b, c) {
-  let ans = 0, arr = [a, b, c]
+const maximumScore = function(a, b, c) {
+  let ans = 0; const arr = [a, b, c]
   arr.sort((a, b) => b - a)
   while (arr[1]) {
     arr[0]--

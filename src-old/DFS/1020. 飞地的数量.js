@@ -10,8 +10,8 @@
  * @param {number[][]} grid
  * @return {number}
  */
-var numEnclaves = function (grid) {
-  let row = grid.length, col = grid[0].length
+const numEnclaves = function(grid) {
+  const row = grid.length; const col = grid[0].length
 
   // 方向数组
   const dirs = [[0, 1], [0, -1], [1, 0], [-1, 0]]
@@ -19,7 +19,8 @@ var numEnclaves = function (grid) {
   // 深度优先搜索
   const dfs = (i, j) => {
     // 边界或海洋直接返回
-    if (i < 0 || j < 0 || i >= row || j >= col || grid[i][j] === 0) return
+    if (i < 0 || j < 0 || i >= row || j >= col || grid[i][j] === 0)
+      return
     // 遇到陆地就把它变成海洋
     grid[i][j] = 0
     for (const dir of dirs) {
@@ -30,11 +31,12 @@ var numEnclaves = function (grid) {
 
   // 广度优先搜索
   const bfs = (i, j) => {
-    let queue = [[i, j]]
+    const queue = [[i, j]]
     while (queue.length) {
-      let [curI, curJ] = queue.shift()
+      const [curI, curJ] = queue.shift()
       // 边界或海洋直接返回
-      if (curI < 0 || curJ < 0 || curI >= row || curJ >= col || grid[curI][curJ] === 0) continue
+      if (curI < 0 || curJ < 0 || curI >= row || curJ >= col || grid[curI][curJ] === 0)
+        continue
       // 遇到陆地就把它变成海洋
       grid[curI][curJ] = 0
       for (const dir of dirs) {
@@ -58,7 +60,8 @@ var numEnclaves = function (grid) {
   for (let i = 0; i < row; i++) {
     for (let j = 0; j < col; j++) {
       // 剩下的陆地都是不能到达边界的
-      if (grid[i][j] === 1) count++
+      if (grid[i][j] === 1)
+        count++
     }
   }
   return count

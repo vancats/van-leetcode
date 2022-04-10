@@ -1,4 +1,4 @@
-import { Heap } from "../../utils/Heap"
+import { Heap } from '../../utils/Heap'
 
 /**
  * @description: 待定
@@ -10,11 +10,11 @@ import { Heap } from "../../utils/Heap"
 export function busiestServers(k: number, arrival: number[], load: number[]): number[] {
   let res: number[] = []
   // 存放次数
-  let count: number[] = new Array(k).fill(0)
+  const count: number[] = new Array(k).fill(0)
   // 存放结束时间和服务器编号
-  let used = new Heap((a, b) => a[0] < b[0])
+  const used = new Heap((a, b) => a[0] < b[0])
   // 存放可用的服务器
-  let rest = new Heap((a, b) => a < b)
+  const rest = new Heap((a, b) => a < b)
 
   // 初始化服务器
   for (let i = 0; i < k; i++) rest.push(i)
@@ -38,7 +38,8 @@ export function busiestServers(k: number, arrival: number[], load: number[]): nu
     if (count[i] > max) {
       max = count[i]
       res = [i]
-    } else if (count[i] === max) {
+    }
+    else if (count[i] === max) {
       res.push(i)
     }
   }

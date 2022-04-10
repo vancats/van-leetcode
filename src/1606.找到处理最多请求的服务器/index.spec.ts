@@ -1,4 +1,4 @@
-import { busiestServers } from "."
+import { busiestServers } from '.'
 
 describe('1606.找到处理最多请求的服务器', () => {
   it('示例一', () => {

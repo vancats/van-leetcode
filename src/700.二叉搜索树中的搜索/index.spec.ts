@@ -1,5 +1,5 @@
-import { searchBST } from "."
-import { createTreeNode } from "../../utils/TreeNode"
+import { createTreeNode } from '../../utils/TreeNode'
+import { searchBST } from '.'
 
 describe('700.二叉搜索树中的搜索', () => {
   it('示例一', () => {

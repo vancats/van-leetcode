@@ -1,4 +1,4 @@
-import { shipWithinDays } from "."
+import { shipWithinDays } from '.'
 
 describe('1011.在D天内送达包裹的能力', () => {
   it('示例一', () => {

@@ -12,16 +12,21 @@
  * @param {number} queryTime
  * @return {number}
  */
-var busyStudent = function (startTime, endTime, queryTime) {
-  let ans = 0, i, j
+const busyStudent = function(startTime, endTime, queryTime) {
+  let ans = 0; let i; let j
   for (i = 0; i < endTime.length; i++) {
-    if (endTime[i] >= queryTime) break
+    if (endTime[i] >= queryTime)
+      break
   }
+
   for (j = startTime.length - 1; j >= 0; j--) {
-    if (startTime[j] <= queryTime) break
+    if (startTime[j] <= queryTime)
+      break
   }
+
   for (let m = i; m <= j; m++) {
-    if (startTime[m] <= queryTime && endTime[m] >= queryTime) ans++
+    if (startTime[m] <= queryTime && endTime[m] >= queryTime)
+      ans++
   }
   return ans
 }

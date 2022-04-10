@@ -1,4 +1,4 @@
-import { createTreeNode } from "../../utils/TreeNode"
+import { createTreeNode } from '../../utils/TreeNode'
 import { deleteNode } from './index'
 
 describe('450.删除二叉搜索树中的节点', () => {

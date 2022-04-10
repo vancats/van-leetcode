@@ -11,14 +11,15 @@
  * @param {number} k
  * @return {number[][]}
  */
-var combine = function (n, k) {
-  let ans = [], cur = []
-  function dp (cnt) {
+const combine = function(n, k) {
+  const ans = []; const cur = []
+  function dp(cnt) {
     if (cur.length === k) {
       ans.push(cur.slice())
       return
     }
-    if (cnt > n) return
+    if (cnt > n)
+      return
     cur.push(cnt)
     dp(cnt + 1)
     cur.pop()

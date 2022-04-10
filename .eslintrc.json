@@ -1,0 +1,7 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "@typescript-eslint/no-use-before-define": "off",
+    "no-cond-assign": "off"
+  }
+}

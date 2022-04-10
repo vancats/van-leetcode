@@ -1,4 +1,4 @@
-import { canReorderDoubled } from "."
+import { canReorderDoubled } from '.'
 
 describe('954.二倍数对数组', () => {
   it('示例一', () => {

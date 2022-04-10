@@ -1,4 +1,4 @@
-import { quickSort, mergeSort, countSort, insertSort, selectSort, bubbleSort } from '../../utils/SortMode'
+import { bubbleSort, countSort, insertSort, mergeSort, quickSort, selectSort } from '../../utils/SortMode'
 
 describe('912.排序数组', () => {
   describe('快速排序', () => {

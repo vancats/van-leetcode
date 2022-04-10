@@ -18,13 +18,14 @@
  * @param {number} x
  * @return {ListNode}
  */
-var partition = function (head, x) {
-  let dump1 = new ListNode(null), dump2 = new ListNode(null), list1 = dump1, list2 = dump2
+const partition = function(head, x) {
+  const dump1 = new ListNode(null); const dump2 = new ListNode(null); let list1 = dump1; let list2 = dump2
   while (head) {
     if (head.val >= x) {
       list2.next = head
       list2 = list2.next
-    } else {
+    }
+    else {
       list1.next = head
       list1 = list1.next
     }

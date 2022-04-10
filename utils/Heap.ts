@@ -19,7 +19,8 @@ export class Heap {
   }
 
   pop() {
-    if (!this.size) return null
+    if (!this.size)
+      return null
     // 堆顶元素出堆，尾部元素放到顶部
     this._swap(0, --this.size)
     this._shiftDown(0)
@@ -40,10 +41,11 @@ export class Heap {
       let child = this._child(index)
 
       // 选出两个子节点中的符合值赋值给 child
-      if (child + 1 < this.size && this.compare(this.data[child + 1], this.data[child])) {
+      if (child + 1 < this.size && this.compare(this.data[child + 1], this.data[child]))
         child = child + 1
-      }
-      if (this.compare(this.data[index], this.data[child])) break
+
+      if (this.compare(this.data[index], this.data[child]))
+        break
       this._swap(index, child)
       index = child
     }

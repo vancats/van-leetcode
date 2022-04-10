@@ -18,11 +18,11 @@
  * @param {number} n
  * @return {ListNode}
  */
-var removeNthFromEnd = function (head, n) {
-  let dump = new ListNode(null, head), prev = cur = dump
-  while (n--) {
+const removeNthFromEnd = function(head, n) {
+  const dump = new ListNode(null, head); let prev = cur = dump
+  while (n--)
     cur = cur.next
-  }
+
   while (cur.next) {
     cur = cur.next
     prev = prev.next

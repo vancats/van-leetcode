@@ -1,4 +1,4 @@
-import { canFinish } from "."
+import { canFinish } from '.'
 
 describe('207.课程表', () => {
   it('示例一', () => {

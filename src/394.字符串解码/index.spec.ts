@@ -21,7 +21,6 @@ describe('394.字符串解码', () => {
     expect(result).toBe('abccdcdcdxyz')
   })
 
-
   it('示例五', () => {
     const result = decodeString('3[z]2[2[y]pq4[2[jk]e1[f]]]ef')
     expect(result).toBe('zzzyypqjkjkefjkjkefjkjkefjkjkefyypqjkjkefjkjkefjkjkefjkjkefef')

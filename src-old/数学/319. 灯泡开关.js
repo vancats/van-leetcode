@@ -10,7 +10,7 @@
  * @param {number} n
  * @return {number}
  */
-var bulbSwitch = function (n) {
+const bulbSwitch = function(n) {
   // 对于第 k 个灯泡，它被切换的次数恰好就是 k 的约数个数。
   return Math.floor(Math.sqrt(n + 0.5))
 }

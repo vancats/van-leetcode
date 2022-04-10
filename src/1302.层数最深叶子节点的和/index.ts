@@ -1,4 +1,4 @@
-import { TreeNode } from "../../utils/TreeNode"
+import type { TreeNode } from '../../utils/TreeNode'
 
 /**
  * @description: 时间复杂度 O(N) 空间复杂度 O(N)
@@ -6,13 +6,14 @@ import { TreeNode } from "../../utils/TreeNode"
  * @param {TreeNode} root
  */
 export function deepestLeavesSum(root: TreeNode | null): number {
-  if (!root) return 0
-  let stack: TreeNode[] = [root], res = 0
+  if (!root)
+    return 0
+  const stack: TreeNode[] = [root]; let res = 0
   while (stack.length) {
     res = 0
-    let len = stack.length
+    const len = stack.length
     for (let i = 0; i < len; i++) {
-      let temp = stack.shift()!
+      const temp = stack.shift()!
       res += temp.val
       temp.left && stack.push(temp.left)
       temp.right && stack.push(temp.right)

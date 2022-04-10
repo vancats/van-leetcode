@@ -3,14 +3,16 @@
  * @return {*}
  * @param {number} nums
  */
-export function quickSort(nums: number[], left: number = 0, right: number = nums.length - 1): number[] {
+export function quickSort(nums: number[], left = 0, right: number = nums.length - 1): number[] {
   const index = partition(nums, left, right)
-  if (index - 1 > left) quickSort(nums, left, index - 1)
-  if (index < right) quickSort(nums, index, right)
+  if (index - 1 > left)
+    quickSort(nums, left, index - 1)
+  if (index < right)
+    quickSort(nums, index, right)
   return nums
 }
 function partition(nums: number[], left: number, right: number): number {
-  let pivotValue = nums[Math.floor(left + (right - left) / 2)]
+  const pivotValue = nums[Math.floor(left + (right - left) / 2)]
   while (left <= right) {
     while (nums[left] < pivotValue) left++
     while (nums[right] > pivotValue) right--
@@ -23,32 +25,28 @@ function partition(nums: number[], left: number, right: number): number {
   return left
 }
 
-
-
 /**
  * @description: 归并排序 时间复杂度 O(NlgN) 空间复杂度 O(N) 稳定
  * @return {*}
  * @param {number} nums
  */
-export function mergeSort(nums: number[], left: number = 0, right: number = nums.length - 1): number[] {
-  if (left >= right) return nums
+export function mergeSort(nums: number[], left = 0, right: number = nums.length - 1): number[] {
+  if (left >= right)
+    return nums
   const mid = (left + right) >> 1
   mergeSort(nums, left, mid)
   mergeSort(nums, mid + 1, right)
 
-  let i = left, j = mid + 1, k = 0, temp: number[] = []
+  let i = left; let j = mid + 1; let k = 0; const temp: number[] = []
   while (i <= mid || j <= right) {
-    if ((j > right) || (i <= mid && nums[i] <= nums[j])) {
+    if ((j > right) || (i <= mid && nums[i] <= nums[j]))
       temp[k++] = nums[i++]
-    } else {
+    else
       temp[k++] = nums[j++]
-    }
   }
   for (let i = left; i <= right; i++) nums[i] = temp[i - left]
   return nums
 }
-
-
 
 /**
  * @description: 计数排序 时间复杂度 O(N+K) 空间复杂度 O(K) 稳定
@@ -56,50 +54,47 @@ export function mergeSort(nums: number[], left: number = 0, right: number = nums
  * @param {number} nums
  */
 export function countSort(nums: number[]): number[] {
-  const countArr: number[] = [], result: number[] = []
+  const countArr: number[] = []; const result: number[] = []
   const min = Math.min.apply(null, nums)
   for (let i = 0; i < nums.length; i++) {
-    if (countArr[nums[i] - min]) countArr[nums[i] - min]++
+    if (countArr[nums[i] - min])
+      countArr[nums[i] - min]++
     else countArr[nums[i] - min] = 1
   }
   for (let i = 0; i < countArr.length; i++) {
-    if (countArr[i]) {
+    if (countArr[i])
       for (let j = 0; j < countArr[i]; j++) result.push(i + min)
-    }
   }
   return result
 }
-
-
 
 /**
  * @description: 基数排序 时间复杂度 O(N) 空间复杂度 O(N)
  * @return {*}
  */
 export function radixSort(nums: number[]): number[] {
-  let len = nums.length
-  if (len < 2) return nums
+  const len = nums.length
+  if (len < 2)
+    return nums
   let max = Math.max.apply(null, nums)
   let maxDigit = 1
   while (max = (Math.floor(max / 10))) maxDigit++
 
-  let count: number[][] = [], mod = 10, dev = 1
+  let count: number[][] = []; let mod = 10; let dev = 1
   for (let i = 0; i < maxDigit; i++) {
     count = []
     for (let j = 0; j < len; j++) {
-      let temp = Math.floor(nums[j] % mod * dev)
-      if (count[temp]) {
+      const temp = Math.floor(nums[j] % mod * dev)
+      if (count[temp])
         count[temp].push(nums[j])
-      } else {
+      else
         count[temp] = [nums[j]]
-      }
     }
     let pos = 0
     for (let j = 0; j < count.length; j++) {
       let value: any = null
-      if (count[j]) {
+      if (count[j])
         while ((value = count[j].shift()) != null) nums[pos++] = value
-      }
     }
     mod *= 10
     dev *= 10
@@ -107,34 +102,34 @@ export function radixSort(nums: number[]): number[] {
   return nums
 }
 export function radixSort2(nums: number[]): number[] {
-  let len = nums.length
-  if (len < 2) return nums
+  const len = nums.length
+  if (len < 2)
+    return nums
   // 拿到最大值方便后续的对比
-  let maxVal = Math.max.apply(null, nums)
+  const maxVal = Math.max.apply(null, nums)
   // 当前的位数
   let exp = 1
   // 存储修改后的值
-  let buf = new Array(len).fill(0)
+  const buf = new Array(len).fill(0)
 
   // 当前位大于最大值才结束
   while (maxVal >= exp) {
     // 存放 0-9 的数字
-    let cnt = new Array(10).fill(0)
+    const cnt = new Array(10).fill(0)
 
     // 第一次循环记录每个数字下标的数量
     for (let i = 0; i < len; i++) {
-      let digit = Math.floor(nums[i] / exp) % 10
+      const digit = Math.floor(nums[i] / exp) % 10
       cnt[digit]++
     }
 
     // 第二次循环计算前缀和，可以理解成下标从 0 到 当前数字的数量
-    for (let i = 1; i < 10; i++) {
+    for (let i = 1; i < 10; i++)
       cnt[i] += cnt[i - 1]
-    }
 
     // 第三次循环，为该数字前的数量可知，因此从后往前遍历
     for (let i = len - 1; i >= 0; i--) {
-      let digit = Math.floor(nums[i] / exp) % 10
+      const digit = Math.floor(nums[i] / exp) % 10
       // 把值放入
       buf[cnt[digit] - 1] = nums[i]
       // 存放过后，当前还剩余的数量需要减一
@@ -149,8 +144,6 @@ export function radixSort2(nums: number[]): number[] {
   return nums
 }
 
-
-
 /**
  * @description: 插入排序 时间复杂度 O(N^2) 最好情况 O(N) 稳定
  * @return {*}
@@ -159,14 +152,13 @@ export function radixSort2(nums: number[]): number[] {
 export function insertSort(nums: number[]): number[] {
   for (let i = 1; i < nums.length; i++) {
     for (let j = i; j > 0; j--) {
-      if (nums[j] < nums[j - 1]) swap(nums, j - 1, j)
+      if (nums[j] < nums[j - 1])
+        swap(nums, j - 1, j)
       else break
     }
   }
   return nums
 }
-
-
 
 /**
  * @description: 选择排序 时间复杂度 O(N^2) 不稳定
@@ -177,14 +169,14 @@ export function selectSort(nums: number[]): number[] {
   for (let i = 0; i < nums.length - 1; i++) {
     let minIndex = i
     for (let j = i + 1; j < nums.length; j++) {
-      if (nums[j] < nums[minIndex]) minIndex = j
+      if (nums[j] < nums[minIndex])
+        minIndex = j
     }
+
     swap(nums, i, minIndex)
   }
   return nums
 }
-
-
 
 /**
  * @description: 冒泡排序 时间复杂度 O(N^2) 最好情况 O(N) 稳定
@@ -193,7 +185,7 @@ export function selectSort(nums: number[]): number[] {
  */
 export function bubbleSort(nums: number[]): number[] {
   for (let i = 0; i < nums.length - 1; i++) {
-    let flag: boolean = false
+    let flag = false
     for (let j = 0; j < nums.length - 1 - i; j++) {
       if (nums[j] > nums[j + 1]) {
         swap(nums, j, j + 1)
@@ -201,7 +193,8 @@ export function bubbleSort(nums: number[]): number[] {
       }
     }
     // 如果 flag 为 false，则一次排序都没发生，数组有序
-    if (!flag) return nums
+    if (!flag)
+      return nums
   }
   return nums
 }

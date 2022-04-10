@@ -1,4 +1,4 @@
-import { searchInsert } from "."
+import { searchInsert } from '.'
 
 describe('35.搜索插入位置', () => {
   it('示例一', () => {

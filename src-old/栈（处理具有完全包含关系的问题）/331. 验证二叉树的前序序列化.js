@@ -10,8 +10,8 @@
  * @param {string} preorder
  * @return {boolean}
  */
-var isValidSerialization = function (preorder) {
-  let ans = []
+const isValidSerialization = function(preorder) {
+  const ans = []
   preorder = preorder.split(',')
   for (let i = 0; i < preorder.length; i++) {
     ans.push(preorder[i])

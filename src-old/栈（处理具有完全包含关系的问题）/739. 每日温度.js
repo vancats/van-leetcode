@@ -10,11 +10,11 @@
  * @param {number[]} temperatures
  * @return {number[]}
  */
-var dailyTemperatures = function (temperatures) {
-  let ans = new Array(temperatures.length).fill(0), stack = []
+const dailyTemperatures = function(temperatures) {
+  const ans = new Array(temperatures.length).fill(0); const stack = []
   for (let i = 0; i < temperatures.length; i++) {
     while (temperatures[i] > temperatures[stack[stack.length - 1]]) {
-      let val = stack.pop()
+      const val = stack.pop()
       ans[val] = i - val
     }
     stack.push(i)

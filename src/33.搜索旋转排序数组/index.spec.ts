@@ -1,4 +1,4 @@
-import { search } from "."
+import { search } from '.'
 
 describe('33.搜索旋转排序数组', () => {
   it('示例一', () => {

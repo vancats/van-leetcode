@@ -1,4 +1,4 @@
-import { minOperations } from "."
+import { minOperations } from '.'
 
 describe('1658.将x减到0的最小操作数', () => {
   it('示例一', () => {

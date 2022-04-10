@@ -17,12 +17,12 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var deleteDuplicates = function (head) {
+const deleteDuplicates = function(head) {
   let cur = head
   while (cur && cur.next) {
-    while (cur.next && cur.val === cur.next.val) {
+    while (cur.next && cur.val === cur.next.val)
       cur.next = cur.next.next
-    }
+
     cur = cur.next
   }
   return head

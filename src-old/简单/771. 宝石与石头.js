@@ -11,11 +11,11 @@
  * @param {string} stones
  * @return {number}
  */
-var numJewelsInStones = function (jewels, stones) {
-  let map = new Map(), ans = 0
-  for (let i = 0; i < jewels.length; i++) {
+const numJewelsInStones = function(jewels, stones) {
+  const map = new Map(); let ans = 0
+  for (let i = 0; i < jewels.length; i++)
     map.set(jewels[i], 0)
-  }
+
   for (let i = 0; i < stones.length; i++) {
     if (map.has(stones[i])) {
       ans++

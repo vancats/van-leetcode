@@ -1,4 +1,4 @@
-import { searchRange } from "."
+import { searchRange } from '.'
 
 describe('34.在排序数组中查找元素的第一个和最后一个位置', () => {
   it('示例一', () => {

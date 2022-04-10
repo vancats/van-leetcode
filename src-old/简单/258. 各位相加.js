@@ -10,14 +10,14 @@
  * @param {number} num
  * @return {number}
  */
-var addDigits = function (num) {
-  let ans = [...(num + '')]
+const addDigits = function(num) {
+  let ans = [...(`${num}`)]
   while (ans.length > 1) {
-    let sum = 0, cnt = ans.length
-    for (let i = 0; i < cnt; i++) {
+    let sum = 0; const cnt = ans.length
+    for (let i = 0; i < cnt; i++)
       sum += Number(ans.shift())
-    }
-    ans = [...(sum + '')]
+
+    ans = [...(`${sum}`)]
   }
   return Number(ans[0])
 }

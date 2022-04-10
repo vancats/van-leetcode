@@ -10,18 +10,21 @@
  * @param {string[]} equations
  * @return {boolean}
  */
-var equationsPossible = function (equations) {
-  let fa = new Array(26)
-  for (let i = 0; i < 26; i++) {
+const equationsPossible = function(equations) {
+  const fa = new Array(26)
+  for (let i = 0; i < 26; i++)
     fa[i] = i
-  }
+
   for (let i = 0; i < equations.length; i++) {
-    if (equations[i][1] === '!') continue
+    if (equations[i][1] === '!')
+      continue
     fa[get(equations[i][0].charCodeAt() - 97)] = get(equations[i][3].charCodeAt() - 97)
   }
   for (let i = 0; i < equations.length; i++) {
-    if (equations[i][1] === '=') continue
-    if (fa[get(equations[i][0].charCodeAt() - 97)] === fa[get(equations[i][3].charCodeAt() - 97)]) return false
+    if (equations[i][1] === '=')
+      continue
+    if (fa[get(equations[i][0].charCodeAt() - 97)] === fa[get(equations[i][3].charCodeAt() - 97)])
+      return false
   }
   return true
   function get(x) {

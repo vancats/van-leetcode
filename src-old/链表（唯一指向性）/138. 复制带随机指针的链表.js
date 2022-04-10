@@ -19,9 +19,10 @@
  * @param {Node} head
  * @return {Node}
  */
-var copyRandomList = function (head) {
-  if (!head) return head
-  let cur = head, tmp
+const copyRandomList = function(head) {
+  if (!head)
+    return head
+  let cur = head; let tmp
   while (cur) {
     tmp = new Node(cur.val)
     tmp.next = cur.next
@@ -35,7 +36,7 @@ var copyRandomList = function (head) {
     cur.random = cur.random ? cur.random.next : null
     cur = cur.next ? cur.next.next : null
   }
-  let newHead = head.next, prev = head
+  const newHead = head.next; let prev = head
   while (prev) {
     cur = prev.next
     // 恢复原链表指向

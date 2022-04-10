@@ -4,12 +4,12 @@
  * @param {number} nums
  */
 export function productExceptSelf(nums: number[]): number[] {
-  let n = nums.length
-  let nums1: number[] = new Array(n)
+  const n = nums.length
+  const nums1: number[] = new Array(n)
   nums1[0] = 1
-  for (let i = 1; i < n; i++) {
+  for (let i = 1; i < n; i++)
     nums1[i] = nums1[i - 1] * nums[i - 1]
-  }
+
   let sum = nums[n - 1]
   for (let i = n - 2; i >= 0; i--) {
     nums1[i] *= sum

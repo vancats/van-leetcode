@@ -1,4 +1,4 @@
-import { removeCoveredIntervals } from "."
+import { removeCoveredIntervals } from '.'
 
 describe('1288.删除被覆盖区间', () => {
   it('示例', () => {

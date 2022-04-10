@@ -10,16 +10,17 @@
  * @param {number} x
  * @return {number}
  */
-var mySqrt = function (x) {
-  let left = 0, right = x
+const mySqrt = function(x) {
+  let left = 0; let right = x
   while (left < right) {
-    let mid = left + ((right - left) >> 1)
+    const mid = left + ((right - left) >> 1)
     if (mid * mid <= x) {
-      if ((mid + 1) * (mid + 1) > x) {
+      if ((mid + 1) * (mid + 1) > x)
         return mid
-      }
+
       left = mid + 1
-    } else {
+    }
+    else {
       right = mid
     }
   }

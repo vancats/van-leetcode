@@ -1,4 +1,4 @@
-import { Bank } from "./index"
+import { Bank } from './index'
 
 describe('2043.简易银行系统', () => {
   it('示例', () => {

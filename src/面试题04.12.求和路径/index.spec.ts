@@ -1,5 +1,5 @@
-import { pathSum } from "."
-import { createTreeNode } from "../../utils/TreeNode"
+import { createTreeNode } from '../../utils/TreeNode'
+import { pathSum } from '.'
 
 describe('面试题04.12.求和路径', () => {
   it('示例一', () => {

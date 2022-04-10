@@ -10,22 +10,21 @@
  * @param {number} n
  * @return {string[]}
  */
-var simplifiedFractions = function (n) {
-  let ans = [], map = new Map()
+const simplifiedFractions = function(n) {
+  const ans = []; const map = new Map()
   for (let i = 2; i <= n; i++) {
     for (let j = 1; j < i; j++) {
-      if (gcd(i, j) === 1) {
-        ans.push(j + '/' + i)
-      }
+      if (gcd(i, j) === 1)
+        ans.push(`${j}/${i}`)
     }
   }
   return ans
 }
 
 // gcd算法，可以算出两数最大公约数
-function gcd (a, b) {
-  if (b === 0) {
+function gcd(a, b) {
+  if (b === 0)
     return a
-  }
+
   return gcd(b, a % b)
 }

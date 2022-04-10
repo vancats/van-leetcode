@@ -14,9 +14,9 @@ export class NumArray {
 
   sumRange(left: number, right: number): number {
     let sum = 0
-    for (let i = left; i <= right; i++) {
+    for (let i = left; i <= right; i++)
       sum += this.arr[i]
-    }
+
     return sum
   }
 }

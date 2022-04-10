@@ -10,32 +10,36 @@
  * @param {string} s
  * @return {string}
  */
-var removeOuterParentheses = function (s) {
-  let stack = [], arr = []
+var removeOuterParentheses = function(s) {
+  const stack = []; const arr = []
   for (let i = 0; i < s.length; i++) {
     if (!stack.length) {
       arr.push(i)
       stack.push(s[i])
-    } else if (s[i] === '(') {
+    }
+    else if (s[i] === '(') {
       stack.push(s[i])
-    } else if (stack.length === 1) {
+    }
+    else if (stack.length === 1) {
       arr.push(i)
       stack.pop()
-    } else {
+    }
+    else {
       stack.pop()
     }
   }
   s = s.split('')
-  for (let i = arr.length - 1; i >= 0; i--) {
+  for (let i = arr.length - 1; i >= 0; i--)
     s.splice(arr[i], 1)
-  }
+
   return s.join('')
 }
 
-var removeOuterParentheses = function (s) {
+var removeOuterParentheses = function(s) {
   let str = ''
   for (let i = 0, pre = 0, cnt = 0; i < s.length; i++) {
-    if (s[i] === '(') cnt++
+    if (s[i] === '(')
+      cnt++
     else cnt--
     if (!cnt) {
       str += s.slice(pre + 1, i)

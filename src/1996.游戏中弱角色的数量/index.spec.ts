@@ -1,4 +1,4 @@
-import { numberOfWeakCharacters } from "."
+import { numberOfWeakCharacters } from '.'
 
 describe('1996.游戏中弱角色的数量', () => {
   it('示例一', () => {

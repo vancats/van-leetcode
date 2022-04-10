@@ -4,8 +4,8 @@
  * @param {number} intervals
  */
 export function merge(intervals: number[][]): number[][] {
-  let res: number[][] = []
-  let arr: number[][] = []
+  const res: number[][] = []
+  const arr: number[][] = []
 
   // [[1,3], [2,6]] => [[1, 1], [3, -1], [2, 1], [6, -1]]
   for (let i = 0; i < intervals.length; i++) {
@@ -15,7 +15,8 @@ export function merge(intervals: number[][]): number[][] {
 
   // [[1, 1], [3, -1], [3, 1], [2, -1]] => [[1, 1], [2, -1], [3, 1], [3, -1]]
   arr.sort((a, b) => {
-    if (a[0] === b[0]) return b[1] - a[1]
+    if (a[0] === b[0])
+      return b[1] - a[1]
     return a[0] - b[0]
   })
 
@@ -23,7 +24,7 @@ export function merge(intervals: number[][]): number[][] {
   let sum = 0
   for (let i = 0; i < arr.length; i++) {
     if (arr[i][1] > 0) {
-      let temp = arr[i][0]
+      const temp = arr[i][0]
       sum += arr[i][1]
       while (sum > 0) {
         i++

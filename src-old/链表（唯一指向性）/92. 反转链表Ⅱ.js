@@ -20,19 +20,19 @@
  * @return {ListNode}
  */
 
- var reverseBetween = function(head, left, right) {
-  let dump = new ListNode(null, head), n = right - left + 1, ret = dump
-  while (--left) {
+const reverseBetween = function(head, left, right) {
+  const dump = new ListNode(null, head); const n = right - left + 1; let ret = dump
+  while (--left)
     ret = ret.next
-  }
+
   ret.next = reverseList(ret.next, n)
   return dump.next
-};
+}
 
 const reverseList = function(head, n) {
-  let prev = head, cur = head.next
-  while(--n) {
-    let tmp = cur.next
+  let prev = head; let cur = head.next
+  while (--n) {
+    const tmp = cur.next
     cur.next = prev
     prev = cur
     cur = tmp

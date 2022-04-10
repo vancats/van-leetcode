@@ -12,9 +12,9 @@
  * @return {number}
  */
 
-var leastInterval = function (tasks, n) {
-  let ans = new Array(26).fill(0)
-  tasks.forEach(task => {
+const leastInterval = function(tasks, n) {
+  const ans = new Array(26).fill(0)
+  tasks.forEach((task) => {
     ans[task.charCodeAt() - '65']++
   })
   ans.sort((a, b) => b - a)

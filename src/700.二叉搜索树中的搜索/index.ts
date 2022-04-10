@@ -1,4 +1,4 @@
-import { TreeNode } from "../../utils/TreeNode"
+import type { TreeNode } from '../../utils/TreeNode'
 
 /**
  * @description: 时间复杂度 O(N) 空间复杂度 O(N)w
@@ -7,7 +7,9 @@ import { TreeNode } from "../../utils/TreeNode"
  * @param {number} val
  */
 export function searchBST(root: TreeNode | null, val: number): TreeNode | null {
-  if (!root || root.val === val) return root
-  if (root.val > val) return searchBST(root.left, val)
+  if (!root || root.val === val)
+    return root
+  if (root.val > val)
+    return searchBST(root.left, val)
   else return searchBST(root.right, val)
 }

@@ -6,7 +6,7 @@
  * @Description: 我添加了修改
  */
 
-var MinStack = function () {
+const MinStack = function() {
   this.stack1 = []
   this.stack2 = []
 }
@@ -15,34 +15,32 @@ var MinStack = function () {
 * @param {number} val
 * @return {void}
 */
-MinStack.prototype.push = function (val) {
+MinStack.prototype.push = function(val) {
   this.stack1.push(val)
-  if (!this.stack2.length || this.stack2[this.stack2.length - 1] >= val) {
+  if (!this.stack2.length || this.stack2[this.stack2.length - 1] >= val)
     this.stack2.push(val)
-  }
 }
 
 /**
 * @return {void}
 */
-MinStack.prototype.pop = function () {
+MinStack.prototype.pop = function() {
   const val = this.stack1.pop()
-  if (val === this.stack2[this.stack2.length - 1]) {
+  if (val === this.stack2[this.stack2.length - 1])
     this.stack2.pop()
-  }
 }
 
 /**
 * @return {number}
 */
-MinStack.prototype.top = function () {
+MinStack.prototype.top = function() {
   return this.stack1[this.stack1.length - 1]
 }
 
 /**
 * @return {number}
 */
-MinStack.prototype.getMin = function () {
+MinStack.prototype.getMin = function() {
   return this.stack2[this.stack2.length - 1]
 }
 

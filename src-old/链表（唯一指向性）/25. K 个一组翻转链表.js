@@ -20,16 +20,17 @@
  */
 
 // 这是反转前num个节点并返回头节点的函数
-function reverseList (head, num) {
+function reverseList(head, num) {
   // 如果数目不够，则不反转直接返回
-  let tmp = head, n = num
+  let tmp = head; let n = num
   while (--n) {
     tmp = tmp.next
-    if (!tmp) return head
+    if (!tmp)
+      return head
   }
-  let prev = head, cur = head.next
+  let prev = head; let cur = head.next
   while (--num) {
-    let tmp = cur.next
+    const tmp = cur.next
     cur.next = prev
     prev = cur
     cur = tmp
@@ -38,14 +39,15 @@ function reverseList (head, num) {
   return prev
 }
 
-var reverseKGroup = function (head, k) {
-  let dump = new ListNode(null, head), tmp = dump, ret = head
+const reverseKGroup = function(head, k) {
+  const dump = new ListNode(null, head); let tmp = dump; let ret = head
   while (true) {
     // 返回当前头节点
-    let curHead = reverseList(ret, k)
+    const curHead = reverseList(ret, k)
     tmp.next = curHead
     tmp = ret
-    if (curHead === ret || !ret.next) return dump.next
+    if (curHead === ret || !ret.next)
+      return dump.next
     ret = ret.next
   }
 }

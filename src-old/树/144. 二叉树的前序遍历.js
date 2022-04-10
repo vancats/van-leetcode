@@ -18,22 +18,23 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var preorderTraversal = function (root, ans = []) {
-  if (!root) return ans
+var preorderTraversal = function(root, ans = []) {
+  if (!root)
+    return ans
   ans.push(root.val)
   preorderTraversal(root.left, ans)
   preorderTraversal(root.right, ans)
   return ans
 }
 
-
-var preorderTraversal = function (root) {
-  if (!root) return []
-  let queue = [root], ans = []
+var preorderTraversal = function(root) {
+  if (!root)
+    return []
+  const queue = [root]; const ans = []
   while (queue.length) {
-    let cnt = queue.length
+    const cnt = queue.length
     for (let i = 0; i < cnt; i++) {
-      let root = queue.shift()
+      const root = queue.shift()
       ans.push(root.val)
       root.right && queue.unshift(root.right)
       root.left && queue.unshift(root.left)

@@ -10,14 +10,15 @@
  * @param {number[]} bills
  * @return {boolean}
  */
-var lemonadeChange = function (bills) {
+const lemonadeChange = function(bills) {
   let n5 = n10 = n20 = 0
   for (let i = 0; i < bills.length; i++) {
     switch (bills[i]) {
       case 5: n5++
         break
       case 10:
-        if (!n5) return false
+        if (!n5)
+          return false
         n5--
         n10++
         break
@@ -25,10 +26,12 @@ var lemonadeChange = function (bills) {
         if (n10) {
           n10--
           n5--
-        } else {
+        }
+        else {
           n5 -= 3
         }
-        if (n5 < 0 || n10 < 0) return false
+        if (n5 < 0 || n10 < 0)
+          return false
         n20++
         break
     }

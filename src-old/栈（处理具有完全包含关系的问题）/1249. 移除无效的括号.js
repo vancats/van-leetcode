@@ -10,24 +10,24 @@
  * @param {string} s
  * @return {string}
  */
-var minRemoveToMakeValid = function (s) {
-  let ans = [], stack = []
+const minRemoveToMakeValid = function(s) {
+  const ans = []; const stack = []
   for (let i = 0; i < s.length; i++) {
     if (s[i] === ')') {
-      if (stack.length) stack.pop()
+      if (stack.length)
+        stack.pop()
       else ans.push(i)
     }
-    if (s[i] === '(') {
+    if (s[i] === '(')
       stack.push(i)
-    }
   }
-  while (stack.length) {
+  while (stack.length)
     ans.push(stack.pop())
-  }
+
   ans.sort((a, b) => b - a)
   s = s.split('')
-  for (let i = 0; i < ans.length; i++) {
+  for (let i = 0; i < ans.length; i++)
     s.splice(ans[i], 1)
-  }
+
   return s.join('')
 }

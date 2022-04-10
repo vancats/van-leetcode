@@ -1,4 +1,4 @@
-import { mySqrt } from "."
+import { mySqrt } from '.'
 
 describe('69.x的平方根', () => {
   it('示例一', () => {

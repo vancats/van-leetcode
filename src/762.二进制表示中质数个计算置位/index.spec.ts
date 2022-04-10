@@ -1,4 +1,4 @@
-import { countPrimeSetBits } from "."
+import { countPrimeSetBits } from '.'
 
 describe('762.二进制表示中质数个计算置位', () => {
   it('示例一', () => {

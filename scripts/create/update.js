@@ -7,22 +7,22 @@ const update = ({ title, url, difficulty, id }) => {
   if (createProject(title)) {
     fs.writeFileSync(
       `src/${title}/index.ts`,
-      ''
+      '',
     )
     fs.writeFileSync(
       `src/${title}/README.md`,
-      `# ${title}\r\n\r\n> 难度：${difficulty}\r\n>\r\n> ${url}\r\n\r\n## 题目`
+      `# ${title}\r\n\r\n> 难度：${difficulty}\r\n>\r\n> ${url}\r\n\r\n## 题目`,
     )
     fs.writeFileSync(
       `src/${title}/index.spec.ts`,
-      `describe('${title}', () => {});`
+      `describe('${title}', () => {});`,
     )
 
     const problems = updateDataJson({
       title,
       url,
       difficulty,
-      id
+      id,
     })
 
     updateMarkdown(problems)
@@ -36,7 +36,7 @@ const updateDataJson = ({ title, url, difficulty, id }) => {
     title,
     url,
     difficulty,
-    path: `../../src/${title}/README.md`
+    path: `../../src/${title}/README.md`,
   })
   problems.sort((a, b) => a.id - b.id)
   fs.writeFileSync('./assets/data/problems.json', JSON.stringify(problems, null, 2))
@@ -44,9 +44,9 @@ const updateDataJson = ({ title, url, difficulty, id }) => {
 }
 
 const updateMarkdown = (problems) => {
-  let md = `# 题库`
+  let md = '# 题库'
 
-  problems.forEach(problem => {
+  problems.forEach((problem) => {
     md += `\r\n\r\n[${problem.title}](${problem.path})`
   })
 
@@ -66,7 +66,8 @@ const checkHasPath = (path) => {
   try {
     fs.accessSync(getPath(path), fs.constants.F_OK)
     return true
-  } catch (err) {
+  }
+  catch (err) {
     return false
   }
 }

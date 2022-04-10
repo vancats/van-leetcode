@@ -19,15 +19,18 @@
  * @return {boolean}
  */
 
-function getHeight (root) {
-  if (!root) return 0
-  let left = getHeight(root.left)
-  let right = getHeight(root.right)
-  if (Math.abs(left - right) > 1) return -1
-  if (left < 0 || right < 0) return -1
+function getHeight(root) {
+  if (!root)
+    return 0
+  const left = getHeight(root.left)
+  const right = getHeight(root.right)
+  if (Math.abs(left - right) > 1)
+    return -1
+  if (left < 0 || right < 0)
+    return -1
   return Math.max(left, right) + 1
 }
 
-var isBalanced = function (root) {
+const isBalanced = function(root) {
   return getHeight(root) >= 0
 }

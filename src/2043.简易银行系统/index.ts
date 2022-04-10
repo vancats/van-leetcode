@@ -7,20 +7,23 @@ export class Bank {
   }
 
   transfer(account1: number, account2: number, money: number): boolean {
-    if (account1 > this.len || account2 > this.len || this.accounts[account1] < money) return false
+    if (account1 > this.len || account2 > this.len || this.accounts[account1] < money)
+      return false
     this.accounts[account1] -= money
     this.accounts[account2] += money
     return true
   }
 
   deposit(account: number, money: number): boolean {
-    if (account > this.len) return false
+    if (account > this.len)
+      return false
     this.accounts[account] += money
     return true
   }
 
   withdraw(account: number, money: number): boolean {
-    if (account > this.len || this.accounts[account] < money) return false
+    if (account > this.len || this.accounts[account] < money)
+      return false
     this.accounts[account] -= money
     return true
   }

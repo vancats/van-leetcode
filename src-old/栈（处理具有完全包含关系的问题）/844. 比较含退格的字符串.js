@@ -11,23 +11,23 @@
  * @param {string} t
  * @return {boolean}
  */
-var backspaceCompare = function (s, t) {
-  let stack1 = [], stack2 = []
+const backspaceCompare = function(s, t) {
+  const stack1 = []; const stack2 = []
   for (let i = 0; i < s.length; i++) {
     if (s[i] === '#') {
-      if (stack1.length) {
+      if (stack1.length)
         stack1.pop()
-      }
-    } else {
+    }
+    else {
       stack1.push(s[i])
     }
   }
   for (let i = 0; i < t.length; i++) {
     if (t[i] === '#') {
-      if (stack2.length) {
+      if (stack2.length)
         stack2.pop()
-      }
-    } else {
+    }
+    else {
       stack2.push(t[i])
     }
   }

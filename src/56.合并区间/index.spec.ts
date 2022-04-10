@@ -1,4 +1,4 @@
-import { merge } from "."
+import { merge } from '.'
 
 describe('56.合并区间', () => {
   it('示例一', () => {

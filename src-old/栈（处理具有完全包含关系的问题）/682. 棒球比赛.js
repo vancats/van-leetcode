@@ -10,9 +10,9 @@
  * @param {string[]} ops
  * @return {number}
  */
-var calPoints = function (ops) {
-  let res = 0, stack = []
-  ops.forEach(op => {
+const calPoints = function(ops) {
+  let res = 0; const stack = []
+  ops.forEach((op) => {
     let cur, prev
     switch (op) {
       case '+':

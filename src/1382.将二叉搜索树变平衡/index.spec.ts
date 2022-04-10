@@ -1,5 +1,5 @@
-import { createTreeNode } from "../../utils/TreeNode"
-import { balanceBST } from "./index"
+import { createTreeNode } from '../../utils/TreeNode'
+import { balanceBST } from './index'
 
 describe('1382.将二叉搜索树变平衡', () => {
   it('示例', () => {

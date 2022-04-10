@@ -1,4 +1,4 @@
-import { TreeNode } from "../../utils/TreeNode"
+import type { TreeNode } from '../../utils/TreeNode'
 
 /**
  * @description: 时间复杂度 O(N) 空间复杂度 O(N)
@@ -7,13 +7,14 @@ import { TreeNode } from "../../utils/TreeNode"
  */
 export function binaryTreePaths(root: TreeNode | null): string[] {
   const result: string[] = []
-  const dfs = (root: any, stack: string = '') => {
+  const dfs = (root: any, stack = '') => {
     if (!root.left && !root.right) {
-      stack += ('->' + root.val)
+      stack += (`->${root.val}`)
       result.push(stack.slice(2))
-    } else {
-      root.left && dfs(root.left, stack + '->' + root.val)
-      root.right && dfs(root.right, stack + '->' + root.val)
+    }
+    else {
+      root.left && dfs(root.left, `${stack}->${root.val}`)
+      root.right && dfs(root.right, `${stack}->${root.val}`)
     }
   }
   dfs(root)

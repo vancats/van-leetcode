@@ -10,10 +10,10 @@
  * @param {number[]} arr
  * @return {number[]}
  */
-var pancakeSort = function (arr) {
-  let len = arr.length, ans = []
+const pancakeSort = function(arr) {
+  let len = arr.length; const ans = []
   while (len > 1) {
-    let ind = arr.indexOf(len)
+    const ind = arr.indexOf(len)
     if (ind === len - 1) {
       len--
       continue
@@ -29,6 +29,6 @@ var pancakeSort = function (arr) {
   return ans
 }
 
-function reverseArr (arr, n) {
+function reverseArr(arr, n) {
   return [...arr.slice(0, n).reverse(), ...arr.slice(n)]
 }

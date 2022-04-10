@@ -10,29 +10,31 @@
  * @param {string} s
  * @return {number}
  */
-var calculate = function (s) {
-  let levelArr = [], numArr = [], ans = 0
+const calculate = function(s) {
+  const levelArr = []; const numArr = []; const ans = 0
   s += '#'
   for (let i = 0; i < s.length; i++) {
-    if (s[i] === ' ') continue
+    if (s[i] === ' ')
+      continue
     if (level(s[i]) === 0) {
       let cur = s[i]
-      while (++i && level(s[i]) === 0) {
+      while (++i && level(s[i]) === 0)
         cur += s[i]
-      }
+
       numArr.push(cur)
       i--
-    } else {
-      while (levelArr.length && level(levelArr[levelArr.length - 1]) >= level(s[i])) {
+    }
+    else {
+      while (levelArr.length && level(levelArr[levelArr.length - 1]) >= level(s[i]))
         numArr.push(calculator(numArr.pop(), numArr.pop(), levelArr.pop()))
-      }
+
       levelArr.push(s[i])
     }
   }
   return numArr[0]
 }
 
-function calculator (cur, prev, ops) {
+function calculator(cur, prev, ops) {
   let num
   prev = Number(prev)
   cur = Number(cur)
@@ -49,7 +51,7 @@ function calculator (cur, prev, ops) {
   return num
 }
 
-function level (ops) {
+function level(ops) {
   switch (ops) {
     case '+':
     case '-': return 1

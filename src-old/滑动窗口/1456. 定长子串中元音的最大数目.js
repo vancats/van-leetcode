@@ -11,8 +11,8 @@
  * @param {number} k
  * @return {number}
  */
-var maxVowels = function (s, k) {
-  let res = 0, arr = [], max = 0, asset = new Set(['a', 'e', 'i', 'o', 'u'])
+const maxVowels = function(s, k) {
+  let res = 0; const arr = []; let max = 0; const asset = new Set(['a', 'e', 'i', 'o', 'u'])
   // 滑动窗口
   for (let i = 0; i < s.length; i++) {
     let tmp
@@ -20,10 +20,12 @@ var maxVowels = function (s, k) {
     if (arr.length >= k) {
       // 剔除第一个元素，如果第一个元素是元音，res--
       tmp = arr.shift()
-      if (asset.has(tmp)) res--
+      if (asset.has(tmp))
+        res--
     }
     // 值是元音，res++
-    if (asset.has(s[i])) res++
+    if (asset.has(s[i]))
+      res++
     // 比较
     max = Math.max(res, max)
     arr.push(s[i])

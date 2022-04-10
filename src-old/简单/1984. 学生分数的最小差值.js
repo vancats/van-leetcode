@@ -11,10 +11,11 @@
  * @param {number} k
  * @return {number}
  */
-var minimumDifference = function (nums, k) {
-  if (k === 1) return 0
+const minimumDifference = function(nums, k) {
+  if (k === 1)
+    return 0
   nums.sort((a, b) => a - b)
-  let res = [], min = Number.MAX_VALUE
+  const res = []; let min = Number.MAX_VALUE
   for (let i = 0; i < nums.length; i++) {
     res.push(nums[i])
     if (res.length >= k) {

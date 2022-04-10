@@ -11,14 +11,17 @@
  * @param {number} numRows
  * @return {string}
  */
-var convert = function (s, numRows) {
-  if (numRows === 1) return s
+const convert = function(s, numRows) {
+  if (numRows === 1)
+    return s
   const arr = new Array(numRows).fill(0).map(() => [])
-  let flag = 1, ind = 0
+  let flag = 1; let ind = 0
   for (let i = 0; i < s.length; i++) {
     arr[ind].push(s[i])
-    if (ind === numRows - 1) flag = -1
-    if (ind === 0) flag = 1
+    if (ind === numRows - 1)
+      flag = -1
+    if (ind === 0)
+      flag = 1
     ind += flag
   }
   return arr.flat().join('')

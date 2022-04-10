@@ -10,25 +10,26 @@
  * @param {number[][]} stones
  * @return {number}
  */
-var removeStones = function (stones) {
-  let fa = new Array(stones.length), ans = 0
-  let xMap = new Map(), yMap = new Map()
-  for (let i = 0; i < stones.length; i++) {
+const removeStones = function(stones) {
+  const fa = new Array(stones.length); let ans = 0
+  const xMap = new Map(); const yMap = new Map()
+  for (let i = 0; i < stones.length; i++)
     fa[i] = i
-  }
+
   for (let i = 0; i < stones.length; i++) {
-    let x = stones[i][0], y = stones[i][1]
-    if (xMap.has(x)) {
+    const x = stones[i][0]; const y = stones[i][1]
+    if (xMap.has(x))
       fa[get(i)] = get(xMap.get(x))
-    }
-    if (yMap.has(y)) {
+
+    if (yMap.has(y))
       fa[get(i)] = get(yMap.get(y))
-    }
+
     xMap.set(x, i)
     yMap.set(y, i)
   }
   for (let i = 0; i < stones.length; i++) {
-    if (i === fa[i]) ans++
+    if (i === fa[i])
+      ans++
   }
   return stones.length - ans
   function get(x) {

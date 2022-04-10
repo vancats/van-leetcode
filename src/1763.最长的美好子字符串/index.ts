@@ -4,7 +4,7 @@
  * @param {string} s
  */
 export function longestNiceSubstring(s: string): string {
-  let res: string[] = [], arr
+  const res: string[] = []; let arr
   for (let i = 0; i < s.length; i++) {
     arr = new Array(26).fill(0)
     // 标记当前的位置
@@ -13,15 +13,15 @@ export function longestNiceSubstring(s: string): string {
       // 当前值未放入，则放入
       if (arr[getCodeNum(s[j])] === 0) {
         arr[getCodeNum(s[j])] = s[j]
-      } else {
+      }
+      else {
         // 如果编码相同值不同，则大小写都具有，置空
-        if (arr[getCodeNum(s[j])] !== s[j]) {
+        if (arr[getCodeNum(s[j])] !== s[j])
           arr[getCodeNum(s[j])] = undefined
-        }
+
         // 非空则放入
-        if (isEmpty(arr)) {
+        if (isEmpty(arr))
           res.push(s.slice(i, j + 1))
-        }
       }
     }
   }
@@ -32,14 +32,17 @@ export function longestNiceSubstring(s: string): string {
 // 获取code码。大小写同码
 function getCodeNum(c) {
   let code = c.charCodeAt() - 65
-  if (code > 25) code -= 32
+  if (code > 25)
+    code -= 32
   return code
 }
 
-//判断数组中是否存在实际数据
+// 判断数组中是否存在实际数据
 function isEmpty(arr) {
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i]) return false
+    if (arr[i])
+      return false
   }
+
   return true
 }

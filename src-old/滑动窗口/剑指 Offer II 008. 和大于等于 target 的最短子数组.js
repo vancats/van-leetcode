@@ -11,9 +11,9 @@
  * @param {number[]} nums
  * @return {number}
  */
-var minSubArrayLen = function (target, nums) {
+const minSubArrayLen = function(target, nums) {
   // 滑动窗口，更新窗口总值max为窗口阈值
-  let ans = Number.MAX_SAFE_INTEGER, slide = [], max = 0
+  let ans = Number.MAX_SAFE_INTEGER; const slide = []; let max = 0
   for (let i = 0; i < nums.length; i++) {
     // 将值推入窗口
     slide.push(nums[i])
@@ -22,9 +22,9 @@ var minSubArrayLen = function (target, nums) {
     // 当总值比target大
     if (max >= target) {
       // 如果剔除窗口前值，总值仍然比target大，则窗口滑动
-      while (max - slide[0] >= target) {
+      while (max - slide[0] >= target)
         max -= slide.shift()
-      }
+
       ans = Math.min(ans, slide.length)
     }
   }

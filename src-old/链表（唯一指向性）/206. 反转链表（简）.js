@@ -17,13 +17,13 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
- var reverseList = function(head) {
-  let prev = null, cur = head
-  while(cur) {
-    let tmp = cur.next
+const reverseList = function(head) {
+  let prev = null; let cur = head
+  while (cur) {
+    const tmp = cur.next
     cur.next = prev
     prev = cur
     cur = tmp
   }
   return prev
-};
+}

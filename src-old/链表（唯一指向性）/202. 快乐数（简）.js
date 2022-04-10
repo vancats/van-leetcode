@@ -11,7 +11,7 @@
  * @return {boolean}
  */
 
-function analyze (num) {
+function analyze(num) {
   let ans = 0
   while (num) {
     ans += Math.pow(num % 10, 2)
@@ -20,8 +20,8 @@ function analyze (num) {
   return ans
 }
 
-var isHappy = function (n) {
-  let prev = analyze(n), cur = analyze(analyze(n))
+const isHappy = function(n) {
+  let prev = analyze(n); let cur = analyze(analyze(n))
   while (cur !== prev) {
     prev = analyze(prev)
     cur = analyze(analyze(cur))

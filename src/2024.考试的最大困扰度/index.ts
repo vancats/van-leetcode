@@ -9,12 +9,12 @@ export function maxConsecutiveAnswers(answerKey: string, k: number): number {
 }
 
 function maxAnswers(answerKey: string, k: number, ch: string): number {
-  let res = 0, num = 0
+  let res = 0; let num = 0
   for (let left = 0, right = 0; right < answerKey.length; right++) {
     num += answerKey[right] !== ch ? 1 : 0
-    while (num > k) {
+    while (num > k)
       num -= answerKey[left++] !== ch ? 1 : 0
-    }
+
     res = Math.max(res, right - left + 1)
   }
   return res

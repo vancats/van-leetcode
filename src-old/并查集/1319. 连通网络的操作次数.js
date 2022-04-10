@@ -11,17 +11,19 @@
  * @param {number[][]} connections
  * @return {number}
  */
-var makeConnected = function (n, connections) {
-  if (n > connections.length + 1) return -1
-  let fa = new Array(n), ans = 0
-  for (let i = 0; i < n; i++) {
+const makeConnected = function(n, connections) {
+  if (n > connections.length + 1)
+    return -1
+  const fa = new Array(n); let ans = 0
+  for (let i = 0; i < n; i++)
     fa[i] = i
-  }
-  for (let i = 0; i < connections.length; i++) {
+
+  for (let i = 0; i < connections.length; i++)
     fa[get(connections[i][0])] = get(connections[i][1])
-  }
+
   for (let i = 0; i < n; i++) {
-    if (i === fa[i]) ans++
+    if (i === fa[i])
+      ans++
   }
   return ans - 1
   function get(x) {

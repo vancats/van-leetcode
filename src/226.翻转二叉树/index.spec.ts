@@ -1,5 +1,6 @@
+import type { TreeNode } from '../../utils/TreeNode'
+import { createTreeNode } from '../../utils/TreeNode'
 import { invertTree } from './index'
-import { TreeNode, createTreeNode } from "../../utils/TreeNode"
 describe('226.翻转二叉树', () => {
   testCase(invertTree)
 })

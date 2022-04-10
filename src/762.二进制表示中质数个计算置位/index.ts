@@ -10,18 +10,22 @@ export function countPrimeSetBits(left: number, right: number): number {
     // eg1
     // if (isPrime(toBinary(i))) n++
     // eg2
-    if (((1 << toBinary(i)) & 665772) !== 0) n++
+    if (((1 << toBinary(i)) & 665772) !== 0)
+      n++
   }
   return n
-};
-
-function isPrime(num): boolean {
-  if (num < 2) return false
-  for (let i = 2; i * i <= num; i++) {
-    if (num % i === 0) return false
-  }
-  return true
 }
+
+// function isPrime(num): boolean {
+//   if (num < 2)
+//     return false
+//   for (let i = 2; i * i <= num; i++) {
+//     if (num % i === 0)
+//       return false
+//   }
+
+//   return true
+// }
 
 function toBinary(num: number): number {
   return num.toString(2).split('0').join('').length

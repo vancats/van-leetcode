@@ -11,11 +11,13 @@
  * @param {number} k
  * @return {boolean}
  */
-var containsNearbyDuplicate = function (nums, k) {
-  let arr = []
+const containsNearbyDuplicate = function(nums, k) {
+  const arr = []
   for (let i = 0; i < nums.length; i++) {
-    if (arr.length > k) arr.shift()
-    if (arr.includes(nums[i])) return true
+    if (arr.length > k)
+      arr.shift()
+    if (arr.includes(nums[i]))
+      return true
     arr.push(nums[i])
   }
   return false

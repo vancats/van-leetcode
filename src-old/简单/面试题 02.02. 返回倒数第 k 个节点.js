@@ -18,11 +18,11 @@
  * @param {number} k
  * @return {number}
  */
-var kthToLast = function (head, k) {
+const kthToLast = function(head, k) {
   let slow = fast = head
-  while (k--) {
+  while (k--)
     fast = fast.next
-  }
+
   while (fast) {
     slow = slow.next
     fast = fast.next

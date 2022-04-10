@@ -4,13 +4,12 @@
  * @return {*}
  */
 export function exchange(nums: number[]): number[] {
-  let left = 0, right = nums.length - 1
+  let left = 0; let right = nums.length - 1
   while (left < right) {
     while (nums[left] % 2) left++
     while ((nums[right] % 2 === 0)) right--
-    if (left < right) {
+    if (left < right)
       [nums[left], nums[right]] = [nums[right], nums[left]]
-    }
   }
   return nums
 }

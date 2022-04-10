@@ -13,40 +13,20 @@
  * @param {number} k
  * @return {number}
  */
-var getKthMagicNumber = function (k) {
-  let n3 = n5 = n7 = 0, ans = [1]
+const getKthMagicNumber = function(k) {
+  let n3 = n5 = n7 = 0; const ans = [1]
   while (ans.length < k) {
-    let s3 = ans[n3] * 3
-    let s5 = ans[n5] * 5
-    let s7 = ans[n7] * 7
-    let min = Math.min(s3, s5, s7)
-    if (s3 === min) n3++
-    if (s5 === min) n5++
-    if (s7 === min) n7++
+    const s3 = ans[n3] * 3
+    const s5 = ans[n5] * 5
+    const s7 = ans[n7] * 7
+    const min = Math.min(s3, s5, s7)
+    if (s3 === min)
+      n3++
+    if (s5 === min)
+      n5++
+    if (s7 === min)
+      n7++
     ans.push(min)
   }
   return ans.pop()
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

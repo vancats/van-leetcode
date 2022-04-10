@@ -10,25 +10,24 @@
  * @param {number[]} hours
  * @return {number}
  */
-var longestWPI = function (hours) {
-  let prefix = [0]
+const longestWPI = function(hours) {
+  const prefix = [0]
   // 获得前缀和
-  for (let i = 0; i < hours.length; i++) {
+  for (let i = 0; i < hours.length; i++)
     prefix.push(hours[i] > 8 ? prefix[i] + 1 : prefix[i] - 1)
-  }
 
-  let desc = [0]
+  const desc = [0]
   // 获取递减的序列
   for (let i = 0; i < prefix.length; i++) {
-    if (prefix[i] < prefix[desc[desc.length - 1]]) desc.push(i)
+    if (prefix[i] < prefix[desc[desc.length - 1]])
+      desc.push(i)
   }
 
   let res = 0
   // 从尾部开始往前计算长度
   for (let i = prefix.length - 1; i > 0; i--) {
-    while (prefix[i] > prefix[desc[desc.length - 1]]) {
+    while (prefix[i] > prefix[desc[desc.length - 1]])
       res = Math.max(res, i - desc.pop())
-    }
   }
   return res
 }

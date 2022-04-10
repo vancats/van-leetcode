@@ -25,19 +25,20 @@
 // };
 
 // 完全二叉树递归做法
-var countNodes = function (root) {
-  if (!root) return 0
-  let left = level(root.left)
-  let right = level(root.right)
-  if (left === right) {
+var countNodes = function(root) {
+  if (!root)
+    return 0
+  const left = level(root.left)
+  const right = level(root.right)
+  if (left === right)
     return countNodes(root.right) + (1 << left)
-  } else {
+  else
     return countNodes(root.left) + (1 << right)
-  }
 }
 
-function level (root) {
-  if (!root) return 0
+function level(root) {
+  if (!root)
+    return 0
   let level = 0
   while (root) {
     root = root.left

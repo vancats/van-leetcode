@@ -18,14 +18,17 @@
  * @param {number} k
  * @return {number}
  */
-var kthLargest = function (root, k) {
-  let cnt = countNodes(root.right)
-  if (cnt + 1 === k) return root.val
-  if (cnt + 1 < k) return kthLargest(root.left, k - cnt - 1)
+var kthLargest = function(root, k) {
+  const cnt = countNodes(root.right)
+  if (cnt + 1 === k)
+    return root.val
+  if (cnt + 1 < k)
+    return kthLargest(root.left, k - cnt - 1)
   return kthLargest(root.right, k)
 }
 
-function countNodes (root) {
-  if (!root) return 0
+function countNodes(root) {
+  if (!root)
+    return 0
   return countNodes(root.left) + countNodes(root.right) + 1
 }

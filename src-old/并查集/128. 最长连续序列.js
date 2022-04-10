@@ -10,14 +10,14 @@
  * @param {number[]} nums
  * @return {number}
  */
-var longestConsecutive = function (nums) {
-  let max = 0, set = new Set()
-  for (let i = 0; i < nums.length; i++) {
+var longestConsecutive = function(nums) {
+  let max = 0; const set = new Set()
+  for (let i = 0; i < nums.length; i++)
     set.add(nums[i])
-  }
+
   for (let i = 0; i < nums.length; i++) {
     if (!set.has(nums[i] - 1)) {
-      let ans = 0, temp = nums[i]
+      let ans = 0; let temp = nums[i]
       while (set.has(temp)) {
         ans++
         temp++
@@ -28,10 +28,10 @@ var longestConsecutive = function (nums) {
   return max
 }
 
-var longestConsecutive = function (nums) {
-  let max = 0, map = new Map()
+var longestConsecutive = function(nums) {
+  let max = 0; const map = new Map()
   for (let i = 0; i < nums.length; i++) {
-    let cur = temp = nums[i], ans = 1
+    const cur = temp = nums[i]; let ans = 1
     map.set(cur, i)
     while (map.has(temp - 1)) {
       ans++

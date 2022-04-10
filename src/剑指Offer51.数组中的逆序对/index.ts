@@ -8,15 +8,17 @@ export function reversePairs(nums: number[]): number {
 }
 
 function mergeSort(nums: number[], left: number, right: number): number {
-  if (left >= right) return 0
-  let ans = 0, mid = (left + right) >> 1
+  if (left >= right)
+    return 0
+  let ans = 0; const mid = (left + right) >> 1
   ans += mergeSort(nums, left, mid)
   ans += mergeSort(nums, mid + 1, right)
-  let i = left, j = mid + 1, k = left, temp: number[] = []
+  let i = left; let j = mid + 1; let k = left; const temp: number[] = []
   while (i <= mid || j <= right) {
     if ((j > right) || (i <= mid && nums[i] <= nums[j])) {
       temp[k++] = nums[i++]
-    } else {
+    }
+    else {
       temp[k++] = nums[j++]
       ans += (mid - i + 1)
     }

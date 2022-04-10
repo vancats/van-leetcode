@@ -10,16 +10,16 @@
  * @param {number[]} digits
  * @return {number[]}
  */
-var plusOne = function (digits) {
+const plusOne = function(digits) {
   let len = digits.length - 1
   digits[len] = digits[len] + 1
   while (digits[len] > 9) {
     digits[len] = 0
-    if (len > 0) {
+    if (len > 0)
       digits[len - 1] = digits[len - 1] + 1
-    } else {
+    else
       digits.unshift(1)
-    }
+
     len--
   }
   return digits

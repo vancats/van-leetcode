@@ -1,5 +1,5 @@
-import { ListNode } from "../../utils/ListNode"
-import { Heap } from "../../utils/Heap"
+import { ListNode } from '../../utils/ListNode'
+import { Heap } from '../../utils/Heap'
 
 /**
  * @description: 时间复杂度 O(NlgN) 空间复杂度 O(N)
@@ -7,7 +7,7 @@ import { Heap } from "../../utils/Heap"
  * @param {Array} lists
  */
 export function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
-  let heap = new Heap((a, b) => a < b)
+  const heap = new Heap((a, b) => a < b)
   for (let i = 0; i < lists.length; i++) {
     let list = lists[i]
     while (list) {
@@ -15,8 +15,9 @@ export function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
       list = list.next
     }
   }
-  if (!heap.size) return null
-  let node = new ListNode(heap.pop()), temp = node
+  if (!heap.size)
+    return null
+  const node = new ListNode(heap.pop()); let temp = node
   while (heap.size) {
     temp.next = new ListNode(heap.pop())
     temp = temp.next

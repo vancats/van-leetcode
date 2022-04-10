@@ -1,4 +1,4 @@
-import { islandPerimeter } from "./index"
+import { islandPerimeter } from './index'
 
 describe('463.岛屿的周长', () => {
   it('示例一', () => {

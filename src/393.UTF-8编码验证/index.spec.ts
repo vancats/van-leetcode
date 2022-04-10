@@ -1,6 +1,5 @@
 import { validUtf8 } from './index'
 describe('393.UTF-8编码验证', () => {
-
   it('示例一', () => {
     const arr = [197, 130, 1]
     const result = validUtf8(arr)

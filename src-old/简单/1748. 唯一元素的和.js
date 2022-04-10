@@ -10,14 +10,15 @@
  * @param {number[]} nums
  * @return {number}
  */
-var sumOfUnique = function (nums) {
-  let ans = [], res = []
+const sumOfUnique = function(nums) {
+  const ans = []; const res = []
   for (let i = 0; i < nums.length; i++) {
-    let ind = ans.indexOf(nums[i])
+    const ind = ans.indexOf(nums[i])
     if (ind > -1) {
       res.push(nums[i])
       ans.splice(ind, 1)
-    } else if (!res.includes(nums[i])) {
+    }
+    else if (!res.includes(nums[i])) {
       ans.push(nums[i])
     }
   }

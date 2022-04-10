@@ -10,7 +10,7 @@
  * @param {number} n
  * @return {number}
  */
-var numberOfMatches = function (n) {
+const numberOfMatches = function(n) {
   let ans = 0
   while (n !== 1) {
     ans += Math.floor(n / 2)

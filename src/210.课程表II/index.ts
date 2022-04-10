@@ -5,28 +5,29 @@
  * @param {number} prerequisites
  */
 export function findOrder(numCourses: number, prerequisites: number[][]): number[] {
-
-  let outArr: number[][] = new Array(numCourses).fill(0).map(() => [])
-  let inArr: number[] = new Array(numCourses).fill(0)
-  let res: number[] = []
+  const outArr: number[][] = new Array(numCourses).fill(0).map(() => [])
+  const inArr: number[] = new Array(numCourses).fill(0)
+  const res: number[] = []
 
   for (let i = 0; i < prerequisites.length; i++) {
-    let [x, y] = prerequisites[i]
+    const [x, y] = prerequisites[i]
     outArr[y].push(x)
     inArr[x]++
   }
 
-  let stack: number[] = []
+  const stack: number[] = []
   for (let i = 0; i < numCourses; i++) {
-    if (!inArr[i]) stack.push(i)
+    if (!inArr[i])
+      stack.push(i)
   }
 
   while (stack.length) {
-    let val = stack.shift()!
+    const val = stack.shift()!
     res.push(val)
-    outArr[val].forEach(v => {
+    outArr[val].forEach((v) => {
       inArr[v]--
-      if (!inArr[v]) stack.push(v)
+      if (!inArr[v])
+        stack.push(v)
     })
   }
   return res.length === numCourses ? res : []

@@ -1,12 +1,12 @@
-const clear = require('clear')
-const inquirer = require('./inquirer')
-const { figletLog } = require('../utils/log')
 const fs = require('fs')
+const clear = require('clear')
+const { figletLog } = require('../utils/log')
+const inquirer = require('./inquirer')
 const update = require('./update')
 
 const getCategory = () => JSON.parse(fs.readFileSync('./assets/data/category.json', 'utf-8'))
 
-module.exports = async () => {
+module.exports = async() => {
   clear()
   await figletLog('UPDATE CATEGORY')
   const data = getCategory()

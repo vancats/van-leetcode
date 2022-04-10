@@ -11,20 +11,20 @@
  * @param {string[]} logs
  * @return {number[]}
  */
-var exclusiveTime = function (n, logs) {
-  let stack = [], ans = new Array(n).fill(0)
+const exclusiveTime = function(n, logs) {
+  const stack = []; const ans = new Array(n).fill(0)
   for (let i = 0; i < logs.length; i++) {
-    let arr = logs[i].split(':')
+    const arr = logs[i].split(':')
     if (arr[1] === 'start') {
-      if (stack.length) {
+      if (stack.length)
         ans[stack[stack.length - 1][0]] += arr[2] - stack[stack.length - 1][2]
-      }
+
       stack.push(arr)
-    } else {
+    }
+    else {
       ans[arr[0]] += arr[2] - stack.pop()[2] + 1
-      if (stack.length) {
+      if (stack.length)
         stack[stack.length - 1][2] = Number(arr[2]) + 1
-      }
     }
   }
   return ans
