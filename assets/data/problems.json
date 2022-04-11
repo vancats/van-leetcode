@@ -357,6 +357,13 @@
     "path": "../../src/705.设计哈希集合/README.md"
   },
   {
+    "id": "706",
+    "title": "706.设计哈希映射",
+    "url": "https://leetcode-cn.com/problems/design-hashmap/",
+    "difficulty": "非常简单",
+    "path": "../../src/706.设计哈希映射/README.md"
+  },
+  {
     "id": "720",
     "title": "720.词典中最长的单词",
     "url": "https://leetcode-cn.com/problems/longest-word-in-dictionary/",
