@@ -224,6 +224,13 @@
     "path": "../../src/344.反转字符串/README.md"
   },
   {
+    "id": "357",
+    "title": "357.统计各位数字都不同的数字个数",
+    "url": "https://leetcode-cn.com/problems/count-numbers-with-unique-digits/",
+    "difficulty": "中等",
+    "path": "../../src/357.统计各位数字都不同的数字个数/README.md"
+  },
+  {
     "id": "393",
     "title": "393.UTF-8编码验证",
     "url": "https://leetcode-cn.com/problems/utf-8-validation/",

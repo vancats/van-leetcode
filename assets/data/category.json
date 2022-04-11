@@ -319,6 +319,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "357",
+        "title": "357.统计各位数字都不同的数字个数",
+        "path": "../../src/357.统计各位数字都不同的数字个数/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "470",
         "title": "470.用Rand7()实现Rand10()",
         "path": "../../src/470.用Rand7()实现Rand10()/README.md",
