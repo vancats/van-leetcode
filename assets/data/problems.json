@@ -350,6 +350,13 @@
     "path": "../../src/701.二叉搜索树中的插入操作/README.md"
   },
   {
+    "id": "705",
+    "title": "705.设计哈希集合",
+    "url": "https://leetcode-cn.com/problems/design-hashset/",
+    "difficulty": "非常简单",
+    "path": "../../src/705.设计哈希集合/README.md"
+  },
+  {
     "id": "720",
     "title": "720.词典中最长的单词",
     "url": "https://leetcode-cn.com/problems/longest-word-in-dictionary/",
