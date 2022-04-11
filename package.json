@@ -4,11 +4,11 @@
   "description": "my-leetcode",
   "keywords": [],
   "license": "ISC",
-  "author": "leiqifan <leiqifan@163.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lqf66/leetcode-daily.git"
   },
+  "author": "leiqifan <leiqifan@163.com>",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/lqf66/leetcode-daily#readme",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.20.2",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.21",
+    "@vancats/eslint-config": "^0.0.5",
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
     "eslint": "^8.13.0",
