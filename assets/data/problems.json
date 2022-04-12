@@ -406,6 +406,13 @@
     "path": "../../src/804.唯一摩尔斯密码词/README.md"
   },
   {
+    "id": "806",
+    "title": "806.写字符串需要的行数",
+    "url": "https://leetcode-cn.com/problems/number-of-lines-to-write-string/",
+    "difficulty": "非常简单",
+    "path": "../../src/806.写字符串需要的行数/README.md"
+  },
+  {
     "id": "912",
     "title": "912.排序数组",
     "url": "https://leetcode-cn.com/problems/sort-an-array/",
