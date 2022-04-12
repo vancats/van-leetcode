@@ -87,19 +87,19 @@
         "difficulty": "中等"
       },
       {
-        "id": "3002",
+        "id": "4002",
         "title": "面试题04.04.检查平衡性",
         "path": "../../src/面试题04.04.检查平衡性/README.md",
         "difficulty": "简单"
       },
       {
-        "id": "3004",
+        "id": "4004",
         "title": "面试题04.08.首个共同祖先",
         "path": "../../src/面试题04.08.首个共同祖先/README.md",
         "difficulty": "中等"
       },
       {
-        "id": "3005",
+        "id": "4005",
         "title": "面试题04.12.求和路径",
         "path": "../../src/面试题04.12.求和路径/README.md",
         "difficulty": "中等"
@@ -210,7 +210,7 @@
         "difficulty": "中等"
       },
       {
-        "id": "3005",
+        "id": "4005",
         "title": "面试题04.12.求和路径",
         "path": "../../src/面试题04.12.求和路径/README.md",
         "difficulty": "中等"
@@ -254,6 +254,12 @@
         "title": "954.二倍数对数组",
         "path": "../../src/954.二倍数对数组/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4006",
+        "title": "面试题16.25.LRU缓存",
+        "path": "../../src/面试题16.25.LRU缓存/README.md",
+        "difficulty": "中等"
       }
     ]
   },
@@ -273,13 +279,13 @@
         "difficulty": "中等"
       },
       {
-        "id": "3000",
+        "id": "4000",
         "title": "剑指Offer21.调整数组顺序使奇数位于偶数前面",
         "path": "../../src/剑指Offer21.调整数组顺序使奇数位于偶数前面/README.md",
         "difficulty": "简单"
       },
       {
-        "id": "3001",
+        "id": "4001",
         "title": "面试题17.14.最小K个数",
         "path": "../../src/面试题17.14.最小K个数/README.md",
         "difficulty": "中等"
@@ -299,6 +305,12 @@
         "id": "148",
         "title": "148.排序链表",
         "path": "../../src/148.排序链表/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "4006",
+        "title": "面试题16.25.LRU缓存",
+        "path": "../../src/面试题16.25.LRU缓存/README.md",
         "difficulty": "中等"
       }
     ]
@@ -531,7 +543,7 @@
         "difficulty": "中等"
       },
       {
-        "id": "3003",
+        "id": "4003",
         "title": "剑指Offer51.数组中的逆序对",
         "path": "../../src/剑指Offer51.数组中的逆序对/README.md",
         "difficulty": "困难"

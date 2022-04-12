@@ -1,3 +1,7 @@
 {
-  "extends": "@vancats"
+  "extends": "@vancats",
+  "rules": {
+    "space-before-function-paren": "off",
+    "no-console": "off"
+  }
 }
