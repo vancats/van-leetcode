@@ -308,6 +308,13 @@
     "path": "../../src/491.递增子序列/README.md"
   },
   {
+    "id": "535",
+    "title": "535.TinyURL的加密与解密",
+    "url": "https://leetcode-cn.com/problems/encode-and-decode-tinyurl/",
+    "difficulty": "中等",
+    "path": "../../src/535.TinyURL的加密与解密/README.md"
+  },
+  {
     "id": "537",
     "title": "537.复数乘法",
     "url": "https://leetcode-cn.com/problems/complex-number-multiplication/",

@@ -250,6 +250,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "535",
+        "title": "535.TinyURL的加密与解密",
+        "path": "../../src/535.TinyURL的加密与解密/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "599",
         "title": "599.两个列表的最小索引总和",
         "path": "../../src/599.两个列表的最小索引总和/README.md",
