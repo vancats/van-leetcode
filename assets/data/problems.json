@@ -231,6 +231,13 @@
     "path": "../../src/357.统计各位数字都不同的数字个数/README.md"
   },
   {
+    "id": "380",
+    "title": "380.O(1)时间插入、删除和获取随机元素",
+    "url": "https://leetcode-cn.com/problems/insert-delete-getrandom-o1/solution/o1-shi-jian-cha-ru-shan-chu-he-huo-qu-su-rlz2/",
+    "difficulty": "中等",
+    "path": "../../src/380.O(1)时间插入、删除和获取随机元素/README.md"
+  },
+  {
     "id": "393",
     "title": "393.UTF-8编码验证",
     "url": "https://leetcode-cn.com/problems/utf-8-validation/",
