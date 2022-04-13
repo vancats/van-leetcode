@@ -30,7 +30,7 @@ const update = ({ title, url, difficulty, id }) => {
 }
 
 const updateDataJson = ({ title, url, difficulty, id }) => {
-  const problems = JSON.parse(fs.readFileSync('./assets/data/problems.json'))
+  const problems = JSON.parse(fs.readFileSync('./public/data/problems.json'))
   problems.push({
     id,
     title,
@@ -39,7 +39,7 @@ const updateDataJson = ({ title, url, difficulty, id }) => {
     path: `../../src/${title}/README.md`,
   })
   problems.sort((a, b) => a.id - b.id)
-  fs.writeFileSync('./assets/data/problems.json', JSON.stringify(problems, null, 2))
+  fs.writeFileSync('./public/data/problems.json', JSON.stringify(problems, null, 2))
   return problems
 }
 
@@ -50,7 +50,7 @@ const updateMarkdown = (problems) => {
     md += `\r\n\r\n[${problem.title}](${problem.path})`
   })
 
-  fs.writeFileSync('./assets/docs/PROBLEMS.md', md)
+  fs.writeFileSync('./public/docs/PROBLEMS.md', md)
 }
 
 const createProject = (title) => {

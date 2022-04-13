@@ -5,7 +5,7 @@ module.exports = (data, { id, categories, others }) => {
   const newData = addToData(data, { id, categories, others })
   // 写入数据
   fs.writeFileSync(
-    './assets/data/category.json',
+    './public/data/category.json',
     JSON.stringify(newData, null, 2),
   )
   // 更新 markdown
@@ -51,7 +51,7 @@ const addToData = (data, { id, categories, others }) => {
 }
 
 const findProblem = (id) => {
-  const problems = JSON.parse(fs.readFileSync('./assets/data/problems.json', 'utf-8'))
+  const problems = JSON.parse(fs.readFileSync('./public/data/problems.json', 'utf-8'))
   return problems.find(problems => problems.id === id)
 }
 
@@ -66,5 +66,5 @@ const updateMarkdown = (data) => {
       md += `| [${problem.title}](${problem.path}) | ${problem.difficulty} |\r\n`
     })
   })
-  fs.writeFileSync('./assets/docs/CATEGORY.md', md)
+  fs.writeFileSync('./public/docs/CATEGORY.md', md)
 }
