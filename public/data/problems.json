@@ -462,6 +462,13 @@
     "path": "../../src/954.二倍数对数组/README.md"
   },
   {
+    "id": "979",
+    "title": "979.在二叉树中分配硬币",
+    "url": "https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/",
+    "difficulty": "中等",
+    "path": "../../src/979.在二叉树中分配硬币/README.md"
+  },
+  {
     "id": "1011",
     "title": "1011.在D天内送达包裹的能力",
     "url": "https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/",
