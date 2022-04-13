@@ -140,6 +140,13 @@
     "path": "../../src/172.阶乘后的零/README.md"
   },
   {
+    "id": "187",
+    "title": "187.重复的DNA序列",
+    "url": "https://leetcode-cn.com/problems/repeated-dna-sequences/",
+    "difficulty": "非常简单",
+    "path": "../../src/187.重复的DNA序列/README.md"
+  },
+  {
     "id": "207",
     "title": "207.课程表",
     "url": "https://leetcode-cn.com/problems/course-schedule/",
