@@ -217,6 +217,13 @@
     "path": "../../src/315.计算右侧小于当前元素的个数/README.md"
   },
   {
+    "id": "318",
+    "title": "318.最大单词长度乘积",
+    "url": "http://vstfsd01:8080/tfs/DefaultCollection/TSD/_releaseProgress?_a=release-pipeline-progress&releaseId=7477",
+    "difficulty": "中等",
+    "path": "../../src/318.最大单词长度乘积/README.md"
+  },
+  {
     "id": "322",
     "title": "322.零钱兑换",
     "url": "https://leetcode-cn.com/problems/coin-change/",
