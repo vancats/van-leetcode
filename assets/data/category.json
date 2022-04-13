@@ -412,6 +412,12 @@
         "difficulty": "非常简单"
       },
       {
+        "id": "240",
+        "title": "240.搜索二维矩阵II",
+        "path": "../../src/240.搜索二维矩阵II/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "274",
         "title": "274.H指数",
         "path": "../../src/274.H指数/README.md",

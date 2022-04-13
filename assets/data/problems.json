@@ -175,6 +175,13 @@
     "path": "../../src/238.除自身以外数组的乘积/README.md"
   },
   {
+    "id": "240",
+    "title": "240.搜索二维矩阵II",
+    "url": "https://leetcode-cn.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "非常简单",
+    "path": "../../src/240.搜索二维矩阵II/README.md"
+  },
+  {
     "id": "257",
     "title": "257.二叉树的所有路径",
     "url": "https://leetcode-cn.com/problems/binary-tree-paths/",
