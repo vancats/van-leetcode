@@ -16,6 +16,7 @@
 
 #### 示例 1：
 
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/tree1.png)
 ```
 输入：[3,0,0]
 输出：2
@@ -24,6 +25,7 @@
 
 #### 示例 2：
 
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/tree2.png)
 ```
 输入：[0,3,0]
 输出：3
@@ -32,6 +34,7 @@
 
 #### 示例 3：
 
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/tree3.png)
 ```
 输入：[1,0,2]
 输出：2
@@ -39,6 +42,7 @@
 
 #### 示例 4：
 
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/tree4.png)
 ```
 输入：[1,0,0,null,3]
 输出：4

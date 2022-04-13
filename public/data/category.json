@@ -338,6 +338,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "430",
+        "title": "430.扁平化多级双向链表",
+        "path": "../../src/430.扁平化多级双向链表/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "4006",
         "title": "面试题16.25.LRU缓存",
         "path": "../../src/面试题16.25.LRU缓存/README.md",

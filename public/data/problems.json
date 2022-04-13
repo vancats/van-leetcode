@@ -280,6 +280,13 @@
     "path": "../../src/429.N叉树的层序遍历/README.md"
   },
   {
+    "id": "430",
+    "title": "430.扁平化多级双向链表",
+    "url": "https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/",
+    "difficulty": "中等",
+    "path": "../../src/430.扁平化多级双向链表/README.md"
+  },
+  {
     "id": "450",
     "title": "450.删除二叉搜索树中的节点",
     "url": "https://leetcode-cn.com/problems/delete-node-in-a-bst/",
