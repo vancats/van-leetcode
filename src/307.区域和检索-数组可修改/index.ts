@@ -1,5 +1,5 @@
 /**
- * @description: Annotation
+ * @description: 时间复杂度 O(right-left) 空间复杂度 O(N)
  * @return {*}
  */
 export class NumArray {

@@ -43,7 +43,7 @@ nums2.length == n
 
 ```typescript
 /**
- * @description: Annotation
+ * @description: 时间复杂度 O(lg(M+N) 空间复杂度 O(1)
  * @return {*}
  * @param {number} nums1
  * @param {number} nums2

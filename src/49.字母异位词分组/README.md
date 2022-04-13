@@ -45,7 +45,7 @@ strs[i] 仅包含小写字母
 
 ```typescript
 /**
- * @description: Annotation
+ * @description: 时间复杂度 O(N) 空间复杂度 O(N)
  * @return {*}
  * @param {string} strs
  */

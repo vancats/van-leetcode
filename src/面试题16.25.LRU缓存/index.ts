@@ -6,7 +6,7 @@ interface hash {
   next: number
 }
 /**
- * @description: Annotation
+ * @description: 待定
  * @return {*}
  */
 export class LRUCache {

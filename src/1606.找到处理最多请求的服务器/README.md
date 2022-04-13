@@ -80,7 +80,7 @@ arrival 保证 严格递增 。
 ```typescript
 import { Heap } from "../../utils/Heap"
 /**
- * @description: Annotation
+ * @description: 待定
  * @return {*}
  * @param {number} k
  * @param {number} arrival

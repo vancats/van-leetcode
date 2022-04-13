@@ -1,7 +1,7 @@
 import { TreeNode } from '../../utils/TreeNode'
 
 /**
- * @description: Annotation
+ * @description: 待定
  * @return {*}
  * @param {number} n
  */
