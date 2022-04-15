@@ -259,6 +259,13 @@
     "path": "../../src/380.O(1)时间插入、删除和获取随机元素/README.md"
   },
   {
+    "id": "385",
+    "title": "385.迷你语法分析器",
+    "url": "https://leetcode-cn.com/problems/mini-parser/",
+    "difficulty": "中等",
+    "path": "../../src/385.迷你语法分析器/README.md"
+  },
+  {
     "id": "393",
     "title": "393.UTF-8编码验证",
     "url": "https://leetcode-cn.com/problems/utf-8-validation/",

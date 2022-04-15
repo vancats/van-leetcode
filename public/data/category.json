@@ -472,6 +472,12 @@
         "difficulty": "非常简单"
       },
       {
+        "id": "385",
+        "title": "385.迷你语法分析器",
+        "path": "../../src/385.迷你语法分析器/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "537",
         "title": "537.复数乘法",
         "path": "../../src/537.复数乘法/README.md",

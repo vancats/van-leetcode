@@ -12,4 +12,5 @@ module.exports = async () => {
   const data = getCategory()
   const { id, categories, others } = await inquirer(data)
   update(data, { id, categories, others })
+  await figletLog('**SUCCESS**')
 }
