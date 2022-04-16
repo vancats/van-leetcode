@@ -144,6 +144,12 @@
         "title": "322.零钱兑换",
         "path": "../../src/322.零钱兑换/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4008",
+        "title": "竞赛-烹饪料理",
+        "path": "../../src/竞赛-烹饪料理/README.md",
+        "difficulty": "中等"
       }
     ]
   },

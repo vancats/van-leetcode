@@ -670,5 +670,12 @@
     "url": "https://leetcode-cn.com/contest/season/2022-spring/problems/WHnhjV/",
     "difficulty": "非常简单",
     "path": "../../src/竞赛-宝石补给/README.md"
+  },
+  {
+    "id": "4008",
+    "title": "竞赛-烹饪料理",
+    "url": "https://leetcode-cn.com/contest/season/2022-spring/problems/UEcfPD/",
+    "difficulty": "中等",
+    "path": "../../src/竞赛-烹饪料理/README.md"
   }
 ]
