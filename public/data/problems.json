@@ -266,6 +266,13 @@
     "path": "../../src/385.迷你语法分析器/README.md"
   },
   {
+    "id": "386",
+    "title": "386.字典序排数",
+    "url": "https://leetcode-cn.com/problems/lexicographical-numbers/",
+    "difficulty": "中等",
+    "path": "../../src/386.字典序排数/README.md"
+  },
+  {
     "id": "393",
     "title": "393.UTF-8编码验证",
     "url": "https://leetcode-cn.com/problems/utf-8-validation/",
