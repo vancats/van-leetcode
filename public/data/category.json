@@ -801,5 +801,16 @@
         "difficulty": "中等"
       }
     ]
+  },
+  {
+    "label": "BFS",
+    "problems": [
+      {
+        "id": "542",
+        "title": "542.01矩阵",
+        "path": "../../src/542.01矩阵/README.md",
+        "difficulty": "中等"
+      }
+    ]
   }
 ]

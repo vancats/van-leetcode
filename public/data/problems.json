@@ -343,6 +343,13 @@
     "path": "../../src/537.复数乘法/README.md"
   },
   {
+    "id": "542",
+    "title": "542.01矩阵",
+    "url": "https://leetcode-cn.com/problems/01-matrix/",
+    "difficulty": "中等",
+    "path": "../../src/542.01矩阵/README.md"
+  },
+  {
     "id": "589",
     "title": "589.N叉树的前序遍历",
     "url": "https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/",
