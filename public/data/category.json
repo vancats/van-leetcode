@@ -154,6 +154,145 @@
     ]
   },
   {
+    "label": "回溯",
+    "problems": [
+      {
+        "id": "491",
+        "title": "491.递增子序列",
+        "path": "../../src/491.递增子序列/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "滑动窗口",
+    "problems": [
+      {
+        "id": "2024",
+        "title": "2024.考试的最大困扰度",
+        "path": "../../src/2024.考试的最大困扰度/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "快排",
+    "problems": [
+      {
+        "id": "75",
+        "title": "75.颜色分类",
+        "path": "../../src/75.颜色分类/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "912",
+        "title": "912.排序数组",
+        "path": "../../src/912.排序数组/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "4000",
+        "title": "剑指Offer21.调整数组顺序使奇数位于偶数前面",
+        "path": "../../src/剑指Offer21.调整数组顺序使奇数位于偶数前面/README.md",
+        "difficulty": "简单"
+      },
+      {
+        "id": "4001",
+        "title": "面试题17.14.最小K个数",
+        "path": "../../src/面试题17.14.最小K个数/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "归并",
+    "problems": [
+      {
+        "id": "148",
+        "title": "148.排序链表",
+        "path": "../../src/148.排序链表/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "315",
+        "title": "315.计算右侧小于当前元素的个数",
+        "path": "../../src/315.计算右侧小于当前元素的个数/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "327",
+        "title": "327.区间和的个数",
+        "path": "../../src/327.区间和的个数/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "1305",
+        "title": "1305.两棵二叉搜索树中的所有元素",
+        "path": "../../src/1305.两棵二叉搜索树中的所有元素/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "1508",
+        "title": "1508.子数组和排序后的区间和",
+        "path": "../../src/1508.子数组和排序后的区间和/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "4003",
+        "title": "剑指Offer51.数组中的逆序对",
+        "path": "../../src/剑指Offer51.数组中的逆序对/README.md",
+        "difficulty": "困难"
+      }
+    ]
+  },
+  {
+    "label": "特殊排序",
+    "problems": [
+      {
+        "id": "56",
+        "title": "56.合并区间",
+        "path": "../../src/56.合并区间/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "164",
+        "title": "164.最大间距",
+        "path": "../../src/164.最大间距/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "207",
+        "title": "207.课程表",
+        "path": "../../src/207.课程表/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "210",
+        "title": "210.课程表II",
+        "path": "../../src/210.课程表II/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "1122",
+        "title": "1122.数组的相对排序",
+        "path": "../../src/1122.数组的相对排序/README.md",
+        "difficulty": "简单"
+      },
+      {
+        "id": "1288",
+        "title": "1288.删除被覆盖区间",
+        "path": "../../src/1288.删除被覆盖区间/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "1996",
+        "title": "1996.游戏中弱角色的数量",
+        "path": "../../src/1996.游戏中弱角色的数量/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
     "label": "二分法",
     "problems": [
       {
@@ -254,6 +393,104 @@
     ]
   },
   {
+    "label": "BFS",
+    "problems": [
+      {
+        "id": "542",
+        "title": "542.01矩阵",
+        "path": "../../src/542.01矩阵/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "752",
+        "title": "752.打开转盘锁",
+        "path": "../../src/752.打开转盘锁/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "993",
+        "title": "993.二叉树的堂兄弟节点",
+        "path": "../../src/993.二叉树的堂兄弟节点/README.md",
+        "difficulty": "简单"
+      },
+      {
+        "id": "1091",
+        "title": "1091.二进制矩阵中的最短路径",
+        "path": "../../src/1091.二进制矩阵中的最短路径/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "栈",
+    "problems": [
+      {
+        "id": "11",
+        "title": "11.盛最多水的容器",
+        "path": "../../src/11.盛最多水的容器/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "394",
+        "title": "394.字符串解码",
+        "path": "../../src/394.字符串解码/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "1302",
+        "title": "1302.层数最深叶子节点的和",
+        "path": "../../src/1302.层数最深叶子节点的和/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "堆",
+    "problems": [
+      {
+        "id": "23",
+        "title": "23.合并K个升序链表",
+        "path": "../../src/23.合并K个升序链表/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "1508",
+        "title": "1508.子数组和排序后的区间和",
+        "path": "../../src/1508.子数组和排序后的区间和/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "1606",
+        "title": "1606.找到处理最多请求的服务器",
+        "path": "../../src/1606.找到处理最多请求的服务器/README.md",
+        "difficulty": "困难"
+      }
+    ]
+  },
+  {
+    "label": "前缀和",
+    "problems": [
+      {
+        "id": "53",
+        "title": "53.最大子数组和",
+        "path": "../../src/53.最大子数组和/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "327",
+        "title": "327.区间和的个数",
+        "path": "../../src/327.区间和的个数/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "1658",
+        "title": "1658.将x减到0的最小操作数",
+        "path": "../../src/1658.将x减到0的最小操作数/README.md",
+        "difficulty": "中等"
+      }
+    ]
+  },
+  {
     "label": "字符串",
     "problems": [
       {
@@ -319,35 +556,6 @@
         "id": "4006",
         "title": "面试题16.25.LRU缓存",
         "path": "../../src/面试题16.25.LRU缓存/README.md",
-        "difficulty": "中等"
-      }
-    ]
-  },
-  {
-    "label": "快排",
-    "problems": [
-      {
-        "id": "75",
-        "title": "75.颜色分类",
-        "path": "../../src/75.颜色分类/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "912",
-        "title": "912.排序数组",
-        "path": "../../src/912.排序数组/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "4000",
-        "title": "剑指Offer21.调整数组顺序使奇数位于偶数前面",
-        "path": "../../src/剑指Offer21.调整数组顺序使奇数位于偶数前面/README.md",
-        "difficulty": "简单"
-      },
-      {
-        "id": "4001",
-        "title": "面试题17.14.最小K个数",
-        "path": "../../src/面试题17.14.最小K个数/README.md",
         "difficulty": "中等"
       }
     ]
@@ -423,29 +631,6 @@
     ]
   },
   {
-    "label": "栈",
-    "problems": [
-      {
-        "id": "11",
-        "title": "11.盛最多水的容器",
-        "path": "../../src/11.盛最多水的容器/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "394",
-        "title": "394.字符串解码",
-        "path": "../../src/394.字符串解码/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "1302",
-        "title": "1302.层数最深叶子节点的和",
-        "path": "../../src/1302.层数最深叶子节点的和/README.md",
-        "difficulty": "中等"
-      }
-    ]
-  },
-  {
     "label": "模拟",
     "problems": [
       {
@@ -459,6 +644,41 @@
         "title": "2043.简易银行系统",
         "path": "../../src/2043.简易银行系统/README.md",
         "difficulty": "中等"
+      }
+    ]
+  },
+  {
+    "label": "困难",
+    "problems": [
+      {
+        "id": "4",
+        "title": "4.寻找两个正序数组的中位数",
+        "path": "../../src/4.寻找两个正序数组的中位数/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "164",
+        "title": "164.最大间距",
+        "path": "../../src/164.最大间距/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "315",
+        "title": "315.计算右侧小于当前元素的个数",
+        "path": "../../src/315.计算右侧小于当前元素的个数/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "327",
+        "title": "327.区间和的个数",
+        "path": "../../src/327.区间和的个数/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "1606",
+        "title": "1606.找到处理最多请求的服务器",
+        "path": "../../src/1606.找到处理最多请求的服务器/README.md",
+        "difficulty": "困难"
       }
     ]
   },
@@ -614,214 +834,6 @@
         "title": "竞赛-宝石补给",
         "path": "../../src/竞赛-宝石补给/README.md",
         "difficulty": "非常简单"
-      }
-    ]
-  },
-  {
-    "label": "归并",
-    "problems": [
-      {
-        "id": "148",
-        "title": "148.排序链表",
-        "path": "../../src/148.排序链表/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "315",
-        "title": "315.计算右侧小于当前元素的个数",
-        "path": "../../src/315.计算右侧小于当前元素的个数/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "327",
-        "title": "327.区间和的个数",
-        "path": "../../src/327.区间和的个数/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "1305",
-        "title": "1305.两棵二叉搜索树中的所有元素",
-        "path": "../../src/1305.两棵二叉搜索树中的所有元素/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "1508",
-        "title": "1508.子数组和排序后的区间和",
-        "path": "../../src/1508.子数组和排序后的区间和/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "4003",
-        "title": "剑指Offer51.数组中的逆序对",
-        "path": "../../src/剑指Offer51.数组中的逆序对/README.md",
-        "difficulty": "困难"
-      }
-    ]
-  },
-  {
-    "label": "堆",
-    "problems": [
-      {
-        "id": "23",
-        "title": "23.合并K个升序链表",
-        "path": "../../src/23.合并K个升序链表/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "1508",
-        "title": "1508.子数组和排序后的区间和",
-        "path": "../../src/1508.子数组和排序后的区间和/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "1606",
-        "title": "1606.找到处理最多请求的服务器",
-        "path": "../../src/1606.找到处理最多请求的服务器/README.md",
-        "difficulty": "困难"
-      }
-    ]
-  },
-  {
-    "label": "前缀和",
-    "problems": [
-      {
-        "id": "53",
-        "title": "53.最大子数组和",
-        "path": "../../src/53.最大子数组和/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "327",
-        "title": "327.区间和的个数",
-        "path": "../../src/327.区间和的个数/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "1658",
-        "title": "1658.将x减到0的最小操作数",
-        "path": "../../src/1658.将x减到0的最小操作数/README.md",
-        "difficulty": "中等"
-      }
-    ]
-  },
-  {
-    "label": "困难",
-    "problems": [
-      {
-        "id": "4",
-        "title": "4.寻找两个正序数组的中位数",
-        "path": "../../src/4.寻找两个正序数组的中位数/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "164",
-        "title": "164.最大间距",
-        "path": "../../src/164.最大间距/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "315",
-        "title": "315.计算右侧小于当前元素的个数",
-        "path": "../../src/315.计算右侧小于当前元素的个数/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "327",
-        "title": "327.区间和的个数",
-        "path": "../../src/327.区间和的个数/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "1606",
-        "title": "1606.找到处理最多请求的服务器",
-        "path": "../../src/1606.找到处理最多请求的服务器/README.md",
-        "difficulty": "困难"
-      }
-    ]
-  },
-  {
-    "label": "特殊排序",
-    "problems": [
-      {
-        "id": "56",
-        "title": "56.合并区间",
-        "path": "../../src/56.合并区间/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "164",
-        "title": "164.最大间距",
-        "path": "../../src/164.最大间距/README.md",
-        "difficulty": "困难"
-      },
-      {
-        "id": "207",
-        "title": "207.课程表",
-        "path": "../../src/207.课程表/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "210",
-        "title": "210.课程表II",
-        "path": "../../src/210.课程表II/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "1122",
-        "title": "1122.数组的相对排序",
-        "path": "../../src/1122.数组的相对排序/README.md",
-        "difficulty": "简单"
-      },
-      {
-        "id": "1288",
-        "title": "1288.删除被覆盖区间",
-        "path": "../../src/1288.删除被覆盖区间/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "1996",
-        "title": "1996.游戏中弱角色的数量",
-        "path": "../../src/1996.游戏中弱角色的数量/README.md",
-        "difficulty": "中等"
-      }
-    ]
-  },
-  {
-    "label": "滑动窗口",
-    "problems": [
-      {
-        "id": "2024",
-        "title": "2024.考试的最大困扰度",
-        "path": "../../src/2024.考试的最大困扰度/README.md",
-        "difficulty": "中等"
-      }
-    ]
-  },
-  {
-    "label": "回溯",
-    "problems": [
-      {
-        "id": "491",
-        "title": "491.递增子序列",
-        "path": "../../src/491.递增子序列/README.md",
-        "difficulty": "中等"
-      }
-    ]
-  },
-  {
-    "label": "BFS",
-    "problems": [
-      {
-        "id": "542",
-        "title": "542.01矩阵",
-        "path": "../../src/542.01矩阵/README.md",
-        "difficulty": "中等"
-      },
-      {
-        "id": "1091",
-        "title": "1091.二进制矩阵中的最短路径",
-        "path": "../../src/1091.二进制矩阵中的最短路径/README.md",
-        "difficulty": "中等"
       }
     ]
   }
