@@ -449,6 +449,12 @@
     "label": "模拟",
     "problems": [
       {
+        "id": "821",
+        "title": "821.字符的最短距离",
+        "path": "../../src/821.字符的最短距离/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "2043",
         "title": "2043.简易银行系统",
         "path": "../../src/2043.简易银行系统/README.md",
