@@ -119,6 +119,13 @@
     "path": "../../src/108.将有序数组转换为二叉搜索树/README.md"
   },
   {
+    "id": "130",
+    "title": "130.被围绕的区域",
+    "url": "https://leetcode-cn.com/problems/surrounded-regions/",
+    "difficulty": "中等",
+    "path": "../../src/130.被围绕的区域/README.md"
+  },
+  {
     "id": "148",
     "title": "148.排序链表",
     "url": "https://leetcode-cn.com/problems/sort-list/",

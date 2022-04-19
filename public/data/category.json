@@ -361,6 +361,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "130",
+        "title": "130.被围绕的区域",
+        "path": "../../src/130.被围绕的区域/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "386",
         "title": "386.字典序排数",
         "path": "../../src/386.字典序排数/README.md",
