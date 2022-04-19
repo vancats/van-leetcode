@@ -163,6 +163,12 @@
         "difficulty": "困难"
       },
       {
+        "id": "52",
+        "title": "52.N皇后II",
+        "path": "../../src/52.N皇后II/README.md",
+        "difficulty": "困难"
+      },
+      {
         "id": "491",
         "title": "491.递增子序列",
         "path": "../../src/491.递增子序列/README.md",
@@ -370,6 +376,12 @@
         "id": "51",
         "title": "51.N皇后",
         "path": "../../src/51.N皇后/README.md",
+        "difficulty": "困难"
+      },
+      {
+        "id": "52",
+        "title": "52.N皇后II",
+        "path": "../../src/52.N皇后II/README.md",
         "difficulty": "困难"
       },
       {

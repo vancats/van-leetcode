@@ -70,6 +70,13 @@
     "path": "../../src/51.N皇后/README.md"
   },
   {
+    "id": "52",
+    "title": "52.N皇后II",
+    "url": "https://leetcode-cn.com/problems/n-queens-ii/",
+    "difficulty": "困难",
+    "path": "../../src/52.N皇后II/README.md"
+  },
+  {
     "id": "53",
     "title": "53.最大子数组和",
     "url": "https://leetcode-cn.com/problems/maximum-subarray/",

@@ -20,6 +20,8 @@
 
 [51.N皇后](../../src/51.N皇后/README.md)
 
+[52.N皇后II](../../src/52.N皇后II/README.md)
+
 [53.最大子数组和](../../src/53.最大子数组和/README.md)
 
 [56.合并区间](../../src/56.合并区间/README.md)
