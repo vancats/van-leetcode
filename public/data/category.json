@@ -816,6 +816,12 @@
         "title": "542.01矩阵",
         "path": "../../src/542.01矩阵/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "1091",
+        "title": "1091.二进制矩阵中的最短路径",
+        "path": "../../src/1091.二进制矩阵中的最短路径/README.md",
+        "difficulty": "中等"
       }
     ]
   }

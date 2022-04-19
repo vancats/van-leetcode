@@ -525,6 +525,13 @@
     "path": "../../src/1011.在D天内送达包裹的能力/README.md"
   },
   {
+    "id": "1091",
+    "title": "1091.二进制矩阵中的最短路径",
+    "url": "https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/",
+    "difficulty": "中等",
+    "path": "../../src/1091.二进制矩阵中的最短路径/README.md"
+  },
+  {
     "id": "1122",
     "title": "1122.数组的相对排序",
     "url": "https://leetcode-cn.com/problems/relative-sort-array/",
