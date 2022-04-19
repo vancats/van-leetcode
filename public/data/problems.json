@@ -336,6 +336,13 @@
     "path": "../../src/491.递增子序列/README.md"
   },
   {
+    "id": "494",
+    "title": "494.目标和",
+    "url": "https://leetcode-cn.com/problems/target-sum/",
+    "difficulty": "中等",
+    "path": "../../src/494.目标和/README.md"
+  },
+  {
     "id": "535",
     "title": "535.TinyURL的加密与解密",
     "url": "https://leetcode-cn.com/problems/encode-and-decode-tinyurl/",

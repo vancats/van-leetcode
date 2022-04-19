@@ -373,6 +373,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "494",
+        "title": "494.目标和",
+        "path": "../../src/494.目标和/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "863",
         "title": "863.二叉树中所有距离为K的结点",
         "path": "../../src/863.二叉树中所有距离为K的结点/README.md",
