@@ -373,6 +373,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "473",
+        "title": "473.火柴拼正方形",
+        "path": "../../src/473.火柴拼正方形/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "494",
         "title": "494.目标和",
         "path": "../../src/494.目标和/README.md",

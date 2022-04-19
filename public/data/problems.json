@@ -329,6 +329,13 @@
     "path": "../../src/470.用Rand7()实现Rand10()/README.md"
   },
   {
+    "id": "473",
+    "title": "473.火柴拼正方形",
+    "url": "https://leetcode-cn.com/problems/matchsticks-to-square/",
+    "difficulty": "中等",
+    "path": "../../src/473.火柴拼正方形/README.md"
+  },
+  {
     "id": "491",
     "title": "491.递增子序列",
     "url": "https://leetcode-cn.com/problems/increasing-subsequences/",
