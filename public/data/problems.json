@@ -719,5 +719,12 @@
     "url": "https://leetcode-cn.com/contest/season/2022-spring/problems/UEcfPD/",
     "difficulty": "中等",
     "path": "../../src/竞赛-烹饪料理/README.md"
+  },
+  {
+    "id": "4009",
+    "title": "剑指Offer13.机器人的运动范围",
+    "url": "https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/",
+    "difficulty": "中等",
+    "path": "../../src/剑指Offer13.机器人的运动范围/README.md"
   }
 ]

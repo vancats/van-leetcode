@@ -418,6 +418,12 @@
         "title": "1091.二进制矩阵中的最短路径",
         "path": "../../src/1091.二进制矩阵中的最短路径/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4009",
+        "title": "剑指Offer13.机器人的运动范围",
+        "path": "../../src/剑指Offer13.机器人的运动范围/README.md",
+        "difficulty": "中等"
       }
     ]
   },
