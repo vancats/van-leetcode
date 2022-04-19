@@ -355,6 +355,12 @@
     "label": "DFS",
     "problems": [
       {
+        "id": "39",
+        "title": "39.组合总和",
+        "path": "../../src/39.组合总和/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "95",
         "title": "95.不同的二叉搜索树II",
         "path": "../../src/95.不同的二叉搜索树II/README.md",

@@ -42,6 +42,13 @@
     "path": "../../src/35.搜索插入位置/README.md"
   },
   {
+    "id": "39",
+    "title": "39.组合总和",
+    "url": "https://leetcode-cn.com/problems/combination-sum/",
+    "difficulty": "中等",
+    "path": "../../src/39.组合总和/README.md"
+  },
+  {
     "id": "49",
     "title": "49.字母异位词分组",
     "url": "https://leetcode-cn.com/problems/group-anagrams/",
