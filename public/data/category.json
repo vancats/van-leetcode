@@ -157,6 +157,12 @@
     "label": "回溯",
     "problems": [
       {
+        "id": "51",
+        "title": "51.N皇后",
+        "path": "../../src/51.N皇后/README.md",
+        "difficulty": "困难"
+      },
+      {
         "id": "491",
         "title": "491.递增子序列",
         "path": "../../src/491.递增子序列/README.md",
@@ -359,6 +365,12 @@
         "title": "39.组合总和",
         "path": "../../src/39.组合总和/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "51",
+        "title": "51.N皇后",
+        "path": "../../src/51.N皇后/README.md",
+        "difficulty": "困难"
       },
       {
         "id": "95",

@@ -63,6 +63,13 @@
     "path": "../../src/50.Pow(x,n)/README.md"
   },
   {
+    "id": "51",
+    "title": "51.N皇后",
+    "url": "https://leetcode-cn.com/problems/n-queens/",
+    "difficulty": "困难",
+    "path": "../../src/51.N皇后/README.md"
+  },
+  {
     "id": "53",
     "title": "53.最大子数组和",
     "url": "https://leetcode-cn.com/problems/maximum-subarray/",

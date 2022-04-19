@@ -18,6 +18,8 @@
 
 [50.Pow(x,n)](../../src/50.Pow(x,n)/README.md)
 
+[51.N皇后](../../src/51.N皇后/README.md)
+
 [53.最大子数组和](../../src/53.最大子数组和/README.md)
 
 [56.合并区间](../../src/56.合并区间/README.md)
