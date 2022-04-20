@@ -546,6 +546,13 @@
     "path": "../../src/821.字符的最短距离/README.md"
   },
   {
+    "id": "824",
+    "title": "824.山羊拉丁文",
+    "url": "https://leetcode-cn.com/problems/goat-latin/",
+    "difficulty": "非常简单",
+    "path": "../../src/824.山羊拉丁文/README.md"
+  },
+  {
     "id": "863",
     "title": "863.二叉树中所有距离为K的结点",
     "url": "https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/",
