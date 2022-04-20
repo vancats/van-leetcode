@@ -485,6 +485,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "388",
+        "title": "388.文件的最长绝对路径",
+        "path": "../../src/388.文件的最长绝对路径/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "394",
         "title": "394.字符串解码",
         "path": "../../src/394.字符串解码/README.md",

@@ -301,6 +301,13 @@
     "path": "../../src/386.字典序排数/README.md"
   },
   {
+    "id": "388",
+    "title": "388.文件的最长绝对路径",
+    "url": "https://leetcode-cn.com/problems/longest-absolute-file-path/",
+    "difficulty": "中等",
+    "path": "../../src/388.文件的最长绝对路径/README.md"
+  },
+  {
     "id": "393",
     "title": "393.UTF-8编码验证",
     "url": "https://leetcode-cn.com/problems/utf-8-validation/",
