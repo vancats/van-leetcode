@@ -322,6 +322,13 @@
     "path": "../../src/394.字符串解码/README.md"
   },
   {
+    "id": "396",
+    "title": "396.旋转函数",
+    "url": "https://leetcode-cn.com/problems/rotate-function/",
+    "difficulty": "中等",
+    "path": "../../src/396.旋转函数/README.md"
+  },
+  {
     "id": "429",
     "title": "429.N叉树的层序遍历",
     "url": "https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/",

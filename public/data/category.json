@@ -671,6 +671,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "396",
+        "title": "396.旋转函数",
+        "path": "../../src/396.旋转函数/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "470",
         "title": "470.用Rand7()实现Rand10()",
         "path": "../../src/470.用Rand7()实现Rand10()/README.md",
