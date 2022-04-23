@@ -134,6 +134,12 @@
         "difficulty": "简单"
       },
       {
+        "id": "91",
+        "title": "91.解码方法",
+        "path": "../../src/91.解码方法/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "300",
         "title": "300.最长递增子序列",
         "path": "../../src/300.最长递增子序列/README.md",
