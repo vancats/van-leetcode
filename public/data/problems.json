@@ -574,6 +574,13 @@
     "path": "../../src/863.二叉树中所有距离为K的结点/README.md"
   },
   {
+    "id": "868",
+    "title": "868.二进制间距",
+    "url": "https://leetcode-cn.com/problems/binary-gap/",
+    "difficulty": "非常简单",
+    "path": "../../src/868.二进制间距/README.md"
+  },
+  {
     "id": "912",
     "title": "912.排序数组",
     "url": "https://leetcode-cn.com/problems/sort-an-array/",
