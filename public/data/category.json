@@ -196,6 +196,12 @@
         "title": "2024.考试的最大困扰度",
         "path": "../../src/2024.考试的最大困扰度/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4010",
+        "title": "剑指Offer59-II.队列的最大值",
+        "path": "../../src/剑指Offer59-II.队列的最大值/README.md",
+        "difficulty": "中等"
       }
     ]
   },

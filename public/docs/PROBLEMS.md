@@ -231,3 +231,5 @@
 [竞赛-烹饪料理](../../src/竞赛-烹饪料理/README.md)
 
 [剑指Offer13.机器人的运动范围](../../src/剑指Offer13.机器人的运动范围/README.md)
+
+[剑指Offer59-II.队列的最大值](../../src/剑指Offer59-II.队列的最大值/README.md)

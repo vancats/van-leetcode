@@ -810,5 +810,12 @@
     "url": "https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/",
     "difficulty": "中等",
     "path": "../../src/剑指Offer13.机器人的运动范围/README.md"
+  },
+  {
+    "id": "4010",
+    "title": "剑指Offer59-II.队列的最大值",
+    "url": "https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/",
+    "difficulty": "中等",
+    "path": "../../src/剑指Offer59-II.队列的最大值/README.md"
   }
 ]
