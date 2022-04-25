@@ -406,6 +406,13 @@
     "path": "../../src/494.目标和/README.md"
   },
   {
+    "id": "513",
+    "title": "513.找树左下角的值",
+    "url": "https://leetcode-cn.com/problems/find-bottom-left-tree-value/",
+    "difficulty": "简单",
+    "path": "../../src/513.找树左下角的值/README.md"
+  },
+  {
     "id": "535",
     "title": "535.TinyURL的加密与解密",
     "url": "https://leetcode-cn.com/problems/encode-and-decode-tinyurl/",
