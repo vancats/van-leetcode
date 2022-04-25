@@ -56,6 +56,13 @@
     "path": "../../src/45.跳跃游戏II/README.md"
   },
   {
+    "id": "46",
+    "title": "46.全排列",
+    "url": "https://leetcode-cn.com/problems/permutations/",
+    "difficulty": "中等",
+    "path": "../../src/46.全排列/README.md"
+  },
+  {
     "id": "49",
     "title": "49.字母异位词分组",
     "url": "https://leetcode-cn.com/problems/group-anagrams/",

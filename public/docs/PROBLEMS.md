@@ -16,6 +16,8 @@
 
 [45.跳跃游戏II](../../src/45.跳跃游戏II/README.md)
 
+[46.全排列](../../src/46.全排列/README.md)
+
 [49.字母异位词分组](../../src/49.字母异位词分组/README.md)
 
 [50.Pow(x,n)](../../src/50.Pow(x,n)/README.md)

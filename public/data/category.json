@@ -169,6 +169,12 @@
     "label": "回溯",
     "problems": [
       {
+        "id": "46",
+        "title": "46.全排列",
+        "path": "../../src/46.全排列/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "51",
         "title": "51.N皇后",
         "path": "../../src/51.N皇后/README.md",
