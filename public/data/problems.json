@@ -343,6 +343,13 @@
     "path": "../../src/396.旋转函数/README.md"
   },
   {
+    "id": "398",
+    "title": "398.随机数索引",
+    "url": "https://leetcode-cn.com/problems/random-pick-index/",
+    "difficulty": "中等",
+    "path": "../../src/398.随机数索引/README.md"
+  },
+  {
     "id": "429",
     "title": "429.N叉树的层序遍历",
     "url": "https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/",

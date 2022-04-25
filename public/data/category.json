@@ -613,6 +613,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "398",
+        "title": "398.随机数索引",
+        "path": "../../src/398.随机数索引/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "535",
         "title": "535.TinyURL的加密与解密",
         "path": "../../src/535.TinyURL的加密与解密/README.md",
