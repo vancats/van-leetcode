@@ -49,6 +49,13 @@
     "path": "../../src/39.组合总和/README.md"
   },
   {
+    "id": "45",
+    "title": "45.跳跃游戏II",
+    "url": "https://leetcode-cn.com/problems/jump-game-ii/",
+    "difficulty": "中等",
+    "path": "../../src/45.跳跃游戏II/README.md"
+  },
+  {
     "id": "49",
     "title": "49.字母异位词分组",
     "url": "https://leetcode-cn.com/problems/group-anagrams/",

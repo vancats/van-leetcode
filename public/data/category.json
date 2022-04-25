@@ -713,6 +713,12 @@
     "label": "数学",
     "problems": [
       {
+        "id": "45",
+        "title": "45.跳跃游戏II",
+        "path": "../../src/45.跳跃游戏II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "50",
         "title": "50.Pow(x,n)",
         "path": "../../src/50.Pow(x,n)/README.md",
