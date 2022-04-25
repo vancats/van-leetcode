@@ -728,6 +728,13 @@
     "path": "../../src/1382.将二叉搜索树变平衡/README.md"
   },
   {
+    "id": "1438",
+    "title": "1438.绝对差不超过限制的最长连续子数组",
+    "url": "https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/",
+    "difficulty": "中等",
+    "path": "../../src/1438.绝对差不超过限制的最长连续子数组/README.md"
+  },
+  {
     "id": "1508",
     "title": "1508.子数组和排序后的区间和",
     "url": "https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/",
