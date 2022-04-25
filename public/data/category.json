@@ -794,6 +794,12 @@
     "label": "非常简单",
     "problems": [
       {
+        "id": "135",
+        "title": "135.分发糖果",
+        "path": "../../src/135.分发糖果/README.md",
+        "difficulty": "困难"
+      },
+      {
         "id": "172",
         "title": "172.阶乘后的零",
         "path": "../../src/172.阶乘后的零/README.md",

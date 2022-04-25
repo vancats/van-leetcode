@@ -154,6 +154,13 @@
     "path": "../../src/130.被围绕的区域/README.md"
   },
   {
+    "id": "135",
+    "title": "135.分发糖果",
+    "url": "https://leetcode-cn.com/problems/candy/",
+    "difficulty": "困难",
+    "path": "../../src/135.分发糖果/README.md"
+  },
+  {
     "id": "148",
     "title": "148.排序链表",
     "url": "https://leetcode-cn.com/problems/sort-list/",
