@@ -49,6 +49,13 @@
     "path": "../../src/39.组合总和/README.md"
   },
   {
+    "id": "43",
+    "title": "43.字符串相乘",
+    "url": "https://leetcode-cn.com/problems/multiply-strings/",
+    "difficulty": "中等",
+    "path": "../../src/43.字符串相乘/README.md"
+  },
+  {
     "id": "45",
     "title": "45.跳跃游戏II",
     "url": "https://leetcode-cn.com/problems/jump-game-ii/",

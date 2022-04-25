@@ -731,6 +731,12 @@
     "label": "数学",
     "problems": [
       {
+        "id": "43",
+        "title": "43.字符串相乘",
+        "path": "../../src/43.字符串相乘/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "45",
         "title": "45.跳跃游戏II",
         "path": "../../src/45.跳跃游戏II/README.md",
