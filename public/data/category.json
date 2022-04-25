@@ -474,6 +474,12 @@
     "label": "BFS",
     "problems": [
       {
+        "id": "365",
+        "title": "365.水壶问题",
+        "path": "../../src/365.水壶问题/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "542",
         "title": "542.01矩阵",
         "path": "../../src/542.01矩阵/README.md",
@@ -610,6 +616,12 @@
         "id": "318",
         "title": "318.最大单词长度乘积",
         "path": "../../src/318.最大单词长度乘积/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "365",
+        "title": "365.水壶问题",
+        "path": "../../src/365.水壶问题/README.md",
         "difficulty": "中等"
       },
       {
