@@ -63,6 +63,13 @@
     "path": "../../src/46.全排列/README.md"
   },
   {
+    "id": "47",
+    "title": "47.全排列II",
+    "url": "https://leetcode-cn.com/problems/permutations-ii/",
+    "difficulty": "中等",
+    "path": "../../src/47.全排列II/README.md"
+  },
+  {
     "id": "49",
     "title": "49.字母异位词分组",
     "url": "https://leetcode-cn.com/problems/group-anagrams/",

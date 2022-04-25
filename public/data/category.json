@@ -175,6 +175,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "47",
+        "title": "47.全排列II",
+        "path": "../../src/47.全排列II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "51",
         "title": "51.N皇后",
         "path": "../../src/51.N皇后/README.md",

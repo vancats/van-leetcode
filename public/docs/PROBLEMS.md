@@ -18,6 +18,8 @@
 
 [46.全排列](../../src/46.全排列/README.md)
 
+[47.全排列II](../../src/47.全排列II/README.md)
+
 [49.字母异位词分组](../../src/49.字母异位词分组/README.md)
 
 [50.Pow(x,n)](../../src/50.Pow(x,n)/README.md)
