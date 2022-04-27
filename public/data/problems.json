@@ -672,6 +672,13 @@
     "path": "../../src/883.三维形体投影面积/README.md"
   },
   {
+    "id": "905",
+    "title": "905.按奇偶排序数组",
+    "url": "https://leetcode-cn.com/problems/sort-array-by-parity/",
+    "difficulty": "非常简单",
+    "path": "../../src/905.按奇偶排序数组/README.md"
+  },
+  {
     "id": "912",
     "title": "912.排序数组",
     "url": "https://leetcode-cn.com/problems/sort-an-array/",
