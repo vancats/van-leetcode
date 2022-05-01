@@ -504,6 +504,13 @@
     "path": "../../src/590.N叉树的后序遍历/README.md"
   },
   {
+    "id": "591",
+    "title": "591.标签验证器",
+    "url": "https://leetcode-cn.com/problems/tag-validator/",
+    "difficulty": "困难",
+    "path": "../../src/591.标签验证器/README.md"
+  },
+  {
     "id": "599",
     "title": "599.两个列表的最小索引总和",
     "url": "https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/",
