@@ -216,6 +216,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "713",
+        "title": "713.乘积小于K的子数组",
+        "path": "../../src/713.乘积小于K的子数组/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "862",
         "title": "862.和至少为K的最短子数组",
         "path": "../../src/862.和至少为K的最短子数组/README.md",
@@ -401,6 +407,12 @@
         "id": "300",
         "title": "300.最长递增子序列",
         "path": "../../src/300.最长递增子序列/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "713",
+        "title": "713.乘积小于K的子数组",
+        "path": "../../src/713.乘积小于K的子数组/README.md",
         "difficulty": "中等"
       },
       {
