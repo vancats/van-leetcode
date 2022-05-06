@@ -420,6 +420,13 @@
     "path": "../../src/430.扁平化多级双向链表/README.md"
   },
   {
+    "id": "433",
+    "title": "433.最小基因变化",
+    "url": "https://leetcode-cn.com/problems/minimum-genetic-mutation/",
+    "difficulty": "中等",
+    "path": "../../src/433.最小基因变化/README.md"
+  },
+  {
     "id": "450",
     "title": "450.删除二叉搜索树中的节点",
     "url": "https://leetcode-cn.com/problems/delete-node-in-a-bst/",

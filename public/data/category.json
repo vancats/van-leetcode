@@ -534,6 +534,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "433",
+        "title": "433.最小基因变化",
+        "path": "../../src/433.最小基因变化/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "542",
         "title": "542.01矩阵",
         "path": "../../src/542.01矩阵/README.md",
