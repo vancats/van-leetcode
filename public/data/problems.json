@@ -735,6 +735,13 @@
     "path": "../../src/937.重新排列日志文件/README.md"
   },
   {
+    "id": "942",
+    "title": "942.增减字符串匹配",
+    "url": "https://leetcode-cn.com/problems/di-string-match/",
+    "difficulty": "中等",
+    "path": "../../src/942.增减字符串匹配/README.md"
+  },
+  {
     "id": "954",
     "title": "954.二倍数对数组",
     "url": "https://leetcode-cn.com/problems/array-of-doubled-pairs/",
