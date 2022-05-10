@@ -434,6 +434,13 @@
     "path": "../../src/442.数组中重复的数据/README.md"
   },
   {
+    "id": "449",
+    "title": "449.序列化和反序列化二叉搜索树",
+    "url": "https://leetcode.cn/problems/serialize-and-deserialize-bst/",
+    "difficulty": "中等",
+    "path": "../../src/449.序列化和反序列化二叉搜索树/README.md"
+  },
+  {
     "id": "450",
     "title": "450.删除二叉搜索树中的节点",
     "url": "https://leetcode-cn.com/problems/delete-node-in-a-bst/",
