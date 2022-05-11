@@ -749,6 +749,13 @@
     "path": "../../src/942.增减字符串匹配/README.md"
   },
   {
+    "id": "944",
+    "title": "944.删列造序",
+    "url": "https://leetcode.cn/problems/delete-columns-to-make-sorted/",
+    "difficulty": "非常简单",
+    "path": "../../src/944.删列造序/README.md"
+  },
+  {
     "id": "954",
     "title": "954.二倍数对数组",
     "url": "https://leetcode-cn.com/problems/array-of-doubled-pairs/",
