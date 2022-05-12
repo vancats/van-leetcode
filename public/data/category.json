@@ -1457,6 +1457,12 @@
         "title": "竞赛-宝石补给",
         "path": "../../src/竞赛-宝石补给/README.md",
         "difficulty": "非常简单"
+      },
+      {
+        "id": "4011",
+        "title": "面试题01.05.一次编辑",
+        "path": "../../src/面试题01.05.一次编辑/README.md",
+        "difficulty": "非常简单"
       }
     ]
   }
