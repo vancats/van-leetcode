@@ -1225,6 +1225,12 @@
         "difficulty": "困难"
       },
       {
+        "id": "155",
+        "title": "155.最小栈",
+        "path": "../../src/155.最小栈/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "172",
         "title": "172.阶乘后的零",
         "path": "../../src/172.阶乘后的零/README.md",
