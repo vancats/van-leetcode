@@ -999,5 +999,19 @@
     "url": "https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/",
     "difficulty": "中等",
     "path": "../../src/剑指Offer59-II.队列的最大值/README.md"
+  },
+  {
+    "id": "4011",
+    "title": "面试题01.05.一次编辑",
+    "url": "https://leetcode.cn/problems/one-away-lcci/",
+    "difficulty": "非常简单",
+    "path": "../../src/面试题01.05.一次编辑/README.md"
+  },
+  {
+    "id": "4012",
+    "title": "面试题04.06.后继者",
+    "url": "https://leetcode.cn/problems/successor-lcci/",
+    "difficulty": "中等",
+    "path": "../../src/面试题04.06.后继者/README.md"
   }
 ]
