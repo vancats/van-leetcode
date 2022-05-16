@@ -756,6 +756,13 @@
     "path": "../../src/944.删列造序/README.md"
   },
   {
+    "id": "953",
+    "title": "953.验证外星语词典",
+    "url": "https://leetcode.cn/problems/verifying-an-alien-dictionary/",
+    "difficulty": "非常简单",
+    "path": "../../src/953.验证外星语词典/README.md"
+  },
+  {
     "id": "954",
     "title": "954.二倍数对数组",
     "url": "https://leetcode-cn.com/problems/array-of-doubled-pairs/",
