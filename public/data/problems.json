@@ -840,6 +840,13 @@
     "path": "../../src/1305.两棵二叉搜索树中的所有元素/README.md"
   },
   {
+    "id": "1309",
+    "title": "1309.解码字母到整数映射",
+    "url": "https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/",
+    "difficulty": "非常简单",
+    "path": "../../src/1309.解码字母到整数映射/README.md"
+  },
+  {
     "id": "1382",
     "title": "1382.将二叉搜索树变平衡",
     "url": "https://leetcode-cn.com/problems/balance-a-binary-search-tree/",
