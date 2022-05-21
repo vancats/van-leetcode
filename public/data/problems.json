@@ -777,6 +777,13 @@
     "path": "../../src/954.二倍数对数组/README.md"
   },
   {
+    "id": "961",
+    "title": "961.在长度2N的数组中找出重复N次的元素",
+    "url": "https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/",
+    "difficulty": "非常简单",
+    "path": "../../src/961.在长度2N的数组中找出重复N次的元素/README.md"
+  },
+  {
     "id": "979",
     "title": "979.在二叉树中分配硬币",
     "url": "https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/",
