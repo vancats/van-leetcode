@@ -427,6 +427,13 @@
     "path": "../../src/433.最小基因变化/README.md"
   },
   {
+    "id": "436",
+    "title": "436.寻找右区间",
+    "url": "https://leetcode.cn/problems/find-right-interval/",
+    "difficulty": "中等",
+    "path": "../../src/436.寻找右区间/README.md"
+  },
+  {
     "id": "442",
     "title": "442.数组中重复的数据",
     "url": "https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/",

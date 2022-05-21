@@ -434,6 +434,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "436",
+        "title": "436.寻找右区间",
+        "path": "../../src/436.寻找右区间/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "713",
         "title": "713.乘积小于K的子数组",
         "path": "../../src/713.乘积小于K的子数组/README.md",
