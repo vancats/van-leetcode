@@ -629,6 +629,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "503",
+        "title": "503.下一个更大元素II",
+        "path": "../../src/503.下一个更大元素II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "591",
         "title": "591.标签验证器",
         "path": "../../src/591.标签验证器/README.md",

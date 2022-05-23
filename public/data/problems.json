@@ -504,6 +504,13 @@
     "path": "../../src/496.下一个更大元素I/README.md"
   },
   {
+    "id": "503",
+    "title": "503.下一个更大元素II",
+    "url": "https://leetcode.cn/problems/next-greater-element-ii/",
+    "difficulty": "中等",
+    "path": "../../src/503.下一个更大元素II/README.md"
+  },
+  {
     "id": "513",
     "title": "513.找树左下角的值",
     "url": "https://leetcode-cn.com/problems/find-bottom-left-tree-value/",
