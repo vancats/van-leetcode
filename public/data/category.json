@@ -641,6 +641,12 @@
         "difficulty": "困难"
       },
       {
+        "id": "739",
+        "title": "739.每日温度",
+        "path": "../../src/739.每日温度/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "901",
         "title": "901.股票价格跨度",
         "path": "../../src/901.股票价格跨度/README.md",

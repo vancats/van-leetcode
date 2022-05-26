@@ -637,6 +637,13 @@
     "path": "../../src/720.词典中最长的单词/README.md"
   },
   {
+    "id": "739",
+    "title": "739.每日温度",
+    "url": "https://leetcode.cn/problems/daily-temperatures/",
+    "difficulty": "中等",
+    "path": "../../src/739.每日温度/README.md"
+  },
+  {
     "id": "744",
     "title": "744.寻找比目标字母大的最小字母",
     "url": "https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/",
