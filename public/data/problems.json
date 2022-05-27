@@ -147,6 +147,13 @@
     "path": "../../src/81.搜索旋转排序数组II/README.md"
   },
   {
+    "id": "84",
+    "title": "84.柱状图中最大的矩形",
+    "url": "https://leetcode.cn/problems/largest-rectangle-in-histogram/",
+    "difficulty": "困难",
+    "path": "../../src/84.柱状图中最大的矩形/README.md"
+  },
+  {
     "id": "91",
     "title": "91.解码方法",
     "url": "https://leetcode-cn.com/problems/decode-ways/",
