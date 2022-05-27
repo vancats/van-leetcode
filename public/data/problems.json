@@ -49,6 +49,13 @@
     "path": "../../src/39.组合总和/README.md"
   },
   {
+    "id": "42",
+    "title": "42.接雨水",
+    "url": "https://leetcode.cn/problems/trapping-rain-water/",
+    "difficulty": "困难",
+    "path": "../../src/42.接雨水/README.md"
+  },
+  {
     "id": "43",
     "title": "43.字符串相乘",
     "url": "https://leetcode-cn.com/problems/multiply-strings/",

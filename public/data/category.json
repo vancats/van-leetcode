@@ -140,6 +140,12 @@
     "label": "动态规划",
     "problems": [
       {
+        "id": "42",
+        "title": "42.接雨水",
+        "path": "../../src/42.接雨水/README.md",
+        "difficulty": "困难"
+      },
+      {
         "id": "53",
         "title": "53.最大子数组和",
         "path": "../../src/53.最大子数组和/README.md",
@@ -609,6 +615,12 @@
         "title": "11.盛最多水的容器",
         "path": "../../src/11.盛最多水的容器/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "42",
+        "title": "42.接雨水",
+        "path": "../../src/42.接雨水/README.md",
+        "difficulty": "困难"
       },
       {
         "id": "84",
