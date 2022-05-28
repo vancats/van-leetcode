@@ -641,6 +641,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "456",
+        "title": "456.132模式",
+        "path": "../../src/456.132模式/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "496",
         "title": "496.下一个更大元素I",
         "path": "../../src/496.下一个更大元素I/README.md",

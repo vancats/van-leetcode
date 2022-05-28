@@ -469,6 +469,13 @@
     "path": "../../src/450.删除二叉搜索树中的节点/README.md"
   },
   {
+    "id": "456",
+    "title": "456.132模式",
+    "url": "https://leetcode.cn/problems/132-pattern/",
+    "difficulty": "中等",
+    "path": "../../src/456.132模式/README.md"
+  },
+  {
     "id": "462",
     "title": "462.最少移动次数使数组元素相等II",
     "url": "https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/",
