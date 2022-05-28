@@ -966,6 +966,13 @@
     "path": "../../src/1823.找出游戏的获胜者/README.md"
   },
   {
+    "id": "1856",
+    "title": "1856.子数组最小乘积的最大值",
+    "url": "https://leetcode.cn/problems/maximum-subarray-min-product/",
+    "difficulty": "中等",
+    "path": "../../src/1856.子数组最小乘积的最大值/README.md"
+  },
+  {
     "id": "1996",
     "title": "1996.游戏中弱角色的数量",
     "url": "https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/",
