@@ -847,6 +847,13 @@
     "path": "../../src/954.二倍数对数组/README.md"
   },
   {
+    "id": "958",
+    "title": "958.二叉树的完全性检验",
+    "url": "https://leetcode.cn/problems/check-completeness-of-a-binary-tree/",
+    "difficulty": "中等",
+    "path": "../../src/958.二叉树的完全性检验/README.md"
+  },
+  {
     "id": "961",
     "title": "961.在长度2N的数组中找出重复N次的元素",
     "url": "https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/",

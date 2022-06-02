@@ -54,7 +54,7 @@
 import type { TreeNode } from './../../utils/TreeNode'
 import type { ListNode } from './../../utils/ListNode'
 /**
- * @description: Annotation
+ * @description: 待定
  * @return {*}
  * @param {ListNode} head
  * @param {TreeNode} root
