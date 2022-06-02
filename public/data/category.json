@@ -575,6 +575,12 @@
         "title": "面试题04.12.求和路径",
         "path": "../../src/面试题04.12.求和路径/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4013",
+        "title": "剑指Offer36.二叉搜索树与双向链表",
+        "path": "../../src/剑指Offer36.二叉搜索树与双向链表/README.md",
+        "difficulty": "中等"
       }
     ]
   },
