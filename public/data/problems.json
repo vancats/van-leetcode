@@ -448,6 +448,13 @@
     "path": "../../src/436.寻找右区间/README.md"
   },
   {
+    "id": "437",
+    "title": "437.路径总和III",
+    "url": "https://leetcode.cn/problems/path-sum-iii/",
+    "difficulty": "中等",
+    "path": "../../src/437.路径总和III/README.md"
+  },
+  {
     "id": "442",
     "title": "442.数组中重复的数据",
     "url": "https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/",

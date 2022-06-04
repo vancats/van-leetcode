@@ -39,6 +39,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "437",
+        "title": "437.路径总和III",
+        "path": "../../src/437.路径总和III/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "449",
         "title": "449.序列化和反序列化二叉搜索树",
         "path": "../../src/449.序列化和反序列化二叉搜索树/README.md",
@@ -226,6 +232,12 @@
         "id": "93",
         "title": "93.复原IP地址",
         "path": "../../src/93.复原IP地址/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "437",
+        "title": "437.路径总和III",
+        "path": "../../src/437.路径总和III/README.md",
         "difficulty": "中等"
       },
       {
@@ -535,6 +547,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "437",
+        "title": "437.路径总和III",
+        "path": "../../src/437.路径总和III/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "473",
         "title": "473.火柴拼正方形",
         "path": "../../src/473.火柴拼正方形/README.md",
@@ -757,6 +775,12 @@
         "title": "327.区间和的个数",
         "path": "../../src/327.区间和的个数/README.md",
         "difficulty": "困难"
+      },
+      {
+        "id": "437",
+        "title": "437.路径总和III",
+        "path": "../../src/437.路径总和III/README.md",
+        "difficulty": "中等"
       },
       {
         "id": "862",
