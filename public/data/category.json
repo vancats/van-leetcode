@@ -806,6 +806,12 @@
     "label": "字符串",
     "problems": [
       {
+        "id": "8",
+        "title": "8.字符串转换整数(atoi)",
+        "path": "../../src/8.字符串转换整数(atoi)/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "393",
         "title": "393.UTF-8编码验证",
         "path": "../../src/393.UTF-8编码验证/README.md",

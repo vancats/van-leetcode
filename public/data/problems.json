@@ -7,6 +7,13 @@
     "path": "../../src/4.寻找两个正序数组的中位数/README.md"
   },
   {
+    "id": "8",
+    "title": "8.字符串转换整数(atoi)",
+    "url": "https://leetcode.cn/problems/string-to-integer-atoi/",
+    "difficulty": "中等",
+    "path": "../../src/8.字符串转换整数(atoi)/README.md"
+  },
+  {
     "id": "11",
     "title": "11.盛最多水的容器",
     "url": "https://leetcode-cn.com/problems/container-with-most-water/",
