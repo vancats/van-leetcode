@@ -364,6 +364,13 @@
     "path": "../../src/380.O(1)时间插入、删除和获取随机元素/README.md"
   },
   {
+    "id": "384",
+    "title": "384.打乱数组",
+    "url": "https://leetcode.cn/problems/shuffle-an-array/",
+    "difficulty": "简单",
+    "path": "../../src/384.打乱数组/README.md"
+  },
+  {
     "id": "385",
     "title": "385.迷你语法分析器",
     "url": "https://leetcode-cn.com/problems/mini-parser/",

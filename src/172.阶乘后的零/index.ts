@@ -4,13 +4,11 @@
  * @param {number} n
  */
 export function trailingZeroes(n: number): number {
-  let n5 = 0
-  for (let i = 2; i <= n; i++) {
-    let temp = i
-    while (!(temp % 5)) {
-      n5++
-      temp /= 5
-    }
+  let cur = 5
+  let res = 0
+  while (cur <= n) {
+    res += Math.floor(n / cur)
+    cur *= 5
   }
-  return n5
+  return res
 }

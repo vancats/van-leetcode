@@ -1081,6 +1081,12 @@
         "difficulty": "非常简单"
       },
       {
+        "id": "384",
+        "title": "384.打乱数组",
+        "path": "../../src/384.打乱数组/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "385",
         "title": "385.迷你语法分析器",
         "path": "../../src/385.迷你语法分析器/README.md",
