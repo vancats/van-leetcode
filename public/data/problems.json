@@ -427,6 +427,13 @@
     "path": "../../src/398.随机数索引/README.md"
   },
   {
+    "id": "402",
+    "title": "402.移掉K位数字",
+    "url": "https://leetcode.cn/problems/remove-k-digits/",
+    "difficulty": "中等",
+    "path": "../../src/402.移掉K位数字/README.md"
+  },
+  {
     "id": "417",
     "title": "417.太平洋大西洋水流问题",
     "url": "https://leetcode-cn.com/problems/pacific-atlantic-water-flow/",
