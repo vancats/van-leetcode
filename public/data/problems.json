@@ -245,6 +245,13 @@
     "path": "../../src/187.重复的DNA序列/README.md"
   },
   {
+    "id": "190",
+    "title": "190.颠倒二进制位",
+    "url": "https://leetcode.cn/problems/reverse-bits/",
+    "difficulty": "简单",
+    "path": "../../src/190.颠倒二进制位/README.md"
+  },
+  {
     "id": "207",
     "title": "207.课程表",
     "url": "https://leetcode-cn.com/problems/course-schedule/",
