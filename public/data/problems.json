@@ -910,6 +910,13 @@
     "path": "../../src/1011.在D天内送达包裹的能力/README.md"
   },
   {
+    "id": "1081",
+    "title": "1081.不同字符的最小子序列",
+    "url": "https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/",
+    "difficulty": "中等",
+    "path": "../../src/1081.不同字符的最小子序列/README.md"
+  },
+  {
     "id": "1091",
     "title": "1091.二进制矩阵中的最短路径",
     "url": "https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/",
