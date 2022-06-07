@@ -819,6 +819,13 @@
     "path": "../../src/901.股票价格跨度/README.md"
   },
   {
+    "id": "904",
+    "title": "904.水果成篮",
+    "url": "https://leetcode.cn/problems/fruit-into-baskets/",
+    "difficulty": "中等",
+    "path": "../../src/904.水果成篮/README.md"
+  },
+  {
     "id": "905",
     "title": "905.按奇偶排序数组",
     "url": "https://leetcode-cn.com/problems/sort-array-by-parity/",
