@@ -427,6 +427,13 @@
     "path": "../../src/394.字符串解码/README.md"
   },
   {
+    "id": "395",
+    "title": "395.至少有K个重复字符的最长子串",
+    "url": "https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/",
+    "difficulty": "中等",
+    "path": "../../src/395.至少有K个重复字符的最长子串/README.md"
+  },
+  {
     "id": "396",
     "title": "396.旋转函数",
     "url": "https://leetcode-cn.com/problems/rotate-function/",
