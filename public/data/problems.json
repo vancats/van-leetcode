@@ -1001,6 +1001,13 @@
     "path": "../../src/1438.绝对差不超过限制的最长连续子数组/README.md"
   },
   {
+    "id": "1499",
+    "title": "1499.满足不等式的最大值",
+    "url": "https://leetcode.cn/problems/max-value-of-equation/",
+    "difficulty": "困难",
+    "path": "../../src/1499.满足不等式的最大值/README.md"
+  },
+  {
     "id": "1508",
     "title": "1508.子数组和排序后的区间和",
     "url": "https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/",
