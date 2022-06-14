@@ -194,6 +194,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "464",
+        "title": "464.我能赢吗",
+        "path": "../../src/464.我能赢吗/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "4008",
         "title": "竞赛-烹饪料理",
         "path": "../../src/竞赛-烹饪料理/README.md",
@@ -633,6 +639,12 @@
         "id": "433",
         "title": "433.最小基因变化",
         "path": "../../src/433.最小基因变化/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "464",
+        "title": "464.我能赢吗",
+        "path": "../../src/464.我能赢吗/README.md",
         "difficulty": "中等"
       },
       {
@@ -1086,6 +1098,12 @@
         "title": "327.区间和的个数",
         "path": "../../src/327.区间和的个数/README.md",
         "difficulty": "困难"
+      },
+      {
+        "id": "464",
+        "title": "464.我能赢吗",
+        "path": "../../src/464.我能赢吗/README.md",
+        "difficulty": "中等"
       },
       {
         "id": "1606",
