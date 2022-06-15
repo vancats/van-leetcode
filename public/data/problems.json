@@ -735,6 +735,13 @@
     "path": "../../src/744.寻找比目标字母大的最小字母/README.md"
   },
   {
+    "id": "746",
+    "title": "746.使用最小花费爬楼梯",
+    "url": "https://leetcode.cn/problems/min-cost-climbing-stairs/",
+    "difficulty": "中等",
+    "path": "../../src/746.使用最小花费爬楼梯/README.md"
+  },
+  {
     "id": "752",
     "title": "752.打开转盘锁",
     "url": "https://leetcode-cn.com/problems/open-the-lock/",

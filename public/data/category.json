@@ -200,6 +200,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "746",
+        "title": "746.使用最小花费爬楼梯",
+        "path": "../../src/746.使用最小花费爬楼梯/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "4008",
         "title": "竞赛-烹饪料理",
         "path": "../../src/竞赛-烹饪料理/README.md",
