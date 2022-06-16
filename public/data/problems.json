@@ -203,6 +203,13 @@
     "path": "../../src/108.将有序数组转换为二叉搜索树/README.md"
   },
   {
+    "id": "119",
+    "title": "119.杨辉三角II",
+    "url": "https://leetcode.cn/problems/pascals-triangle-ii/",
+    "difficulty": "中等",
+    "path": "../../src/119.杨辉三角II/README.md"
+  },
+  {
     "id": "130",
     "title": "130.被围绕的区域",
     "url": "https://leetcode-cn.com/problems/surrounded-regions/",

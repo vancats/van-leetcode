@@ -182,6 +182,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "119",
+        "title": "119.杨辉三角II",
+        "path": "../../src/119.杨辉三角II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "300",
         "title": "300.最长递增子序列",
         "path": "../../src/300.最长递增子序列/README.md",
