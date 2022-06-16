@@ -210,6 +210,13 @@
     "path": "../../src/119.杨辉三角II/README.md"
   },
   {
+    "id": "120",
+    "title": "120.三角形最小路径和",
+    "url": "https://leetcode.cn/problems/triangle/",
+    "difficulty": "中等",
+    "path": "../../src/120.三角形最小路径和/README.md"
+  },
+  {
     "id": "130",
     "title": "130.被围绕的区域",
     "url": "https://leetcode-cn.com/problems/surrounded-regions/",
