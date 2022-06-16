@@ -1135,6 +1135,12 @@
     "label": "非常简单",
     "problems": [
       {
+        "id": "122",
+        "title": "122.买卖股票的最佳时机II",
+        "path": "../../src/122.买卖股票的最佳时机II/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "135",
         "title": "135.分发糖果",
         "path": "../../src/135.分发糖果/README.md",
