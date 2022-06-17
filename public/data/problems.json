@@ -973,6 +973,13 @@
     "path": "../../src/1081.不同字符的最小子序列/README.md"
   },
   {
+    "id": "1089",
+    "title": "1089.复写零",
+    "url": "https://leetcode.cn/problems/duplicate-zeros/",
+    "difficulty": "中等",
+    "path": "../../src/1089.复写零/README.md"
+  },
+  {
     "id": "1091",
     "title": "1091.二进制矩阵中的最短路径",
     "url": "https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/",
