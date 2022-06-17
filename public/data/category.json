@@ -194,6 +194,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "152",
+        "title": "152.乘积最大子数组",
+        "path": "../../src/152.乘积最大子数组/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "198",
         "title": "198.打家劫舍",
         "path": "../../src/198.打家劫舍/README.md",

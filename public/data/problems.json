@@ -245,6 +245,20 @@
     "path": "../../src/148.排序链表/README.md"
   },
   {
+    "id": "152",
+    "title": "152.乘积最大子数组",
+    "url": "https://leetcode.cn/problems/maximum-product-subarray/",
+    "difficulty": "中等",
+    "path": "../../src/152.乘积最大子数组/README.md"
+  },
+  {
+    "id": "155",
+    "title": "155.最小栈",
+    "url": "https://leetcode.cn/problems/min-stack/",
+    "difficulty": "非常简单",
+    "path": "../../src/155.最小栈/README.md"
+  },
+  {
     "id": "164",
     "title": "164.最大间距",
     "url": "https://leetcode-cn.com/problems/maximum-gap/",
