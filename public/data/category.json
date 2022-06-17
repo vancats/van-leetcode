@@ -194,6 +194,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "198",
+        "title": "198.打家劫舍",
+        "path": "../../src/198.打家劫舍/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "300",
         "title": "300.最长递增子序列",
         "path": "../../src/300.最长递增子序列/README.md",
