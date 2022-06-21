@@ -756,6 +756,13 @@
     "path": "../../src/713.乘积小于K的子数组/README.md"
   },
   {
+    "id": "714",
+    "title": "714.买卖股票的最佳时机含手续费",
+    "url": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+    "difficulty": "中等",
+    "path": "../../src/714.买卖股票的最佳时机含手续费/README.md"
+  },
+  {
     "id": "720",
     "title": "720.词典中最长的单词",
     "url": "https://leetcode-cn.com/problems/longest-word-in-dictionary/",
