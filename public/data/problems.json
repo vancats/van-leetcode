@@ -1204,6 +1204,13 @@
     "path": "../../src/2049.统计最高分的节点数目/README.md"
   },
   {
+    "id": "2279",
+    "title": "2279.装满石头的背包的最大数量",
+    "url": "https://leetcode.cn/problems/maximum-bags-with-full-capacity-of-rocks/",
+    "difficulty": "中等",
+    "path": "../../src/2279.装满石头的背包的最大数量/README.md"
+  },
+  {
     "id": "4000",
     "title": "剑指Offer21.调整数组顺序使奇数位于偶数前面",
     "url": "https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/",
