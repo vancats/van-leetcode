@@ -224,6 +224,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "337",
+        "title": "337.打家劫舍III",
+        "path": "../../src/337.打家劫舍III/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "464",
         "title": "464.我能赢吗",
         "path": "../../src/464.我能赢吗/README.md",
@@ -604,6 +610,12 @@
         "id": "130",
         "title": "130.被围绕的区域",
         "path": "../../src/130.被围绕的区域/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "337",
+        "title": "337.打家劫舍III",
+        "path": "../../src/337.打家劫舍III/README.md",
         "difficulty": "中等"
       },
       {
