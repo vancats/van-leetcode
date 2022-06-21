@@ -1015,6 +1015,13 @@
     "path": "../../src/1122.数组的相对排序/README.md"
   },
   {
+    "id": "1143",
+    "title": "1143.最长公共子序列",
+    "url": "https://leetcode.cn/problems/longest-common-subsequence/",
+    "difficulty": "中等",
+    "path": "../../src/1143.最长公共子序列/README.md"
+  },
+  {
     "id": "1288",
     "title": "1288.删除被覆盖区间",
     "url": "https://leetcode-cn.com/problems/remove-covered-intervals/",

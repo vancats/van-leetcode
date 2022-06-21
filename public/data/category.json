@@ -230,6 +230,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "1143",
+        "title": "1143.最长公共子序列",
+        "path": "../../src/1143.最长公共子序列/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "4008",
         "title": "竞赛-烹饪料理",
         "path": "../../src/竞赛-烹饪料理/README.md",
