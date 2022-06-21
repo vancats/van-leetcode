@@ -240,6 +240,12 @@
         "title": "竞赛-烹饪料理",
         "path": "../../src/竞赛-烹饪料理/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4014",
+        "title": "剑指OfferII095.最长公共子序列",
+        "path": "../../src/剑指OfferII095.最长公共子序列/README.md",
+        "difficulty": "中等"
       }
     ]
   },
