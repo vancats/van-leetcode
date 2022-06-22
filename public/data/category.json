@@ -236,6 +236,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "474",
+        "title": "474.一和零",
+        "path": "../../src/474.一和零/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "518",
         "title": "518.零钱兑换II",
         "path": "../../src/518.零钱兑换II/README.md",
