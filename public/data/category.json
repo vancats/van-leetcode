@@ -236,6 +236,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "518",
+        "title": "518.零钱兑换II",
+        "path": "../../src/518.零钱兑换II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "583",
         "title": "583.两个字符串的删除操作",
         "path": "../../src/583.两个字符串的删除操作/README.md",
