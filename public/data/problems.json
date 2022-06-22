@@ -679,6 +679,13 @@
     "path": "../../src/542.01矩阵/README.md"
   },
   {
+    "id": "583",
+    "title": "583.两个字符串的删除操作",
+    "url": "https://leetcode.cn/problems/delete-operation-for-two-strings/",
+    "difficulty": "中等",
+    "path": "../../src/583.两个字符串的删除操作/README.md"
+  },
+  {
     "id": "589",
     "title": "589.N叉树的前序遍历",
     "url": "https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/",
