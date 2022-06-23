@@ -16,11 +16,6 @@ module.exports = () => {
           message: '请输入算法题中文名',
         },
         {
-          type: 'input',
-          name: 'url',
-          message: '请输入力扣链接',
-        },
-        {
           type: 'list',
           name: 'difficulty',
           message: '请选择难度',

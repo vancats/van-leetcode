@@ -6,7 +6,7 @@ const update = require('./update')
 module.exports = async () => {
   clear()
   await figletLog('UPDATE PROBLEMS')
-  const { title, url, difficulty, id } = await inquirer()
-  update({ title, url, difficulty, id })
+  const { title, difficulty, id } = await inquirer()
+  update({ title, difficulty, id })
   await figletLog('**SUCCESS**')
 }

@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const { log } = require('../utils/log')
 
-const update = ({ title, url, difficulty, id }) => {
+const update = ({ title, difficulty, id }) => {
   title = title.replace(/\s/g, '')
   if (createProject(title)) {
     fs.writeFileSync(
@@ -11,7 +11,7 @@ const update = ({ title, url, difficulty, id }) => {
     )
     fs.writeFileSync(
       `src/${title}/README.md`,
-      `# ${title}\r\n\r\n> 难度：${difficulty}\r\n>\r\n> ${url}\r\n\r\n## 题目`,
+      `# ${title}\r\n\r\n> 难度：${difficulty}\r\n\r\n## 题目`,
     )
     fs.writeFileSync(
       `src/${title}/index.spec.ts`,
@@ -20,7 +20,6 @@ const update = ({ title, url, difficulty, id }) => {
 
     const problems = updateDataJson({
       title,
-      url,
       difficulty,
       id,
     })
@@ -29,12 +28,11 @@ const update = ({ title, url, difficulty, id }) => {
   }
 }
 
-const updateDataJson = ({ title, url, difficulty, id }) => {
+const updateDataJson = ({ title, difficulty, id }) => {
   const problems = JSON.parse(fs.readFileSync('./public/data/problems.json'))
   problems.push({
     id,
     title,
-    url,
     difficulty,
     path: `../../src/${title}/README.md`,
   })
