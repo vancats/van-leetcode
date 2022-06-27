@@ -328,6 +328,12 @@
     "path": "../../src/213.打家劫舍II/README.md"
   },
   {
+    "id": "216",
+    "title": "216.组合总和III",
+    "difficulty": "中等",
+    "path": "../../src/216.组合总和III/README.md"
+  },
+  {
     "id": "226",
     "title": "226.翻转二叉树",
     "url": "https://leetcode-cn.com/problems/invert-binary-tree/",
