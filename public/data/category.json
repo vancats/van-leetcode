@@ -1279,6 +1279,12 @@
         "difficulty": "非常简单"
       },
       {
+        "id": "382",
+        "title": "382.链表随机节点",
+        "path": "../../src/382.链表随机节点/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "384",
         "title": "384.打乱数组",
         "path": "../../src/384.打乱数组/README.md",

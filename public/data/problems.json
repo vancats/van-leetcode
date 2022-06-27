@@ -466,6 +466,12 @@
     "path": "../../src/380.O(1)时间插入、删除和获取随机元素/README.md"
   },
   {
+    "id": "382",
+    "title": "382.链表随机节点",
+    "difficulty": "非常简单",
+    "path": "../../src/382.链表随机节点/README.md"
+  },
+  {
     "id": "384",
     "title": "384.打乱数组",
     "url": "https://leetcode.cn/problems/shuffle-an-array/",
