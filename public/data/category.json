@@ -289,6 +289,12 @@
     "label": "回溯",
     "problems": [
       {
+        "id": "40",
+        "title": "40.组合总和II",
+        "path": "../../src/40.组合总和II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "46",
         "title": "46.全排列",
         "path": "../../src/46.全排列/README.md",

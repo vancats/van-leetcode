@@ -56,6 +56,12 @@
     "path": "../../src/39.组合总和/README.md"
   },
   {
+    "id": "40",
+    "title": "40.组合总和II",
+    "difficulty": "中等",
+    "path": "../../src/40.组合总和II/README.md"
+  },
+  {
     "id": "42",
     "title": "42.接雨水",
     "url": "https://leetcode.cn/problems/trapping-rain-water/",
