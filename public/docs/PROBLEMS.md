@@ -395,3 +395,5 @@
 [剑指Offer36.二叉搜索树与双向链表](../../src/剑指Offer36.二叉搜索树与双向链表/README.md)
 
 [剑指OfferII095.最长公共子序列](../../src/剑指OfferII095.最长公共子序列/README.md)
+
+[剑指OfferII091.粉刷房子](../../src/剑指OfferII091.粉刷房子/README.md)

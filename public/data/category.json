@@ -288,6 +288,12 @@
         "title": "剑指OfferII095.最长公共子序列",
         "path": "../../src/剑指OfferII095.最长公共子序列/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4015",
+        "title": "剑指OfferII091.粉刷房子",
+        "path": "../../src/剑指OfferII091.粉刷房子/README.md",
+        "difficulty": "中等"
       }
     ]
   },
