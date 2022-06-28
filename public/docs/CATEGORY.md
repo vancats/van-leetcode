@@ -58,6 +58,7 @@
 | [竞赛-烹饪料理](../../src/竞赛-烹饪料理/README.md) | 中等 |
 | [剑指OfferII095.最长公共子序列](../../src/剑指OfferII095.最长公共子序列/README.md) | 中等 |
 | [剑指OfferII091.粉刷房子](../../src/剑指OfferII091.粉刷房子/README.md) | 中等 |
+| [剑指OfferII101.分割等和子集](../../src/剑指OfferII101.分割等和子集/README.md) | 中等 |
 
 ## 回溯
 
