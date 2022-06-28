@@ -1186,6 +1186,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "179",
+        "title": "179.最大数",
+        "path": "../../src/179.最大数/README.md",
+        "difficulty": "简单"
+      },
+      {
         "id": "190",
         "title": "190.颠倒二进制位",
         "path": "../../src/190.颠倒二进制位/README.md",
