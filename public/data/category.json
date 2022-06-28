@@ -200,6 +200,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "132",
+        "title": "132.分割回文串II",
+        "path": "../../src/132.分割回文串II/README.md",
+        "difficulty": "困难"
+      },
+      {
         "id": "152",
         "title": "152.乘积最大子数组",
         "path": "../../src/152.乘积最大子数组/README.md",
@@ -371,6 +377,12 @@
         "title": "131.分割回文串",
         "path": "../../src/131.分割回文串/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "132",
+        "title": "132.分割回文串II",
+        "path": "../../src/132.分割回文串II/README.md",
+        "difficulty": "困难"
       },
       {
         "id": "216",

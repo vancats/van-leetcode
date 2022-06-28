@@ -250,6 +250,12 @@
     "path": "../../src/131.分割回文串/README.md"
   },
   {
+    "id": "132",
+    "title": "132.分割回文串II",
+    "difficulty": "困难",
+    "path": "../../src/132.分割回文串II/README.md"
+  },
+  {
     "id": "135",
     "title": "135.分发糖果",
     "url": "https://leetcode-cn.com/problems/candy/",
