@@ -312,6 +312,12 @@
         "title": "剑指OfferII101.分割等和子集",
         "path": "../../src/剑指OfferII101.分割等和子集/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4017",
+        "title": "剑指OfferII086.分割回文子字符串",
+        "path": "../../src/剑指OfferII086.分割回文子字符串/README.md",
+        "difficulty": "中等"
       }
     ]
   },
@@ -382,6 +388,12 @@
         "id": "491",
         "title": "491.递增子序列",
         "path": "../../src/491.递增子序列/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "4017",
+        "title": "剑指OfferII086.分割回文子字符串",
+        "path": "../../src/剑指OfferII086.分割回文子字符串/README.md",
         "difficulty": "中等"
       }
     ]

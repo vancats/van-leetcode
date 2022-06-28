@@ -1404,5 +1404,11 @@
     "title": "剑指OfferII101.分割等和子集",
     "difficulty": "中等",
     "path": "../../src/剑指OfferII101.分割等和子集/README.md"
+  },
+  {
+    "id": "4017",
+    "title": "剑指OfferII086.分割回文子字符串",
+    "difficulty": "中等",
+    "path": "../../src/剑指OfferII086.分割回文子字符串/README.md"
   }
 ]

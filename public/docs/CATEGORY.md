@@ -60,6 +60,7 @@
 | [剑指OfferII095.最长公共子序列](../../src/剑指OfferII095.最长公共子序列/README.md) | 中等 |
 | [剑指OfferII091.粉刷房子](../../src/剑指OfferII091.粉刷房子/README.md) | 中等 |
 | [剑指OfferII101.分割等和子集](../../src/剑指OfferII101.分割等和子集/README.md) | 中等 |
+| [剑指OfferII086.分割回文子字符串](../../src/剑指OfferII086.分割回文子字符串/README.md) | 中等 |
 
 ## 回溯
 
@@ -76,6 +77,7 @@
 | [216.组合总和III](../../src/216.组合总和III/README.md) | 中等 |
 | [437.路径总和III](../../src/437.路径总和III/README.md) | 中等 |
 | [491.递增子序列](../../src/491.递增子序列/README.md) | 中等 |
+| [剑指OfferII086.分割回文子字符串](../../src/剑指OfferII086.分割回文子字符串/README.md) | 中等 |
 
 ## 滑动窗口
 

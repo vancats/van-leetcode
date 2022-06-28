@@ -403,3 +403,5 @@
 [剑指OfferII091.粉刷房子](../../src/剑指OfferII091.粉刷房子/README.md)
 
 [剑指OfferII101.分割等和子集](../../src/剑指OfferII101.分割等和子集/README.md)
+
+[剑指OfferII086.分割回文子字符串](../../src/剑指OfferII086.分割回文子字符串/README.md)
