@@ -542,6 +542,12 @@
     "path": "../../src/402.移掉K位数字/README.md"
   },
   {
+    "id": "416",
+    "title": "416.分割等和子集",
+    "difficulty": "中等",
+    "path": "../../src/416.分割等和子集/README.md"
+  },
+  {
     "id": "417",
     "title": "417.太平洋大西洋水流问题",
     "url": "https://leetcode-cn.com/problems/pacific-atlantic-water-flow/",

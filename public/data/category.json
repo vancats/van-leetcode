@@ -236,6 +236,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "416",
+        "title": "416.分割等和子集",
+        "path": "../../src/416.分割等和子集/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "464",
         "title": "464.我能赢吗",
         "path": "../../src/464.我能赢吗/README.md",
