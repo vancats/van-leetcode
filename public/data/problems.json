@@ -1416,5 +1416,11 @@
     "title": "剑指OfferII086.分割回文子字符串",
     "difficulty": "中等",
     "path": "../../src/剑指OfferII086.分割回文子字符串/README.md"
+  },
+  {
+    "id": "4018",
+    "title": "剑指OfferII094.最少回文分割",
+    "difficulty": "困难",
+    "path": "../../src/剑指OfferII094.最少回文分割/README.md"
   }
 ]

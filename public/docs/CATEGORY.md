@@ -62,6 +62,7 @@
 | [剑指OfferII091.粉刷房子](../../src/剑指OfferII091.粉刷房子/README.md) | 中等 |
 | [剑指OfferII101.分割等和子集](../../src/剑指OfferII101.分割等和子集/README.md) | 中等 |
 | [剑指OfferII086.分割回文子字符串](../../src/剑指OfferII086.分割回文子字符串/README.md) | 中等 |
+| [剑指OfferII094.最少回文分割](../../src/剑指OfferII094.最少回文分割/README.md) | 困难 |
 
 ## 回溯
 
