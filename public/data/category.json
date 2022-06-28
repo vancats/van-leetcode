@@ -182,6 +182,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "96",
+        "title": "96.不同的二叉搜索树",
+        "path": "../../src/96.不同的二叉搜索树/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "119",
         "title": "119.杨辉三角II",
         "path": "../../src/119.杨辉三角II/README.md",
