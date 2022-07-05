@@ -1034,8 +1034,14 @@
     "label": "字符串",
     "problems": [
       {
+        "id": "3",
+        "title": "3.无重复字符的最长子串",
+        "path": "../../src/3.无重复字符的最长子串/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "5",
-        "title": "5.最长回文子串",
+        "title": "5.最长回文子串(马拉车算法)",
         "path": "../../src/5.最长回文子串/README.md",
         "difficulty": "中等"
       },
@@ -1047,7 +1053,7 @@
       },
       {
         "id": "28",
-        "title": "28.实现strStr()",
+        "title": "28.实现strStr(Sunday算法)",
         "path": "../../src/28.实现strStr()/README.md",
         "difficulty": "中等"
       },
@@ -1059,7 +1065,7 @@
       },
       {
         "id": "459",
-        "title": "459.重复的子字符串",
+        "title": "459.重复的子字符串(KMP)",
         "path": "../../src/459.重复的子字符串/README.md",
         "difficulty": "中等"
       },
@@ -1071,7 +1077,7 @@
       },
       {
         "id": "1392",
-        "title": "1392.最长快乐前缀",
+        "title": "1392.最长快乐前缀(KMP)",
         "path": "../../src/1392.最长快乐前缀/README.md",
         "difficulty": "中等"
       }
