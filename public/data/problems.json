@@ -6,6 +6,12 @@
     "path": "../../src/4.寻找两个正序数组的中位数/README.md"
   },
   {
+    "id": "5",
+    "title": "5.最长回文子串",
+    "difficulty": "中等",
+    "path": "../../src/5.最长回文子串/README.md"
+  },
+  {
     "id": "8",
     "title": "8.字符串转换整数(atoi)",
     "difficulty": "中等",
