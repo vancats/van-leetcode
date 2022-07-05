@@ -1056,6 +1056,12 @@
         "title": "468.验证IP地址",
         "path": "../../src/468.验证IP地址/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "1392",
+        "title": "1392.最长快乐前缀",
+        "path": "../../src/1392.最长快乐前缀/README.md",
+        "difficulty": "中等"
       }
     ]
   },
