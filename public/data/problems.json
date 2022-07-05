@@ -324,6 +324,12 @@
     "path": "../../src/213.打家劫舍II/README.md"
   },
   {
+    "id": "214",
+    "title": "214.最短回文串",
+    "difficulty": "困难",
+    "path": "../../src/214.最短回文串/README.md"
+  },
+  {
     "id": "216",
     "title": "216.组合总和III",
     "difficulty": "中等",

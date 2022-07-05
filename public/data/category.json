@@ -1058,6 +1058,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "214",
+        "title": "214.最短回文串",
+        "path": "../../src/214.最短回文串/README.md",
+        "difficulty": "困难"
+      },
+      {
         "id": "393",
         "title": "393.UTF-8编码验证",
         "path": "../../src/393.UTF-8编码验证/README.md",
