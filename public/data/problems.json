@@ -30,6 +30,12 @@
     "path": "../../src/23.合并K个升序链表/README.md"
   },
   {
+    "id": "28",
+    "title": "28.实现strStr()",
+    "difficulty": "中等",
+    "path": "../../src/28.实现strStr()/README.md"
+  },
+  {
     "id": "33",
     "title": "33.搜索旋转排序数组",
     "difficulty": "中等",

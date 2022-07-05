@@ -1046,6 +1046,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "28",
+        "title": "28.实现strStr()",
+        "path": "../../src/28.实现strStr()/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "393",
         "title": "393.UTF-8编码验证",
         "path": "../../src/393.UTF-8编码验证/README.md",
