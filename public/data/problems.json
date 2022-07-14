@@ -433,6 +433,12 @@
     "path": "../../src/322.零钱兑换/README.md"
   },
   {
+    "id": "324",
+    "title": "324.摆动排序II",
+    "difficulty": "中等",
+    "path": "../../src/324.摆动排序II/README.md"
+  },
+  {
     "id": "327",
     "title": "327.区间和的个数",
     "difficulty": "困难",

@@ -573,6 +573,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "324",
+        "title": "324.摆动排序II",
+        "path": "../../src/324.摆动排序II/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "442",
         "title": "442.数组中重复的数据",
         "path": "../../src/442.数组中重复的数据/README.md",
