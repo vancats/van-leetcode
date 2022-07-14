@@ -1194,6 +1194,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "147",
+        "title": "147.对链表进行插入排序",
+        "path": "../../src/147.对链表进行插入排序/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "148",
         "title": "148.排序链表",
         "path": "../../src/148.排序链表/README.md",
