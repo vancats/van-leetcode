@@ -881,6 +881,12 @@
         "difficulty": "困难"
       },
       {
+        "id": "224",
+        "title": "224.基本计算器",
+        "path": "../../src/224.基本计算器/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "316",
         "title": "316.去除重复字母",
         "path": "../../src/316.去除重复字母/README.md",

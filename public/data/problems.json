@@ -378,6 +378,12 @@
     "path": "../../src/220.存在重复元素III/README.md"
   },
   {
+    "id": "224",
+    "title": "224.基本计算器",
+    "difficulty": "中等",
+    "path": "../../src/224.基本计算器/README.md"
+  },
+  {
     "id": "226",
     "title": "226.翻转二叉树",
     "difficulty": "简单",
