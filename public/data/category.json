@@ -1357,6 +1357,12 @@
         "difficulty": "困难"
       },
       {
+        "id": "150",
+        "title": "150.逆波兰表达式求值",
+        "path": "../../src/150.逆波兰表达式求值/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "155",
         "title": "155.最小栈",
         "path": "../../src/155.最小栈/README.md",

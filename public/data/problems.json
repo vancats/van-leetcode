@@ -258,6 +258,12 @@
     "path": "../../src/148.排序链表/README.md"
   },
   {
+    "id": "150",
+    "title": "150.逆波兰表达式求值",
+    "difficulty": "非常简单",
+    "path": "../../src/150.逆波兰表达式求值/README.md"
+  },
+  {
     "id": "152",
     "title": "152.乘积最大子数组",
     "difficulty": "中等",
