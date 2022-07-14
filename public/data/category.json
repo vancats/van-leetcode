@@ -1375,6 +1375,12 @@
         "difficulty": "非常简单"
       },
       {
+        "id": "220",
+        "title": "220.存在重复元素III",
+        "path": "../../src/220.存在重复元素III/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "240",
         "title": "240.搜索二维矩阵II",
         "path": "../../src/240.搜索二维矩阵II/README.md",

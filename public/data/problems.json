@@ -336,6 +336,12 @@
     "path": "../../src/216.组合总和III/README.md"
   },
   {
+    "id": "220",
+    "title": "220.存在重复元素III",
+    "difficulty": "中等",
+    "path": "../../src/220.存在重复元素III/README.md"
+  },
+  {
     "id": "226",
     "title": "226.翻转二叉树",
     "difficulty": "简单",
