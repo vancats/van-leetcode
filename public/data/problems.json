@@ -288,6 +288,12 @@
     "path": "../../src/164.最大间距/README.md"
   },
   {
+    "id": "167",
+    "title": "167.两数之和II-输入有序数组",
+    "difficulty": "非常简单",
+    "path": "../../src/167.两数之和II-输入有序数组/README.md"
+  },
+  {
     "id": "172",
     "title": "172.阶乘后的零",
     "difficulty": "非常简单",
