@@ -1188,6 +1188,12 @@
         "difficulty": "困难"
       },
       {
+        "id": "143",
+        "title": "143.重排链表",
+        "path": "../../src/143.重排链表/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "148",
         "title": "148.排序链表",
         "path": "../../src/148.排序链表/README.md",

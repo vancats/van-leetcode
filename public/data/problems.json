@@ -252,6 +252,12 @@
     "path": "../../src/135.分发糖果/README.md"
   },
   {
+    "id": "143",
+    "title": "143.重排链表",
+    "difficulty": "中等",
+    "path": "../../src/143.重排链表/README.md"
+  },
+  {
     "id": "148",
     "title": "148.排序链表",
     "difficulty": "中等",
