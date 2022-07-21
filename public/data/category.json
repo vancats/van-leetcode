@@ -1222,6 +1222,12 @@
         "title": "面试题16.25.LRU缓存",
         "path": "../../src/面试题16.25.LRU缓存/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4019",
+        "title": "面试题02.05.链表求和",
+        "path": "../../src/面试题02.05.链表求和/README.md",
+        "difficulty": "中等"
       }
     ]
   },

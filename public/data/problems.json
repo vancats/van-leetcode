@@ -1367,5 +1367,11 @@
     "title": "剑指OfferII094.最少回文分割",
     "difficulty": "困难",
     "path": "../../src/剑指OfferII094.最少回文分割/README.md"
+  },
+  {
+    "id": "4019",
+    "title": "面试题02.05.链表求和",
+    "difficulty": "中等",
+    "path": "../../src/面试题02.05.链表求和/README.md"
   }
 ]
