@@ -1246,6 +1246,12 @@
     "label": "数学",
     "problems": [
       {
+        "id": "29",
+        "title": "29.两数相除",
+        "path": "../../src/29.两数相除/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "43",
         "title": "43.字符串相乘",
         "path": "../../src/43.字符串相乘/README.md",

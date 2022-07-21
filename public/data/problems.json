@@ -42,6 +42,12 @@
     "path": "../../src/28.实现strStr()/README.md"
   },
   {
+    "id": "29",
+    "title": "29.两数相除",
+    "difficulty": "中等",
+    "path": "../../src/29.两数相除/README.md"
+  },
+  {
     "id": "33",
     "title": "33.搜索旋转排序数组",
     "difficulty": "中等",
