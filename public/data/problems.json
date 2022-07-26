@@ -156,6 +156,12 @@
     "path": "../../src/70.爬楼梯/README.md"
   },
   {
+    "id": "72",
+    "title": "72.编辑距离",
+    "difficulty": "困难",
+    "path": "../../src/72.编辑距离/README.md"
+  },
+  {
     "id": "75",
     "title": "75.颜色分类",
     "difficulty": "中等",
