@@ -1134,6 +1134,12 @@
         "title": "1392.最长快乐前缀(KMP)",
         "path": "../../src/1392.最长快乐前缀/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "6150",
+        "title": "竞赛-根据模式串构造最小数字",
+        "path": "../../src/竞赛-根据模式串构造最小数字/README.md",
+        "difficulty": "中等"
       }
     ]
   },
