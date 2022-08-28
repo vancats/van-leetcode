@@ -1241,6 +1241,12 @@
         "title": "面试题16.25.LRU缓存",
         "path": "../../src/面试题16.25.LRU缓存/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "6163",
+        "title": "竞赛-给定条件下构造矩阵",
+        "path": "../../src/竞赛-给定条件下构造矩阵/README.md",
+        "difficulty": "困难"
       }
     ]
   },
@@ -1445,6 +1451,29 @@
         "id": "1606",
         "title": "1606.找到处理最多请求的服务器",
         "path": "../../src/1606.找到处理最多请求的服务器/README.md",
+        "difficulty": "困难"
+      }
+    ]
+  },
+  {
+    "label": "图",
+    "problems": [
+      {
+        "id": "207",
+        "title": "207.课程表",
+        "path": "../../src/207.课程表/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "210",
+        "title": "210.课程表II",
+        "path": "../../src/210.课程表II/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "6163",
+        "title": "竞赛-给定条件下构造矩阵",
+        "path": "../../src/竞赛-给定条件下构造矩阵/README.md",
         "difficulty": "困难"
       }
     ]
