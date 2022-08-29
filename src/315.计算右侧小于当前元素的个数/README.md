@@ -80,5 +80,4 @@ function mergeSort(arr: number[][], counts: number[], left: number, right: numbe
   // 一定要记得排序！！！（老忘记）
   for (let i = left; i <= right; i++) arr[i] = temp[i]
 }
-
 ```

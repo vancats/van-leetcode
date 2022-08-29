@@ -77,6 +77,7 @@ export function longestSubarray(nums: number[], limit: number): number {
   }
 
   function check(mid: number, limit: number): boolean {
+    /// q1 q2 分别是当前滑动窗口的最小和最大值
     const q1: number[] = []
     const q2: number[] = []
     for (let i = 0; i < nums.length; i++) {
