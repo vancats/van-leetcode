@@ -1794,6 +1794,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "2365",
+        "title": "2365.任务调度器II",
+        "path": "../../src/2365.任务调度器II/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "4007",
         "title": "竞赛-宝石补给",
         "path": "../../src/竞赛-宝石补给/README.md",
