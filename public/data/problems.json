@@ -216,6 +216,12 @@
     "path": "../../src/98.验证二叉搜索树/README.md"
   },
   {
+    "id": "101",
+    "title": "101.对称二叉树",
+    "difficulty": "简单",
+    "path": "../../src/101.对称二叉树/README.md"
+  },
+  {
     "id": "108",
     "title": "108.将有序数组转换为二叉搜索树",
     "difficulty": "简单",
