@@ -817,6 +817,12 @@
     "path": "../../src/661.图片平滑器/README.md"
   },
   {
+    "id": "687",
+    "title": "687.最长同值路径",
+    "difficulty": "中等",
+    "path": "../../src/687.最长同值路径/README.md"
+  },
+  {
     "id": "693",
     "title": "693.交替位二进制数",
     "difficulty": "非常简单",
