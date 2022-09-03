@@ -1319,6 +1319,12 @@
     "label": "贪心",
     "problems": [
       {
+        "id": "646",
+        "title": "646.最长数对链",
+        "path": "../../src/646.最长数对链/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "942",
         "title": "942.增减字符串匹配",
         "path": "../../src/942.增减字符串匹配/README.md",

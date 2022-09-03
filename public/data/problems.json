@@ -823,6 +823,12 @@
     "path": "../../src/606.根据二叉树创建字符串/README.md"
   },
   {
+    "id": "646",
+    "title": "646.最长数对链",
+    "difficulty": "中等",
+    "path": "../../src/646.最长数对链/README.md"
+  },
+  {
     "id": "653",
     "title": "653.两数之和IV-输入BST",
     "difficulty": "非常简单",
