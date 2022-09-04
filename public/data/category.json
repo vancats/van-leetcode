@@ -490,6 +490,12 @@
         "title": "剑指Offer59-II.队列的最大值",
         "path": "../../src/剑指Offer59-II.队列的最大值/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "6169",
+        "title": "竞赛-最长优雅子数组",
+        "path": "../../src/竞赛-最长优雅子数组/README.md",
+        "difficulty": "中等"
       }
     ]
   },
