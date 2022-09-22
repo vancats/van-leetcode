@@ -433,6 +433,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "698",
+        "title": "698.划分为k个相等的子集",
+        "path": "../../src/698.划分为k个相等的子集/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "4017",
         "title": "剑指OfferII086.分割回文子字符串",
         "path": "../../src/剑指OfferII086.分割回文子字符串/README.md",
