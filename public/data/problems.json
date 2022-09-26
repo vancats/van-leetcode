@@ -1513,6 +1513,12 @@
     "path": "../../src/面试题17.05.字母与数字/README.md"
   },
   {
+    "id": "4021",
+    "title": "剑指OfferII082.含有重复元素集合的组合",
+    "difficulty": "中等",
+    "path": "../../src/剑指OfferII082.含有重复元素集合的组合/README.md"
+  },
+  {
     "id": "6148",
     "title": "竞赛-矩阵中的局部最大值",
     "difficulty": "简单",
