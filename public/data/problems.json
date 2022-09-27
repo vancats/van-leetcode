@@ -973,6 +973,12 @@
     "path": "../../src/819.最常见的单词/README.md"
   },
   {
+    "id": "820",
+    "title": "820.单词的压缩编码",
+    "difficulty": "简单",
+    "path": "../../src/820.单词的压缩编码/README.md"
+  },
+  {
     "id": "821",
     "title": "821.字符的最短距离",
     "difficulty": "简单",
