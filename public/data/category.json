@@ -900,6 +900,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "1705",
+        "title": "1705.吃苹果的最大数目",
+        "path": "../../src/1705.吃苹果的最大数目/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "4009",
         "title": "剑指Offer13.机器人的运动范围",
         "path": "../../src/剑指Offer13.机器人的运动范围/README.md",
