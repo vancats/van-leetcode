@@ -1531,6 +1531,12 @@
     "path": "../../src/剑指OfferII082.含有重复元素集合的组合/README.md"
   },
   {
+    "id": "4022",
+    "title": "面试题01.08.零矩阵",
+    "difficulty": "非常简单",
+    "path": "../../src/面试题01.08.零矩阵/README.md"
+  },
+  {
     "id": "6148",
     "title": "竞赛-矩阵中的局部最大值",
     "difficulty": "简单",
