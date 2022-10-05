@@ -1485,6 +1485,12 @@
     "label": "模拟",
     "problems": [
       {
+        "id": "777",
+        "title": "777.在LR字符串中交换相邻字符",
+        "path": "../../src/777.在LR字符串中交换相邻字符/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "821",
         "title": "821.字符的最短距离",
         "path": "../../src/821.字符的最短距离/README.md",
