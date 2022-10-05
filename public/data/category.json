@@ -1001,6 +1001,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "841",
+        "title": "841.钥匙和房间",
+        "path": "../../src/841.钥匙和房间/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "901",
         "title": "901.股票价格跨度",
         "path": "../../src/901.股票价格跨度/README.md",

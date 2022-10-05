@@ -997,6 +997,12 @@
     "path": "../../src/824.山羊拉丁文/README.md"
   },
   {
+    "id": "841",
+    "title": "841.钥匙和房间",
+    "difficulty": "中等",
+    "path": "../../src/841.钥匙和房间/README.md"
+  },
+  {
     "id": "862",
     "title": "862.和至少为K的最短子数组",
     "difficulty": "困难",
