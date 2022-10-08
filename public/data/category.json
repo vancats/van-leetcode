@@ -710,6 +710,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "870",
+        "title": "870.优势洗牌",
+        "path": "../../src/870.优势洗牌/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "1011",
         "title": "1011.在D天内送达包裹的能力",
         "path": "../../src/1011.在D天内送达包裹的能力/README.md",
@@ -1364,6 +1370,12 @@
         "id": "646",
         "title": "646.最长数对链",
         "path": "../../src/646.最长数对链/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "870",
+        "title": "870.优势洗牌",
+        "path": "../../src/870.优势洗牌/README.md",
         "difficulty": "中等"
       },
       {
