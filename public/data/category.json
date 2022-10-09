@@ -1013,6 +1013,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "856",
+        "title": "856.括号的分数",
+        "path": "../../src/856.括号的分数/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "901",
         "title": "901.股票价格跨度",
         "path": "../../src/901.股票价格跨度/README.md",

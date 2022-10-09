@@ -1009,6 +1009,12 @@
     "path": "../../src/841.钥匙和房间/README.md"
   },
   {
+    "id": "856",
+    "title": "856.括号的分数",
+    "difficulty": "中等",
+    "path": "../../src/856.括号的分数/README.md"
+  },
+  {
     "id": "862",
     "title": "862.和至少为K的最短子数组",
     "difficulty": "困难",
