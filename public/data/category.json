@@ -1520,6 +1520,12 @@
         "title": "2155.分组得分最高的所有下标",
         "path": "../../src/2155.分组得分最高的所有下标/README.md",
         "difficulty": "中等"
+      },
+      {
+        "id": "4023",
+        "title": "剑指OfferII003.前n个数字二进制中1的个数",
+        "path": "../../src/剑指OfferII003.前n个数字二进制中1的个数/README.md",
+        "difficulty": "简单"
       }
     ]
   },
