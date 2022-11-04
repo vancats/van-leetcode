@@ -1474,6 +1474,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "754",
+        "title": "754.到达终点数字",
+        "path": "../../src/754.到达终点数字/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "780",
         "title": "780.到达终点",
         "path": "../../src/780.到达终点/README.md",
