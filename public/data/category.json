@@ -1492,6 +1492,12 @@
         "difficulty": "非常简单"
       },
       {
+        "id": "816",
+        "title": "816.模糊坐标",
+        "path": "../../src/816.模糊坐标/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "820",
         "title": "820.单词的压缩编码",
         "path": "../../src/820.单词的压缩编码/README.md",

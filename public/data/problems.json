@@ -991,6 +991,12 @@
     "path": "../../src/812.最大三角形面积/README.md"
   },
   {
+    "id": "816",
+    "title": "816.模糊坐标",
+    "difficulty": "中等",
+    "path": "../../src/816.模糊坐标/README.md"
+  },
+  {
     "id": "817",
     "title": "817.链表组件",
     "difficulty": "中等",
