@@ -967,6 +967,12 @@
     "path": "../../src/780.到达终点/README.md"
   },
   {
+    "id": "790",
+    "title": "790.多米诺和托米诺平铺",
+    "difficulty": "中等",
+    "path": "../../src/790.多米诺和托米诺平铺/README.md"
+  },
+  {
     "id": "796",
     "title": "796.旋转字符串",
     "difficulty": "非常简单",
