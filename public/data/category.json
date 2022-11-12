@@ -1534,6 +1534,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "2170",
+        "title": "2170.使数组变成交替数组的最少操作数",
+        "path": "../../src/2170.使数组变成交替数组的最少操作数/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "4023",
         "title": "剑指OfferII003.前n个数字二进制中1的个数",
         "path": "../../src/剑指OfferII003.前n个数字二进制中1的个数/README.md",
