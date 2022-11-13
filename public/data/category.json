@@ -1550,6 +1550,12 @@
         "title": "剑指OfferII003.前n个数字二进制中1的个数",
         "path": "../../src/剑指OfferII003.前n个数字二进制中1的个数/README.md",
         "difficulty": "简单"
+      },
+      {
+        "id": "4024",
+        "title": "剑指Offer62.圆圈中最后剩下的数字",
+        "path": "../../src/剑指Offer62.圆圈中最后剩下的数字/README.md",
+        "difficulty": "中等"
       }
     ]
   },

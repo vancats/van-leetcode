@@ -1657,6 +1657,12 @@
     "path": "../../src/剑指OfferII003.前n个数字二进制中1的个数/README.md"
   },
   {
+    "id": "4024",
+    "title": "剑指Offer62.圆圈中最后剩下的数字",
+    "difficulty": "中等",
+    "path": "../../src/剑指Offer62.圆圈中最后剩下的数字/README.md"
+  },
+  {
     "id": "6148",
     "title": "竞赛-矩阵中的局部最大值",
     "difficulty": "简单",
