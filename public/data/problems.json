@@ -889,6 +889,12 @@
     "path": "../../src/706.设计哈希映射/README.md"
   },
   {
+    "id": "712",
+    "title": "712.两个字符串的最小ASCII删除和",
+    "difficulty": "中等",
+    "path": "../../src/712.两个字符串的最小ASCII删除和/README.md"
+  },
+  {
     "id": "713",
     "title": "713.乘积小于K的子数组",
     "difficulty": "中等",
