@@ -1114,6 +1114,12 @@
         "difficulty": "困难"
       },
       {
+        "id": "855",
+        "title": "855.考场就座",
+        "path": "../../src/855.考场就座/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "1054",
         "title": "1054.距离相等的条形码",
         "path": "../../src/1054.距离相等的条形码/README.md",
