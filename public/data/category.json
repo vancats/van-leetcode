@@ -1641,6 +1641,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "1006",
+        "title": "1006.笨阶乘",
+        "path": "../../src/1006.笨阶乘/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "2043",
         "title": "2043.简易银行系统",
         "path": "../../src/2043.简易银行系统/README.md",
