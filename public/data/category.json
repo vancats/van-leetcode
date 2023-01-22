@@ -338,6 +338,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "1824",
+        "title": "1824.最少侧跳次数",
+        "path": "../../src/1824.最少侧跳次数/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "4008",
         "title": "竞赛-烹饪料理",
         "path": "../../src/竞赛-烹饪料理/README.md",
