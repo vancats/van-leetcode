@@ -48,6 +48,12 @@
     "path": "../../src/29.两数相除/README.md"
   },
   {
+    "id": "31",
+    "title": "31.下一个排列",
+    "difficulty": "中等",
+    "path": "../../src/31.下一个排列/README.md"
+  },
+  {
     "id": "33",
     "title": "33.搜索旋转排序数组",
     "difficulty": "中等",
