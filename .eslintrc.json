@@ -3,6 +3,7 @@
     "rules": {
         "space-before-function-paren": "off",
         "no-console": "off",
+        "curly": "off",
         "@typescript-eslint/indent": "off"
     }
 }
