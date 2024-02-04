@@ -456,6 +456,12 @@
     "path": "../../src/274.H指数/README.md"
   },
   {
+    "id": "292",
+    "title": "292.Nim游戏",
+    "difficulty": "非常简单",
+    "path": "../../src/292.Nim游戏/README.md"
+  },
+  {
     "id": "300",
     "title": "300.最长递增子序列",
     "difficulty": "中等",

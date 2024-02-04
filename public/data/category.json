@@ -1883,6 +1883,12 @@
         "difficulty": "非常简单"
       },
       {
+        "id": "292",
+        "title": "292.Nim游戏",
+        "path": "../../src/292.Nim游戏/README.md",
+        "difficulty": "非常简单"
+      },
+      {
         "id": "344",
         "title": "344.反转字符串",
         "path": "../../src/344.反转字符串/README.md",
