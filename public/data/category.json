@@ -27,6 +27,12 @@
         "difficulty": "简单"
       },
       {
+        "id": "114",
+        "title": "114.二叉树展开为链表",
+        "path": "../../src/114.二叉树展开为链表/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "226",
         "title": "226.翻转二叉树",
         "path": "../../src/226.翻转二叉树/README.md",
