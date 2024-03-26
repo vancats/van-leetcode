@@ -15,7 +15,7 @@ const update = ({ title, difficulty, id }) => {
     )
     fs.writeFileSync(
       `src/${title}/index.spec.ts`,
-      `describe('${title}', () => {});`,
+      `describe('${title}', () => {\r\n  it('示例一', () => {\r\n\r\n  })\r\n})`,
     )
 
     const problems = updateDataJson({
