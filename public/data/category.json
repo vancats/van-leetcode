@@ -51,6 +51,12 @@
         "difficulty": "中等"
       },
       {
+        "id": "310",
+        "title": "310.最小高度树",
+        "path": "../../src/310.最小高度树/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "429",
         "title": "429.N叉树的层序遍历",
         "path": "../../src/429.N叉树的层序遍历/README.md",
@@ -990,6 +996,12 @@
     "label": "BFS",
     "problems": [
       {
+        "id": "310",
+        "title": "310.最小高度树",
+        "path": "../../src/310.最小高度树/README.md",
+        "difficulty": "中等"
+      },
+      {
         "id": "365",
         "title": "365.水壶问题",
         "path": "../../src/365.水壶问题/README.md",
@@ -1851,6 +1863,12 @@
         "id": "210",
         "title": "210.课程表II",
         "path": "../../src/210.课程表II/README.md",
+        "difficulty": "中等"
+      },
+      {
+        "id": "310",
+        "title": "310.最小高度树",
+        "path": "../../src/310.最小高度树/README.md",
         "difficulty": "中等"
       },
       {
