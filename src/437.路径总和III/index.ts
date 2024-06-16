@@ -37,8 +37,8 @@ export function pathSum(root: TreeNode | null, targetSum: number): number {
 export function pathSum1(root: TreeNode | null, targetSum: number): number {
   if (!root) return 0
   let res = dfs(root, targetSum)
-  res += pathSum(root.left, targetSum)
-  res += pathSum(root.right, targetSum)
+  res += pathSum1(root.left, targetSum)
+  res += pathSum1(root.right, targetSum)
   return res
 
   function dfs(root: TreeNode | null, restSum: number): number {
