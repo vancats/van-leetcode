@@ -56,6 +56,5 @@ export function maxArea(height: number[]): number {
     else left++
   }
   return max
-}turn max
 }
 ```
